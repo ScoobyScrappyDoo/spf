@@ -23,19 +23,22 @@ removing the box leaves the NAS as it was.
 **What the files do:**
 - `Dockerfile`: the recipe for the box. The NAS builds the game from the project folder, then keeps only the finished
   files (no packages, no build tools) and runs them as an ordinary user, not as administrator.
-- `docker-compose.yml`: how the box runs: which port, and **your settings** (session code, who's invited).
-- `.dockerignore`: what isn't copied into the build (installed packages, old builds).
+- `docker-compose.yml`: how the box runs: which port, the address people type (`PUBLIC_URL`).
+- `.env`: **your settings** (session code, who's invited). Only on your laptop and the NAS: git ignores it, so it never
+  goes to GitHub. `.env.example` (in git) shows what goes in it.
+- `.dockerignore`: what isn't copied into the build (installed packages, old builds, `.env`).
+
+The master copy of the project is the git copy, **`C:\DevGit\spf`**: change things there, copy to the NAS from there.
 
 ### A. Your settings (on the laptop)
 
-Open `docker-compose.yml` in the project folder and change two lines under `environment`:
+Open `.env` in `C:\DevGit\spf` (if there is none yet, copy `.env.example` to `.env` first) and set two lines:
 
-- `SIGNIN_CODE: "change-me"` → your session code, e.g. `"bluefalcon7"`. At least 6 characters. The game refuses
-  to start while it still says change-me.
-- `ALLOWED_EMAILS: "scooby@doo.org admin, test@doo.org"` → your address with ` admin`, then your friends' addresses,
-  separated by commas.
+- `SIGNIN_CODE=change-me` → your session code, e.g. `SIGNIN_CODE=bluefalcon7`. At least 6 characters. The game
+  refuses to start while it still says change-me (or when there is no `.env` at all).
+- `ALLOWED_EMAILS=…` → your address with ` admin`, then your friends' addresses, separated by commas.
 
-Leave `PUBLIC_URL` as it is for now (`http://192.168.178.84:8330`, the NAS on your home network).
+Leave `PUBLIC_URL` in `docker-compose.yml` as it is for now (`http://192.168.178.84:8330`, the NAS at home).
 
 ### B. Copy the project to the NAS
 
@@ -44,12 +47,23 @@ Container Manager made a shared folder called **docker** on the NAS.
 1. In Windows Explorer, type `\\192.168.178.84\docker` in the address bar and press Enter (sign in with your DSM
    user if it asks).
 2. Make a new folder there called **statistical-football**.
-3. In PowerShell, in the project folder, copy the project over, leaving out the big folders the NAS doesn't need
-   (installed packages, builds, local data):
+3. In PowerShell, go to the master copy and copy the project over, leaving out what the NAS doesn't need (installed
+   packages, builds, local data, git's history):
 
 ```powershell
-robocopy . "\\192.168.178.84\docker\statistical-football" /E /XD node_modules dist dist-server .angular data .claude .vscode __pycache__ /XF *.pyc /NFL /NDL
+cd C:\DevGit\spf
 ```
+
+```powershell
+robocopy . "\\192.168.178.84\docker\statistical-football" /E /XD node_modules dist dist-server .angular "$PWD\data" .git .claude .vscode __pycache__ /XF *.pyc /NFL /NDL
+```
+
+   (`"$PWD\data"` leaves out only the project's own `data` folder, the local sign-ins. A bare `data` would also skip
+   `src/app/views/data`, the Data page, and the build on the NAS would fail.)
+
+   If robocopy says error 1326 ("Der Benutzername oder das Kennwort ist falsch"), sign the terminal in to the NAS
+   first with `net use \\192.168.178.84\docker /user:<your DSM user>` (the DSM user needs Read/Write on the docker
+   folder: Control Panel → Shared Folder → docker → Edit → Permissions).
 
    It ends with a little table; "Failed 0" is what you want. (Robocopy's exit code is 1 when it copied files: that
    is success, not an error.)
@@ -86,7 +100,7 @@ robocopy . "\\192.168.178.84\docker\statistical-football" /E /XD node_modules di
 
 | What you see | What it means |
 |---|---|
-| Log: `SIGNIN_CODE still says "change-me"` | Set your session code (A), copy the file again (B), then apply it (below). |
+| Log: `SIGNIN_CODE still says "change-me"` | `.env` is missing on the NAS or still says change-me: set it (A), copy again (B), then apply it (below). Did you copy from `C:\DevGit\spf`? |
 | Log: `SIGNIN_CODE is too short` | At least 6 characters. |
 | The build stops with an error | Copy the last 30 lines of the build log and send them to me. |
 | The page doesn't open | Is the container Running? Is the address `:8330`? Step 3's firewall may also block it later; we'll allow it there. |
@@ -94,8 +108,8 @@ robocopy . "\\192.168.178.84\docker\statistical-football" /E /XD node_modules di
 
 ### Changing settings (new session code, a new friend)
 
-1. Change `docker-compose.yml` on the NAS: in Explorer, `\\192.168.178.84\docker\statistical-football`, open it
-   with Notepad, change, save. (Or change it on the laptop and run the robocopy line again.)
+1. Change `.env` in `C:\DevGit\spf` on the laptop, save, and run the robocopy line again (from `C:\DevGit\spf`).
+   Keep the laptop's `.env` the one you change, so the next copy doesn't bring an old one back.
 2. Container Manager → **Project** → `statistical-football` → **Stop**, then **Build** (in the **Action** menu). It
    re-creates the container with the new settings, in seconds this time.
 

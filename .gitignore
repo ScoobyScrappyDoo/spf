@@ -47,3 +47,6 @@ Thumbs.db
 
 # The game server's invite list, sessions and sign-in log
 /data
+
+# The NAS settings (session code, invite list): only .env.example goes to git
+/.env

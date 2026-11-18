@@ -11,3 +11,4 @@ tools
 **/__pycache__
 **/*.pyc
 *.zip
+.env

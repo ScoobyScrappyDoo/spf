@@ -1,5 +1,6 @@
 # Statistical Football on the NAS: Container Manager → Project, with this folder. Step by step: NAS.md.
-# The settings under "environment" are the ones you change; how to apply a change: NAS.md, "Changing settings".
+# Your settings (session code, who's invited) are in the file .env next to this one, not here: .env stays out of git
+# (and so off GitHub). Start it from .env.example. How to apply a change: NAS.md, "Changing settings".
 # Signed-in friends stay signed in (the volume keeps their sessions), unless you took them off ALLOWED_EMAILS.
 services:
   spf:
@@ -14,11 +15,10 @@ services:
     environment:
       # The address people type. First test at home: the NAS's own address. From step 5: https://<name>.synology.me
       PUBLIC_URL: "http://192.168.178.84:8330"
-      # The session code: say it on the call, change it for every session (at least 6 characters).
-      # The server refuses to start while it still says change-me.
-      SIGNIN_CODE: "change-me"
-      # Who may sign in: addresses separated by commas. " admin" after yours (master seat, End any game).
-      ALLOWED_EMAILS: "scooby@doo.org admin, test@doo.org"
+      # The session code and the invite list come from .env. Without a .env the code stays change-me, and the server
+      # refuses to start: nobody gets in by accident.
+      SIGNIN_CODE: "${SIGNIN_CODE:-change-me}"
+      ALLOWED_EMAILS: "${ALLOWED_EMAILS:-}"
       # From step 5 (behind DSM's reverse proxy): "1", so the sign-in log shows visitors' real addresses.
       TRUST_PROXY: "0"
     volumes:

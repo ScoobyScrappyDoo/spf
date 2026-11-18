@@ -26,7 +26,7 @@ ROADMAP.md, ONLINE.md and TESTING.md. The code is the truth; these files hold th
 
 - `npm start` — app on http://localhost:4200 (proxies `/api` and `/auth` to port 3000).
 - `npm run server` — game server on port 3000 with the **dev sign-in** (type an invited email, no Google).
-- `npm test -- --watch=false` — Angular/engine tests (Vitest via `ng test`; 431 at update 05).
+- `npm test -- --watch=false` — Angular/engine tests (Vitest via `ng test`; 435 at update 06).
 - `npm run test:server` — server tests (plain Vitest on `server/*.spec.ts`).
 - After any engine change, restart the server (it bundles the engine; a stale one reports an old PROTOCOL).
 
@@ -54,15 +54,21 @@ ROADMAP.md, ONLINE.md and TESTING.md. The code is the truth; these files hold th
   settings as environment, a named volume for `/app/data`, read-only, no capabilities), `.dockerignore`.
 - Built on the NAS by Container Manager (no Docker on the laptops). NAS.md is the owner's step-by-step guide.
 - The NAS settings: `SIGNIN_CODE` (refused while "change-me"), `ALLOWED_EMAILS` (replaces allowed-emails.txt),
-  `PUBLIC_URL`, `TRUST_PROXY`.
+  `PUBLIC_URL`, `TRUST_PROXY`. The first two live in `.env` (git-ignored, also in .dockerignore; `.env.example` is in
+  git), which docker compose reads for `${SIGNIN_CODE}` / `${ALLOWED_EMAILS}`: the code and invitees stay off GitHub.
+- The master copy is the git repo `C:\DevGit\spf` (GitHub `ScoobyScrappyDoo/spf`), since 18 Nov 2026; the old
+  `C:\angular\spf` is retired. Robocopy to the NAS from there; exclude only the top-level data folder (`"$PWD\data"`,
+  a bare `data` also skips `src/app/views/data`) and `.git`. The owner commits and pushes themself.
 - npm 11 skips packages' install scripts unless approved; the build was checked to work without them.
 
 ## Where we are (18 Nov 2026)
 
 - Done in code and tested: sign-in (email + session code, invite list, admin), End game, the master's live view of
   both coaches' calls (PROTOCOL 4), the role-coloured online banner, the container files.
-- Not done yet: the first Docker build on the NAS. Next: NAS.md step 1, sections A-E with the owner, one step at a
-  time; then step 3 (lock down the NAS). Later ideas: Google sign-in as an option, email codes.
+- The game runs on the NAS (step 1, sections A-D done 18 Nov 2026; signed in from the laptop at
+  http://192.168.178.84:8330). Next: section E (two invited addresses, play online against yourself), then step 3
+  (lock down the NAS; check the guest account, which has Read Only on the docker share where .env lives).
+  Later ideas: Google sign-in as an option, email codes.
 
 ## Hosting plan (owner's order)
 
@@ -76,5 +82,5 @@ NAS: Synology DS220+, DSM 7.4.1, Container Manager, 192.168.178.84. Port 8320 (b
 - Software developer, learning Angular, new to ports/Docker: explain plainly, one step at a time, baby steps for
   anything the owner does by hand.
 - Test changes yourself before reporting (browser tests against the built app; measure, don't eyeball).
-- Updates are numbered (last delivered: 05) and delivered as small zips of changed files.
+- Updates are numbered (last delivered: 06, the FAC carousel no longer jumps on online updates) and delivered as small zips of changed files.
 - Windows dev machines (PowerShell), Node 24; the NAS container will run Node 22+.
