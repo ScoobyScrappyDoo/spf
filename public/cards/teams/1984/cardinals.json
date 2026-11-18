@@ -1,0 +1,2454 @@
+{
+  "id": "1984-cardinals",
+  "year": 1984,
+  "name": "St. Louis Cardinals",
+  "shortName": "Cardinals",
+  "abbreviation": "STL",
+  "division": "NFC East",
+  "coach": "Jim Hanifan",
+  "record": "9-7",
+  "bigPlays": {
+    "home": 0,
+    "road": 0
+  },
+  "fumblesLost": {
+    "from": 1,
+    "to": 30
+  },
+  "players": [
+    {
+      "id": "stl84-neil-lomax",
+      "firstName": "Neil",
+      "lastName": "Lomax",
+      "position": "QB",
+      "endurance": "A",
+      "passing": {
+        "quick": {
+          "com": {
+            "from": 1,
+            "to": 39
+          },
+          "inc": {
+            "from": 40,
+            "to": 48
+          },
+          "int": null
+        },
+        "short": {
+          "com": {
+            "from": 1,
+            "to": 31
+          },
+          "inc": {
+            "from": 32,
+            "to": 47
+          },
+          "int": {
+            "from": 48,
+            "to": 48
+          }
+        },
+        "long": {
+          "com": {
+            "from": 1,
+            "to": 21
+          },
+          "inc": {
+            "from": 22,
+            "to": 45
+          },
+          "int": {
+            "from": 46,
+            "to": 48
+          }
+        }
+      },
+      "passRush": {
+        "sack": {
+          "from": 1,
+          "to": 13
+        },
+        "runs": {
+          "from": 14,
+          "to": 30
+        },
+        "com": {
+          "from": 31,
+          "to": 42
+        },
+        "inc": {
+          "from": 43,
+          "to": 48
+        }
+      },
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 20,
+          "lg": 20
+        },
+        {
+          "n": 10,
+          "sg": 19,
+          "lg": 20
+        },
+        {
+          "n": 9,
+          "sg": 18,
+          "lg": 20
+        },
+        {
+          "n": 8,
+          "sg": 17,
+          "lg": 20
+        },
+        {
+          "n": 6,
+          "sg": 17,
+          "lg": 20
+        },
+        {
+          "n": 5,
+          "sg": 17,
+          "lg": 20
+        },
+        {
+          "n": 4,
+          "sg": 17,
+          "lg": 20
+        },
+        {
+          "n": 3,
+          "sg": 17,
+          "lg": 20
+        },
+        {
+          "n": 2,
+          "sg": 17,
+          "lg": 20
+        },
+        {
+          "n": 0,
+          "sg": 17,
+          "lg": 20
+        },
+        {
+          "n": 0,
+          "sg": 17,
+          "lg": 20
+        },
+        {
+          "n": -2,
+          "sg": 17,
+          "lg": 20
+        }
+      ]
+    },
+    {
+      "id": "stl84-rick-mcivor",
+      "firstName": "Rick",
+      "lastName": "McIvor",
+      "position": "QB",
+      "endurance": "C",
+      "passing": {
+        "quick": {
+          "com": {
+            "from": 1,
+            "to": 30
+          },
+          "inc": {
+            "from": 31,
+            "to": 48
+          },
+          "int": null
+        },
+        "short": {
+          "com": {
+            "from": 1,
+            "to": 20
+          },
+          "inc": {
+            "from": 21,
+            "to": 48
+          },
+          "int": null
+        },
+        "long": {
+          "com": {
+            "from": 1,
+            "to": 11
+          },
+          "inc": {
+            "from": 12,
+            "to": 48
+          },
+          "int": null
+        }
+      },
+      "passRush": {
+        "sack": {
+          "from": 1,
+          "to": 15
+        },
+        "runs": {
+          "from": 16,
+          "to": 30
+        },
+        "com": {
+          "from": 31,
+          "to": 36
+        },
+        "inc": {
+          "from": 37,
+          "to": 48
+        }
+      },
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 10,
+          "lg": 33
+        },
+        {
+          "n": 6,
+          "sg": 10,
+          "lg": 32
+        },
+        {
+          "n": 5,
+          "sg": 10,
+          "lg": 31
+        },
+        {
+          "n": 4,
+          "sg": 10,
+          "lg": 30
+        },
+        {
+          "n": 3,
+          "sg": 10,
+          "lg": 29
+        },
+        {
+          "n": 1,
+          "sg": 10,
+          "lg": 28
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 27
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 26
+        },
+        {
+          "n": -2,
+          "sg": 10,
+          "lg": 25
+        },
+        {
+          "n": -3,
+          "sg": 10,
+          "lg": 24
+        },
+        {
+          "n": -3,
+          "sg": 10,
+          "lg": 23
+        },
+        {
+          "n": "LG",
+          "sg": 10,
+          "lg": 22
+        }
+      ]
+    },
+    {
+      "id": "stl84-roy-green",
+      "firstName": "Roy",
+      "lastName": "Green",
+      "position": "WR",
+      "playDirection": 0,
+      "blocks": 0,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": "TD"
+        },
+        {
+          "q": 19,
+          "s": 24,
+          "l": 65
+        },
+        {
+          "q": 12,
+          "s": 23,
+          "l": 53
+        },
+        {
+          "q": 11,
+          "s": 22,
+          "l": 41
+        },
+        {
+          "q": 10,
+          "s": 21,
+          "l": 37
+        },
+        {
+          "q": 10,
+          "s": 20,
+          "l": 30
+        },
+        {
+          "q": 9,
+          "s": 19,
+          "l": 25
+        },
+        {
+          "q": 9,
+          "s": 18,
+          "l": 23
+        },
+        {
+          "q": 8,
+          "s": 17,
+          "l": 22
+        },
+        {
+          "q": 8,
+          "s": 16,
+          "l": 21
+        },
+        {
+          "q": 7,
+          "s": 15,
+          "l": 20
+        },
+        {
+          "q": 7,
+          "s": 14,
+          "l": 20
+        }
+      ]
+    },
+    {
+      "id": "stl84-pat-tilley",
+      "firstName": "Pat",
+      "lastName": "Tilley",
+      "position": "WR",
+      "playDirection": 2,
+      "blocks": -3,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 42
+        },
+        {
+          "q": 15,
+          "s": 19,
+          "l": 38
+        },
+        {
+          "q": 9,
+          "s": 18,
+          "l": 35
+        },
+        {
+          "q": 9,
+          "s": 17,
+          "l": 30
+        },
+        {
+          "q": 8,
+          "s": 16,
+          "l": 26
+        },
+        {
+          "q": 8,
+          "s": 15,
+          "l": 25
+        },
+        {
+          "q": 7,
+          "s": 14,
+          "l": 24
+        },
+        {
+          "q": 7,
+          "s": 13,
+          "l": 23
+        },
+        {
+          "q": 6,
+          "s": 12,
+          "l": 22
+        },
+        {
+          "q": 6,
+          "s": 11,
+          "l": 21
+        },
+        {
+          "q": 5,
+          "s": 10,
+          "l": 20
+        },
+        {
+          "q": 5,
+          "s": 9,
+          "l": 20
+        }
+      ]
+    },
+    {
+      "id": "stl84-cedric-mack",
+      "firstName": "Cedric",
+      "lastName": "Mack",
+      "position": "WR",
+      "playDirection": 4,
+      "blocks": -3,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 22
+        },
+        {
+          "q": 12,
+          "s": 16,
+          "l": 22
+        },
+        {
+          "q": 7,
+          "s": 15,
+          "l": 21
+        },
+        {
+          "q": 7,
+          "s": 14,
+          "l": 21
+        },
+        {
+          "q": 6,
+          "s": 13,
+          "l": 20
+        },
+        {
+          "q": 6,
+          "s": 12,
+          "l": 20
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": "INC"
+        },
+        {
+          "q": 5,
+          "s": 10,
+          "l": "INC"
+        },
+        {
+          "q": 4,
+          "s": 9,
+          "l": "INC"
+        },
+        {
+          "q": 4,
+          "s": 8,
+          "l": "INC"
+        },
+        {
+          "q": 3,
+          "s": 7,
+          "l": "INC"
+        },
+        {
+          "q": 3,
+          "s": 6,
+          "l": "INC"
+        }
+      ]
+    },
+    {
+      "id": "stl84-danny-pitman",
+      "firstName": "Danny",
+      "lastName": "Pitman",
+      "position": "WR",
+      "playDirection": 4,
+      "blocks": -3,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 50
+        },
+        {
+          "q": 15,
+          "s": 19,
+          "l": 38
+        },
+        {
+          "q": 9,
+          "s": 18,
+          "l": 35
+        },
+        {
+          "q": 9,
+          "s": 17,
+          "l": 30
+        },
+        {
+          "q": 8,
+          "s": 16,
+          "l": 26
+        },
+        {
+          "q": 8,
+          "s": 15,
+          "l": 25
+        },
+        {
+          "q": 7,
+          "s": 14,
+          "l": "INC"
+        },
+        {
+          "q": 7,
+          "s": 13,
+          "l": "INC"
+        },
+        {
+          "q": 6,
+          "s": 12,
+          "l": "INC"
+        },
+        {
+          "q": 6,
+          "s": 11,
+          "l": "INC"
+        },
+        {
+          "q": 5,
+          "s": 10,
+          "l": "INC"
+        },
+        {
+          "q": 5,
+          "s": 9,
+          "l": "INC"
+        }
+      ]
+    },
+    {
+      "id": "stl84-doug-marsh",
+      "firstName": "Doug",
+      "lastName": "Marsh",
+      "position": "TE",
+      "playDirection": 3,
+      "blocks": 2,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 47
+        },
+        {
+          "q": 16,
+          "s": 20,
+          "l": 40
+        },
+        {
+          "q": 9,
+          "s": 19,
+          "l": 35
+        },
+        {
+          "q": 9,
+          "s": 18,
+          "l": 31
+        },
+        {
+          "q": 8,
+          "s": 17,
+          "l": 27
+        },
+        {
+          "q": 8,
+          "s": 16,
+          "l": 25
+        },
+        {
+          "q": 7,
+          "s": 15,
+          "l": 24
+        },
+        {
+          "q": 7,
+          "s": 14,
+          "l": 23
+        },
+        {
+          "q": 6,
+          "s": 13,
+          "l": 22
+        },
+        {
+          "q": 6,
+          "s": 12,
+          "l": 21
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": 20
+        },
+        {
+          "q": 5,
+          "s": 10,
+          "l": 20
+        }
+      ]
+    },
+    {
+      "id": "stl84-john-goode",
+      "firstName": "John",
+      "lastName": "Goode",
+      "position": "TE",
+      "playDirection": 4,
+      "blocks": 2,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": 10,
+          "s": 10,
+          "l": null
+        },
+        {
+          "q": 10,
+          "s": 9,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": 9,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": 9,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": 8,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": 7,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": 6,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": 5,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": 5,
+          "l": null
+        },
+        {
+          "q": 1,
+          "s": 5,
+          "l": null
+        },
+        {
+          "q": 0,
+          "s": 5,
+          "l": null
+        },
+        {
+          "q": 0,
+          "s": 5,
+          "l": null
+        }
+      ]
+    },
+    {
+      "id": "stl84-greg-lafleur",
+      "firstName": "Greg",
+      "lastName": "LaFleur",
+      "position": "TE",
+      "playDirection": 4,
+      "blocks": 1,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 21
+        },
+        {
+          "q": 12,
+          "s": 16,
+          "l": 21
+        },
+        {
+          "q": 7,
+          "s": 15,
+          "l": 21
+        },
+        {
+          "q": 7,
+          "s": 14,
+          "l": 21
+        },
+        {
+          "q": 6,
+          "s": 13,
+          "l": 21
+        },
+        {
+          "q": 6,
+          "s": 12,
+          "l": 21
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": 20
+        },
+        {
+          "q": 5,
+          "s": 10,
+          "l": "INC"
+        },
+        {
+          "q": 4,
+          "s": 9,
+          "l": "INC"
+        },
+        {
+          "q": 4,
+          "s": 8,
+          "l": "INC"
+        },
+        {
+          "q": 3,
+          "s": 7,
+          "l": "INC"
+        },
+        {
+          "q": 3,
+          "s": 6,
+          "l": "INC"
+        }
+      ]
+    },
+    {
+      "id": "stl84-o-j-anderson",
+      "firstName": "O.J.",
+      "lastName": "Anderson",
+      "position": "RB",
+      "playDirection": 0,
+      "blocks": 1,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 21,
+          "lg": 24
+        },
+        {
+          "n": 9,
+          "sg": 20,
+          "lg": 24
+        },
+        {
+          "n": 7,
+          "sg": 19,
+          "lg": 24
+        },
+        {
+          "n": 6,
+          "sg": 18,
+          "lg": 24
+        },
+        {
+          "n": 5,
+          "sg": 17,
+          "lg": 24
+        },
+        {
+          "n": 4,
+          "sg": 16,
+          "lg": 23
+        },
+        {
+          "n": 3,
+          "sg": 15,
+          "lg": 23
+        },
+        {
+          "n": 2,
+          "sg": 14,
+          "lg": 23
+        },
+        {
+          "n": 1,
+          "sg": 13,
+          "lg": 22
+        },
+        {
+          "n": 0,
+          "sg": 12,
+          "lg": 22
+        },
+        {
+          "n": -1,
+          "sg": 11,
+          "lg": 22
+        },
+        {
+          "n": -2,
+          "sg": 10,
+          "lg": 22
+        }
+      ],
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 57
+        },
+        {
+          "q": 10,
+          "s": 13,
+          "l": 43
+        },
+        {
+          "q": 6,
+          "s": 12,
+          "l": 35
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": 31
+        },
+        {
+          "q": 5,
+          "s": 10,
+          "l": 26
+        },
+        {
+          "q": 4,
+          "s": 9,
+          "l": 23
+        },
+        {
+          "q": 4,
+          "s": 8,
+          "l": 22
+        },
+        {
+          "q": 3,
+          "s": 7,
+          "l": 21
+        },
+        {
+          "q": 3,
+          "s": 6,
+          "l": 20
+        },
+        {
+          "q": 2,
+          "s": 5,
+          "l": 20
+        },
+        {
+          "q": 2,
+          "s": 5,
+          "l": 20
+        },
+        {
+          "q": 1,
+          "s": 5,
+          "l": 20
+        }
+      ]
+    },
+    {
+      "id": "stl84-stump-mitchell",
+      "firstName": "Stump",
+      "lastName": "Mitchell",
+      "position": "RB",
+      "playDirection": 2,
+      "blocks": 0,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 28,
+          "lg": 39
+        },
+        {
+          "n": 9,
+          "sg": 27,
+          "lg": 39
+        },
+        {
+          "n": 8,
+          "sg": 26,
+          "lg": 38
+        },
+        {
+          "n": 7,
+          "sg": 25,
+          "lg": 37
+        },
+        {
+          "n": 6,
+          "sg": 24,
+          "lg": 36
+        },
+        {
+          "n": 5,
+          "sg": 25,
+          "lg": 35
+        },
+        {
+          "n": 4,
+          "sg": 22,
+          "lg": 34
+        },
+        {
+          "n": 3,
+          "sg": 21,
+          "lg": 33
+        },
+        {
+          "n": 2,
+          "sg": 20,
+          "lg": 32
+        },
+        {
+          "n": 1,
+          "sg": 19,
+          "lg": 31
+        },
+        {
+          "n": 0,
+          "sg": 18,
+          "lg": 30
+        },
+        {
+          "n": -2,
+          "sg": 17,
+          "lg": 29
+        }
+      ],
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 44
+        },
+        {
+          "q": 12,
+          "s": 16,
+          "l": 35
+        },
+        {
+          "q": 7,
+          "s": 15,
+          "l": 31
+        },
+        {
+          "q": 7,
+          "s": 14,
+          "l": 28
+        },
+        {
+          "q": 6,
+          "s": 13,
+          "l": 26
+        },
+        {
+          "q": 6,
+          "s": 12,
+          "l": 25
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": 24
+        },
+        {
+          "q": 5,
+          "s": 10,
+          "l": 23
+        },
+        {
+          "q": 4,
+          "s": 9,
+          "l": 22
+        },
+        {
+          "q": 4,
+          "s": 8,
+          "l": 21
+        },
+        {
+          "q": 3,
+          "s": 7,
+          "l": 20
+        },
+        {
+          "q": 3,
+          "s": 6,
+          "l": 20
+        }
+      ]
+    },
+    {
+      "id": "stl84-earl-ferrell",
+      "firstName": "Earl",
+      "lastName": "Ferrell",
+      "position": "RB",
+      "playDirection": 3,
+      "blocks": 1,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 25,
+          "lg": 25
+        },
+        {
+          "n": 9,
+          "sg": 25,
+          "lg": 25
+        },
+        {
+          "n": 8,
+          "sg": 24,
+          "lg": 25
+        },
+        {
+          "n": 6,
+          "sg": 23,
+          "lg": 25
+        },
+        {
+          "n": 5,
+          "sg": 22,
+          "lg": 25
+        },
+        {
+          "n": 4,
+          "sg": 21,
+          "lg": 25
+        },
+        {
+          "n": 3,
+          "sg": 17,
+          "lg": 25
+        },
+        {
+          "n": 2,
+          "sg": 16,
+          "lg": 25
+        },
+        {
+          "n": 1,
+          "sg": 15,
+          "lg": 25
+        },
+        {
+          "n": 0,
+          "sg": 14,
+          "lg": 25
+        },
+        {
+          "n": 0,
+          "sg": 13,
+          "lg": 25
+        },
+        {
+          "n": -2,
+          "sg": 12,
+          "lg": 25
+        }
+      ],
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 21
+        },
+        {
+          "q": 10,
+          "s": 12,
+          "l": 21
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": 21
+        },
+        {
+          "q": 4,
+          "s": 9,
+          "l": 21
+        },
+        {
+          "q": 4,
+          "s": 8,
+          "l": 21
+        },
+        {
+          "q": 3,
+          "s": 7,
+          "l": 21
+        },
+        {
+          "q": 3,
+          "s": 6,
+          "l": "INC"
+        },
+        {
+          "q": 2,
+          "s": 5,
+          "l": "INC"
+        },
+        {
+          "q": 2,
+          "s": 5,
+          "l": "INC"
+        },
+        {
+          "q": 1,
+          "s": 5,
+          "l": "INC"
+        },
+        {
+          "q": 0,
+          "s": 5,
+          "l": "INC"
+        },
+        {
+          "q": 0,
+          "s": 5,
+          "l": "INC"
+        }
+      ]
+    },
+    {
+      "id": "stl84-willard-harrell",
+      "firstName": "Willard",
+      "lastName": "Harrell",
+      "position": "RB",
+      "playDirection": 4,
+      "blocks": -2,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 3,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 3,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -5,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -5,
+          "sg": 10,
+          "lg": 10
+        }
+      ],
+      "passGain": [
+        {
+          "q": 16,
+          "s": 16,
+          "l": null
+        },
+        {
+          "q": 10,
+          "s": 15,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": 14,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": 13,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": 12,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": 11,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": 10,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": 9,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": 8,
+          "l": null
+        },
+        {
+          "q": 1,
+          "s": 7,
+          "l": null
+        },
+        {
+          "q": 0,
+          "s": 6,
+          "l": null
+        },
+        {
+          "q": 0,
+          "s": 5,
+          "l": null
+        }
+      ]
+    },
+    {
+      "id": "stl84-perry-harrington",
+      "firstName": "Perry",
+      "lastName": "Harrington",
+      "position": "RB",
+      "playDirection": 4,
+      "blocks": 1,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 5,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 5,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -1,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -2,
+          "sg": 10,
+          "lg": 10
+        }
+      ],
+      "passGain": null
+    },
+    {
+      "id": "stl84-randy-love",
+      "firstName": "Randy",
+      "lastName": "Love",
+      "position": "RB",
+      "playDirection": 4,
+      "blocks": 1,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 13,
+          "lg": 13
+        },
+        {
+          "n": 8,
+          "sg": 12,
+          "lg": 13
+        },
+        {
+          "n": 7,
+          "sg": 11,
+          "lg": 13
+        },
+        {
+          "n": 7,
+          "sg": 10,
+          "lg": 13
+        },
+        {
+          "n": 6,
+          "sg": 9,
+          "lg": 13
+        },
+        {
+          "n": 5,
+          "sg": 8,
+          "lg": 13
+        },
+        {
+          "n": 3,
+          "sg": 8,
+          "lg": 13
+        },
+        {
+          "n": 2,
+          "sg": 8,
+          "lg": 13
+        },
+        {
+          "n": 0,
+          "sg": 8,
+          "lg": 13
+        },
+        {
+          "n": 0,
+          "sg": 8,
+          "lg": 13
+        },
+        {
+          "n": -1,
+          "sg": 8,
+          "lg": 13
+        },
+        {
+          "n": -2,
+          "sg": 8,
+          "lg": 13
+        }
+      ],
+      "passGain": [
+        {
+          "q": 10,
+          "s": 16,
+          "l": null
+        },
+        {
+          "q": 9,
+          "s": 15,
+          "l": null
+        },
+        {
+          "q": 8,
+          "s": 14,
+          "l": null
+        },
+        {
+          "q": 7,
+          "s": 13,
+          "l": null
+        },
+        {
+          "q": 6,
+          "s": 13,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": 10,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": 10,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": 10,
+          "l": null
+        },
+        {
+          "q": 1,
+          "s": 9,
+          "l": null
+        },
+        {
+          "q": 0,
+          "s": 8,
+          "l": null
+        },
+        {
+          "q": -1,
+          "s": 7,
+          "l": null
+        }
+      ]
+    },
+    {
+      "id": "stl84-terry-stieve",
+      "firstName": "Terry",
+      "lastName": "Stieve",
+      "position": "OG",
+      "runBlock": 3,
+      "passBlock": 1
+    },
+    {
+      "id": "stl84-luis-sharpe",
+      "firstName": "Luis",
+      "lastName": "Sharpe",
+      "position": "OT",
+      "runBlock": 3,
+      "passBlock": 0
+    },
+    {
+      "id": "stl84-joe-bostic",
+      "firstName": "Joe",
+      "lastName": "Bostic",
+      "position": "OG",
+      "runBlock": 3,
+      "passBlock": 1
+    },
+    {
+      "id": "stl84-tootie-robbins",
+      "firstName": "Tootie",
+      "lastName": "Robbins",
+      "position": "OT",
+      "runBlock": 3,
+      "passBlock": 1
+    },
+    {
+      "id": "stl84-randy-clark",
+      "firstName": "Randy",
+      "lastName": "Clark",
+      "position": "C",
+      "runBlock": 2,
+      "passBlock": 1
+    },
+    {
+      "id": "stl84-mark-duda",
+      "firstName": "Mark",
+      "lastName": "Duda",
+      "position": "OT",
+      "runBlock": 2,
+      "passBlock": 0
+    },
+    {
+      "id": "stl84-art-plunkett",
+      "firstName": "Art",
+      "lastName": "Plunkett",
+      "position": "OT",
+      "runBlock": 2,
+      "passBlock": 0
+    },
+    {
+      "id": "stl84-doug-dawson",
+      "firstName": "Doug",
+      "lastName": "Dawson",
+      "position": "OG",
+      "runBlock": 1,
+      "passBlock": 0
+    },
+    {
+      "id": "stl84-carlos-scott",
+      "firstName": "Carlos",
+      "lastName": "Scott",
+      "position": "C",
+      "runBlock": 2,
+      "passBlock": 0
+    },
+    {
+      "id": "stl84-curtis-greer",
+      "firstName": "Curtis",
+      "lastName": "Greer",
+      "position": "DE",
+      "tackle": -2,
+      "passRush": 3
+    },
+    {
+      "id": "stl84-al-baker",
+      "firstName": "Al",
+      "lastName": "Baker",
+      "position": "DE",
+      "tackle": -3,
+      "passRush": 2
+    },
+    {
+      "id": "stl84-ramsey-dardar",
+      "firstName": "Ramsey",
+      "lastName": "Dardar",
+      "position": "DT",
+      "tackle": -1,
+      "passRush": 0
+    },
+    {
+      "id": "stl84-david-galloway",
+      "firstName": "David",
+      "lastName": "Galloway",
+      "position": "DT",
+      "tackle": 0,
+      "passRush": 0
+    },
+    {
+      "id": "stl84-dan-ralph",
+      "firstName": "Dan",
+      "lastName": "Ralph",
+      "position": "DT",
+      "tackle": 3,
+      "passRush": 1
+    },
+    {
+      "id": "stl84-elois-grooms",
+      "firstName": "Elois",
+      "lastName": "Grooms",
+      "position": "DT",
+      "tackle": 2,
+      "passRush": 0
+    },
+    {
+      "id": "stl84-randy-holloway",
+      "firstName": "Randy",
+      "lastName": "Holloway",
+      "position": "DE",
+      "tackle": -1,
+      "passRush": 1
+    },
+    {
+      "id": "stl84-stafford-mays",
+      "firstName": "Stafford",
+      "lastName": "Mays",
+      "position": "DE",
+      "tackle": -1,
+      "passRush": 0
+    },
+    {
+      "id": "stl84-faz-noga",
+      "firstName": "Faz",
+      "lastName": "Noga",
+      "position": "DE",
+      "tackle": 3,
+      "passRush": 0
+    },
+    {
+      "id": "stl84-thomas-howard",
+      "firstName": "Thomas",
+      "lastName": "Howard",
+      "position": "LB",
+      "tackle": -1,
+      "passRush": 1,
+      "passDefense": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      }
+    },
+    {
+      "id": "stl84-e-j-junior",
+      "firstName": "E.J.",
+      "lastName": "Junior",
+      "position": "LB",
+      "tackle": -4,
+      "passRush": 2,
+      "passDefense": -2,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "stl84-charley-baker",
+      "firstName": "Charley",
+      "lastName": "Baker",
+      "position": "LB",
+      "tackle": 0,
+      "passRush": 1,
+      "passDefense": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "stl84-kurt-allerman",
+      "firstName": "Kurt",
+      "lastName": "Allerman",
+      "position": "LB",
+      "tackle": -1,
+      "passRush": 1,
+      "passDefense": 3,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "stl84-dave-ahrens",
+      "firstName": "Dave",
+      "lastName": "Ahrens",
+      "position": "LB",
+      "tackle": 0,
+      "passRush": 1,
+      "passDefense": 2,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "stl84-rod-clark",
+      "firstName": "Rod",
+      "lastName": "Clark",
+      "position": "LB",
+      "tackle": 1,
+      "passRush": 0,
+      "passDefense": 4,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "stl84-bob-harris",
+      "firstName": "Bob",
+      "lastName": "Harris",
+      "position": "LB",
+      "tackle": 3,
+      "passRush": 1,
+      "passDefense": 2,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "stl84-lionel-washington",
+      "firstName": "Lionel",
+      "lastName": "Washington",
+      "position": "DB",
+      "passDefense": -2,
+      "passRush": 0,
+      "intercept": {
+        "from": 45,
+        "to": 48
+      },
+      "role": "CB"
+    },
+    {
+      "id": "stl84-len-smith",
+      "firstName": "Len",
+      "lastName": "Smith",
+      "position": "DB",
+      "passDefense": 1,
+      "passRush": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "role": "S"
+    },
+    {
+      "id": "stl84-wayne-smith",
+      "firstName": "Wayne",
+      "lastName": "Smith",
+      "position": "DB",
+      "passDefense": -1,
+      "passRush": 0,
+      "intercept": {
+        "from": 46,
+        "to": 48
+      },
+      "role": "CB"
+    },
+    {
+      "id": "stl84-benny-perrin",
+      "firstName": "Benny",
+      "lastName": "Perrin",
+      "position": "DB",
+      "passDefense": -1,
+      "passRush": 0,
+      "intercept": {
+        "from": 46,
+        "to": 48
+      },
+      "role": "S"
+    },
+    {
+      "id": "stl84-george-schmitt",
+      "firstName": "George",
+      "lastName": "Schmitt",
+      "position": "DB",
+      "passDefense": 3,
+      "passRush": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "stl84-lee-nelson",
+      "firstName": "Lee",
+      "lastName": "Nelson",
+      "position": "DB",
+      "passDefense": 4,
+      "passRush": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "stl84-victor-heflin",
+      "firstName": "Victor",
+      "lastName": "Heflin",
+      "position": "DB",
+      "passDefense": 3,
+      "passRush": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "stl84-bill-whittaker",
+      "firstName": "Bill",
+      "lastName": "Whittaker",
+      "position": "DB",
+      "passDefense": 2,
+      "passRush": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "stl84-neil-odonoghue",
+      "firstName": "Neil",
+      "lastName": "O\u2019Donoghue",
+      "position": "K",
+      "fieldGoals": [
+        {
+          "minYards": 18,
+          "maxYards": 25,
+          "good": {
+            "from": 1,
+            "to": 36
+          }
+        },
+        {
+          "minYards": 26,
+          "maxYards": 35,
+          "good": {
+            "from": 1,
+            "to": 31
+          }
+        },
+        {
+          "minYards": 36,
+          "maxYards": 45,
+          "good": {
+            "from": 1,
+            "to": 21
+          }
+        },
+        {
+          "minYards": 46,
+          "maxYards": 50,
+          "good": {
+            "from": 1,
+            "to": 11
+          }
+        },
+        {
+          "minYards": 51,
+          "maxYards": 60,
+          "good": {
+            "from": 1,
+            "to": 4
+          }
+        }
+      ],
+      "extraPoint": {
+        "from": 1,
+        "to": 45
+      }
+    },
+    {
+      "id": "stl84-carl-birdsong",
+      "firstName": "Carl",
+      "lastName": "Birdsong",
+      "position": "P",
+      "punts": [
+        {
+          "yards": 59,
+          "returner": "PR1"
+        },
+        {
+          "yards": 49,
+          "returner": "PR2"
+        },
+        {
+          "yards": 45,
+          "returner": "PR3"
+        },
+        {
+          "yards": 44,
+          "returner": "PR4"
+        },
+        {
+          "yards": 42,
+          "returner": "PR1"
+        },
+        {
+          "yards": 38,
+          "returner": "FC"
+        },
+        {
+          "yards": 36,
+          "returner": "FC"
+        },
+        {
+          "yards": 35,
+          "returner": "FC"
+        },
+        {
+          "yards": 34,
+          "returner": "FC"
+        },
+        {
+          "yards": 29,
+          "returner": "FC"
+        },
+        {
+          "yards": 19,
+          "returner": "FC"
+        }
+      ],
+      "special": [
+        {
+          "runNumber": {
+            "from": 1,
+            "to": 1
+          },
+          "result": {
+            "type": "BLOCKED"
+          }
+        },
+        {
+          "runNumber": {
+            "from": 2,
+            "to": 12
+          },
+          "result": {
+            "type": "PENALTY"
+          }
+        }
+      ]
+    }
+  ],
+  "startingLineup": {
+    "offense": [
+      {
+        "listed": "QB",
+        "playerId": "stl84-neil-lomax"
+      },
+      {
+        "listed": "WR",
+        "playerId": "stl84-roy-green"
+      },
+      {
+        "listed": "WR",
+        "playerId": "stl84-pat-tilley"
+      },
+      {
+        "listed": "TE",
+        "playerId": "stl84-doug-marsh"
+      },
+      {
+        "listed": "RB",
+        "playerId": "stl84-stump-mitchell"
+      },
+      {
+        "listed": "RB",
+        "playerId": "stl84-o-j-anderson"
+      },
+      {
+        "listed": "OT",
+        "playerId": "stl84-tootie-robbins"
+      },
+      {
+        "listed": "OG",
+        "playerId": "stl84-joe-bostic"
+      },
+      {
+        "listed": "OC",
+        "playerId": "stl84-randy-clark"
+      },
+      {
+        "listed": "OG",
+        "playerId": "stl84-terry-stieve"
+      },
+      {
+        "listed": "OT",
+        "playerId": "stl84-luis-sharpe"
+      }
+    ],
+    "defenseFormation": "4-3",
+    "defense": [
+      {
+        "listed": "DE",
+        "playerId": "stl84-al-baker"
+      },
+      {
+        "listed": "DE",
+        "playerId": "stl84-curtis-greer"
+      },
+      {
+        "listed": "DT",
+        "playerId": "stl84-ramsey-dardar"
+      },
+      {
+        "listed": "DT",
+        "playerId": "stl84-david-galloway"
+      },
+      {
+        "listed": "LB",
+        "playerId": "stl84-charley-baker"
+      },
+      {
+        "listed": "LB",
+        "playerId": "stl84-e-j-junior"
+      },
+      {
+        "listed": "LB",
+        "playerId": "stl84-thomas-howard"
+      },
+      {
+        "listed": "CB",
+        "playerId": "stl84-lionel-washington"
+      },
+      {
+        "listed": "CB",
+        "playerId": "stl84-wayne-smith"
+      },
+      {
+        "listed": "DS",
+        "playerId": "stl84-len-smith"
+      },
+      {
+        "listed": "DS",
+        "playerId": "stl84-benny-perrin"
+      }
+    ]
+  },
+  "kickReturn": {
+    "returners": {
+      "KR1": {
+        "name": "Stump Mitchell",
+        "playerId": "stl84-stump-mitchell"
+      },
+      "KR2": {
+        "sameAs": "KR1"
+      },
+      "KR3": {
+        "name": "Danny Pitman",
+        "playerId": "stl84-danny-pitman"
+      },
+      "KR4": {
+        "name": "Wilhard Harrell",
+        "playerId": null
+      }
+    },
+    "table": [
+      {
+        "KR1": {
+          "yards": 56,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 43,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": {
+          "yards": 28,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "KR1": {
+          "yards": 38,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 38,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": {
+          "yards": 27,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "KR1": {
+          "yards": 30,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 30,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": {
+          "yards": 25,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "KR1": {
+          "yards": 28,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 28,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": {
+          "yards": 23,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "KR1": {
+          "yards": 25,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 25,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": {
+          "yards": 20,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "KR1": {
+          "yards": 24,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 24,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": {
+          "yards": 19,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "KR1": {
+          "yards": 23,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 23,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": {
+          "yards": 18,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "KR1": {
+          "yards": 21,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 21,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": {
+          "yards": 16,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "KR1": {
+          "yards": 15,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 15,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": {
+          "yards": 10,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "KR1": {
+          "yards": 13,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 13,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": {
+          "yards": 8,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "KR1": {
+          "yards": 10,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 10,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": {
+          "yards": 5,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "KR1": {
+          "yards": 8,
+          "fumble": true,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 8,
+          "fumble": true,
+          "breakaway": false
+        },
+        "KR4": {
+          "yards": 3,
+          "fumble": true,
+          "breakaway": false
+        }
+      }
+    ],
+    "breakaway": {
+      "KR1": null,
+      "KR2": null,
+      "KR3": null,
+      "KR4": null
+    }
+  },
+  "puntReturn": {
+    "returners": {
+      "PR1": {
+        "name": "Stump Mitchell",
+        "playerId": "stl84-stump-mitchell"
+      },
+      "PR2": {
+        "sameAs": "PR1"
+      },
+      "PR3": {
+        "sameAs": "PR1"
+      },
+      "PR4": {
+        "sameAs": "PR1"
+      }
+    },
+    "table": [
+      {
+        "PR1": {
+          "yards": 17,
+          "fumble": false,
+          "breakaway": true
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 14,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 13,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 12,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 10,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 9,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 8,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 7,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 6,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 5,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 4,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 3,
+          "fumble": true,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      }
+    ],
+    "breakaway": {
+      "PR1": 39,
+      "PR2": null,
+      "PR3": null,
+      "PR4": null
+    }
+  },
+  "dataNotes": [
+    "Neil Lomax pass rush: card reads sack 1-13, runs 13-30, com 31-42, inc 43-48; repaired to sack 1-13, runs 14-30, com 31-42, inc 43-48",
+    "Interception ranges follow the Avalon Hill worksheet table, one rule for every season (the official 1984 cards gave one number per interception): 0-1 interceptions \"48?\", 2 \"48\", 3 \"47-48\" and so on."
+  ]
+}

@@ -1,0 +1,3249 @@
+{
+  "id": "1984-bears",
+  "year": 1984,
+  "name": "Chicago Bears",
+  "shortName": "Bears",
+  "abbreviation": "CHI",
+  "division": "NFC Central",
+  "coach": "Mike Ditka",
+  "record": "10-6",
+  "bigPlays": {
+    "home": 3,
+    "road": 3
+  },
+  "fumblesLost": {
+    "from": 1,
+    "to": 25
+  },
+  "players": [
+    {
+      "id": "chi84-jim-mcmahon",
+      "firstName": "Jim",
+      "lastName": "McMahon",
+      "position": "QB",
+      "endurance": "B",
+      "passing": {
+        "quick": {
+          "com": {
+            "from": 1,
+            "to": 37
+          },
+          "inc": {
+            "from": 38,
+            "to": 48
+          },
+          "int": null
+        },
+        "short": {
+          "com": {
+            "from": 1,
+            "to": 29
+          },
+          "inc": {
+            "from": 30,
+            "to": 48
+          },
+          "int": null
+        },
+        "long": {
+          "com": {
+            "from": 1,
+            "to": 20
+          },
+          "inc": {
+            "from": 21,
+            "to": 47
+          },
+          "int": {
+            "from": 48,
+            "to": 48
+          }
+        }
+      },
+      "passRush": {
+        "sack": {
+          "from": 1,
+          "to": 13
+        },
+        "runs": {
+          "from": 14,
+          "to": 30
+        },
+        "com": {
+          "from": 31,
+          "to": 42
+        },
+        "inc": {
+          "from": 43,
+          "to": 48
+        }
+      },
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 28,
+          "lg": 30
+        },
+        {
+          "n": 12,
+          "sg": 27,
+          "lg": 30
+        },
+        {
+          "n": 11,
+          "sg": 26,
+          "lg": 30
+        },
+        {
+          "n": 10,
+          "sg": 25,
+          "lg": 29
+        },
+        {
+          "n": 9,
+          "sg": 24,
+          "lg": 29
+        },
+        {
+          "n": 8,
+          "sg": 23,
+          "lg": 29
+        },
+        {
+          "n": 7,
+          "sg": 22,
+          "lg": 28
+        },
+        {
+          "n": 6,
+          "sg": 21,
+          "lg": 28
+        },
+        {
+          "n": 5,
+          "sg": 20,
+          "lg": 28
+        },
+        {
+          "n": 3,
+          "sg": 19,
+          "lg": 28
+        },
+        {
+          "n": 0,
+          "sg": 18,
+          "lg": 28
+        },
+        {
+          "n": -2,
+          "sg": 17,
+          "lg": 28
+        }
+      ]
+    },
+    {
+      "id": "chi84-steve-fuller",
+      "firstName": "Steve",
+      "lastName": "Fuller",
+      "position": "QB",
+      "endurance": "B",
+      "passing": {
+        "quick": {
+          "com": {
+            "from": 1,
+            "to": 42
+          },
+          "inc": {
+            "from": 43,
+            "to": 48
+          },
+          "int": null
+        },
+        "short": {
+          "com": {
+            "from": 1,
+            "to": 34
+          },
+          "inc": {
+            "from": 35,
+            "to": 48
+          },
+          "int": null
+        },
+        "long": {
+          "com": {
+            "from": 1,
+            "to": 13
+          },
+          "inc": {
+            "from": 14,
+            "to": 48
+          },
+          "int": null
+        }
+      },
+      "passRush": {
+        "sack": {
+          "from": 1,
+          "to": 12
+        },
+        "runs": {
+          "from": 13,
+          "to": 30
+        },
+        "com": {
+          "from": 31,
+          "to": 44
+        },
+        "inc": {
+          "from": 45,
+          "to": 48
+        }
+      },
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 26,
+          "lg": 6
+        },
+        {
+          "n": 10,
+          "sg": 26,
+          "lg": 26
+        },
+        {
+          "n": 9,
+          "sg": 26,
+          "lg": 26
+        },
+        {
+          "n": 8,
+          "sg": 25,
+          "lg": 26
+        },
+        {
+          "n": 7,
+          "sg": 24,
+          "lg": 26
+        },
+        {
+          "n": 6,
+          "sg": 23,
+          "lg": 26
+        },
+        {
+          "n": 4,
+          "sg": 22,
+          "lg": 26
+        },
+        {
+          "n": 3,
+          "sg": 21,
+          "lg": 26
+        },
+        {
+          "n": 2,
+          "sg": 20,
+          "lg": 26
+        },
+        {
+          "n": 2,
+          "sg": 19,
+          "lg": 26
+        },
+        {
+          "n": 0,
+          "sg": 18,
+          "lg": 26
+        },
+        {
+          "n": -2,
+          "sg": 17,
+          "lg": 26
+        }
+      ]
+    },
+    {
+      "id": "chi84-rusty-lisch",
+      "firstName": "Rusty",
+      "lastName": "Lisch",
+      "position": "QB",
+      "endurance": "B",
+      "passing": {
+        "quick": {
+          "com": {
+            "from": 1,
+            "to": 33
+          },
+          "inc": {
+            "from": 34,
+            "to": 46
+          },
+          "int": {
+            "from": 47,
+            "to": 48
+          }
+        },
+        "short": {
+          "com": {
+            "from": 1,
+            "to": 25
+          },
+          "inc": {
+            "from": 26,
+            "to": 44
+          },
+          "int": {
+            "from": 45,
+            "to": 48
+          }
+        },
+        "long": {
+          "com": {
+            "from": 1,
+            "to": 15
+          },
+          "inc": {
+            "from": 16,
+            "to": 41
+          },
+          "int": {
+            "from": 42,
+            "to": 48
+          }
+        }
+      },
+      "passRush": {
+        "sack": {
+          "from": 1,
+          "to": 14
+        },
+        "runs": {
+          "from": 15,
+          "to": 30
+        },
+        "com": {
+          "from": 31,
+          "to": 40
+        },
+        "inc": {
+          "from": 41,
+          "to": 48
+        }
+      },
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 28,
+          "lg": 31
+        },
+        {
+          "n": 12,
+          "sg": 27,
+          "lg": 31
+        },
+        {
+          "n": 11,
+          "sg": 26,
+          "lg": 31
+        },
+        {
+          "n": 10,
+          "sg": 25,
+          "lg": 31
+        },
+        {
+          "n": 9,
+          "sg": 24,
+          "lg": 31
+        },
+        {
+          "n": 8,
+          "sg": 23,
+          "lg": 31
+        },
+        {
+          "n": 7,
+          "sg": 22,
+          "lg": 31
+        },
+        {
+          "n": 6,
+          "sg": 21,
+          "lg": 31
+        },
+        {
+          "n": 5,
+          "sg": 20,
+          "lg": 31
+        },
+        {
+          "n": 3,
+          "sg": 19,
+          "lg": 31
+        },
+        {
+          "n": 0,
+          "sg": 18,
+          "lg": 31
+        },
+        {
+          "n": -2,
+          "sg": 17,
+          "lg": 31
+        }
+      ]
+    },
+    {
+      "id": "chi84-greg-landry",
+      "firstName": "Greg",
+      "lastName": "Landry",
+      "position": "QB",
+      "endurance": "C",
+      "passing": {
+        "quick": {
+          "com": {
+            "from": 1,
+            "to": 34
+          },
+          "inc": {
+            "from": 35,
+            "to": 45
+          },
+          "int": {
+            "from": 46,
+            "to": 48
+          }
+        },
+        "short": {
+          "com": {
+            "from": 1,
+            "to": 26
+          },
+          "inc": {
+            "from": 27,
+            "to": 41
+          },
+          "int": {
+            "from": 42,
+            "to": 48
+          }
+        },
+        "long": {
+          "com": {
+            "from": 1,
+            "to": 10
+          },
+          "inc": {
+            "from": 11,
+            "to": 35
+          },
+          "int": {
+            "from": 36,
+            "to": 48
+          }
+        }
+      },
+      "passRush": {
+        "sack": {
+          "from": 1,
+          "to": 21
+        },
+        "runs": {
+          "from": 22,
+          "to": 30
+        },
+        "com": {
+          "from": 31,
+          "to": 41
+        },
+        "inc": {
+          "from": 42,
+          "to": 48
+        }
+      },
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 3,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 1,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -1,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -3,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -5,
+          "sg": 10,
+          "lg": 10
+        }
+      ]
+    },
+    {
+      "id": "chi84-bob-avellini",
+      "firstName": "Bob",
+      "lastName": "Avellini",
+      "position": "QB",
+      "endurance": "C",
+      "passing": {
+        "quick": {
+          "com": {
+            "from": 1,
+            "to": 35
+          },
+          "inc": {
+            "from": 36,
+            "to": 47
+          },
+          "int": {
+            "from": 48,
+            "to": 48
+          }
+        },
+        "short": {
+          "com": {
+            "from": 1,
+            "to": 27
+          },
+          "inc": {
+            "from": 28,
+            "to": 45
+          },
+          "int": {
+            "from": 46,
+            "to": 48
+          }
+        },
+        "long": {
+          "com": {
+            "from": 1,
+            "to": 12
+          },
+          "inc": {
+            "from": 13,
+            "to": 42
+          },
+          "int": {
+            "from": 43,
+            "to": 48
+          }
+        }
+      },
+      "passRush": {
+        "sack": {
+          "from": 1,
+          "to": 17
+        },
+        "runs": {
+          "from": 18,
+          "to": 30
+        },
+        "com": {
+          "from": 31,
+          "to": 41
+        },
+        "inc": {
+          "from": 42,
+          "to": 48
+        }
+      },
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 3,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 1,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -1,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -3,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -5,
+          "sg": 10,
+          "lg": 10
+        }
+      ]
+    },
+    {
+      "id": "chi84-dennis-mckinnon",
+      "firstName": "Dennis",
+      "lastName": "McKinnon",
+      "position": "WR",
+      "playDirection": 3,
+      "blocks": -2,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 21,
+          "lg": 21
+        },
+        {
+          "n": 10,
+          "sg": 20,
+          "lg": 21
+        },
+        {
+          "n": 9,
+          "sg": 19,
+          "lg": 21
+        },
+        {
+          "n": 8,
+          "sg": 18,
+          "lg": 21
+        },
+        {
+          "n": 7,
+          "sg": 17,
+          "lg": 21
+        },
+        {
+          "n": 6,
+          "sg": 16,
+          "lg": 21
+        },
+        {
+          "n": 5,
+          "sg": 15,
+          "lg": 21
+        },
+        {
+          "n": 4,
+          "sg": 14,
+          "lg": 21
+        },
+        {
+          "n": 2,
+          "sg": 13,
+          "lg": 21
+        },
+        {
+          "n": 2,
+          "sg": 12,
+          "lg": 21
+        },
+        {
+          "n": 0,
+          "sg": 11,
+          "lg": 21
+        },
+        {
+          "n": -2,
+          "sg": 10,
+          "lg": 21
+        }
+      ],
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 32
+        },
+        {
+          "q": 15,
+          "s": 19,
+          "l": 31
+        },
+        {
+          "q": 9,
+          "s": 18,
+          "l": 30
+        },
+        {
+          "q": 9,
+          "s": 17,
+          "l": 29
+        },
+        {
+          "q": 8,
+          "s": 16,
+          "l": 28
+        },
+        {
+          "q": 8,
+          "s": 15,
+          "l": 27
+        },
+        {
+          "q": 7,
+          "s": 14,
+          "l": 26
+        },
+        {
+          "q": 7,
+          "s": 15,
+          "l": 25
+        },
+        {
+          "q": 7,
+          "s": 14,
+          "l": 22
+        },
+        {
+          "q": 6,
+          "s": 13,
+          "l": 21
+        },
+        {
+          "q": 6,
+          "s": 12,
+          "l": 20
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": 20
+        }
+      ]
+    },
+    {
+      "id": "chi84-willie-gault",
+      "firstName": "Willie",
+      "lastName": "Gault",
+      "position": "WR",
+      "playDirection": 3,
+      "blocks": -3,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 61
+        },
+        {
+          "q": 17,
+          "s": 21,
+          "l": 55
+        },
+        {
+          "q": 12,
+          "s": 20,
+          "l": 43
+        },
+        {
+          "q": 9,
+          "s": 19,
+          "l": 35
+        },
+        {
+          "q": 9,
+          "s": 18,
+          "l": 31
+        },
+        {
+          "q": 8,
+          "s": 17,
+          "l": 30
+        },
+        {
+          "q": 8,
+          "s": 16,
+          "l": 27
+        },
+        {
+          "q": 7,
+          "s": 15,
+          "l": 25
+        },
+        {
+          "q": 7,
+          "s": 14,
+          "l": 22
+        },
+        {
+          "q": 6,
+          "s": 13,
+          "l": 21
+        },
+        {
+          "q": 6,
+          "s": 12,
+          "l": 20
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": 20
+        }
+      ]
+    },
+    {
+      "id": "chi84-brad-anderson",
+      "firstName": "Brad",
+      "lastName": "Anderson",
+      "position": "WR",
+      "playDirection": 4,
+      "blocks": -3,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 49
+        },
+        {
+          "q": 19,
+          "s": 29,
+          "l": 43
+        },
+        {
+          "q": 14,
+          "s": 28,
+          "l": 42
+        },
+        {
+          "q": 14,
+          "s": 27,
+          "l": 41
+        },
+        {
+          "q": 13,
+          "s": 26,
+          "l": 40
+        },
+        {
+          "q": 13,
+          "s": 25,
+          "l": 38
+        },
+        {
+          "q": 12,
+          "s": 24,
+          "l": "INC"
+        },
+        {
+          "q": 12,
+          "s": 23,
+          "l": "INC"
+        },
+        {
+          "q": 11,
+          "s": 22,
+          "l": "INC"
+        },
+        {
+          "q": 11,
+          "s": 21,
+          "l": "INC"
+        },
+        {
+          "q": 10,
+          "s": 20,
+          "l": "INC"
+        },
+        {
+          "q": 10,
+          "s": 19,
+          "l": "INC"
+        }
+      ]
+    },
+    {
+      "id": "chi84-ricky-watts",
+      "firstName": "Ricky",
+      "lastName": "Watts",
+      "position": "WR",
+      "playDirection": 4,
+      "blocks": -3,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": 23,
+          "s": 21,
+          "l": null
+        },
+        {
+          "q": 18,
+          "s": 21,
+          "l": null
+        },
+        {
+          "q": 17,
+          "s": 21,
+          "l": null
+        },
+        {
+          "q": 16,
+          "s": 21,
+          "l": null
+        },
+        {
+          "q": 15,
+          "s": 20,
+          "l": null
+        },
+        {
+          "q": 14,
+          "s": 20,
+          "l": null
+        },
+        {
+          "q": 13,
+          "s": 20,
+          "l": null
+        },
+        {
+          "q": 10,
+          "s": 19,
+          "l": null
+        },
+        {
+          "q": 9,
+          "s": 18,
+          "l": null
+        },
+        {
+          "q": 8,
+          "s": 17,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": 16,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": 15,
+          "l": null
+        }
+      ]
+    },
+    {
+      "id": "chi84-ken-margerum",
+      "firstName": "Ken",
+      "lastName": "Margerum",
+      "position": "WR",
+      "playDirection": 4,
+      "blocks": -3,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": 20,
+          "s": 15,
+          "l": null
+        },
+        {
+          "q": 15,
+          "s": 14,
+          "l": null
+        },
+        {
+          "q": 12,
+          "s": 13,
+          "l": null
+        },
+        {
+          "q": 8,
+          "s": 12,
+          "l": null
+        },
+        {
+          "q": 7,
+          "s": 11,
+          "l": null
+        },
+        {
+          "q": 6,
+          "s": 10,
+          "l": null
+        },
+        {
+          "q": 8,
+          "s": 8,
+          "l": null
+        },
+        {
+          "q": 7,
+          "s": 8,
+          "l": null
+        },
+        {
+          "q": 6,
+          "s": 8,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": 7,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": 7,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": 6,
+          "l": null
+        }
+      ]
+    },
+    {
+      "id": "chi84-brian-baschnagel",
+      "firstName": "Brian",
+      "lastName": "Baschnagel",
+      "position": "WR",
+      "playDirection": 4,
+      "blocks": -3,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": 11,
+          "s": 17,
+          "l": null
+        },
+        {
+          "q": 10,
+          "s": 13,
+          "l": null
+        },
+        {
+          "q": 6,
+          "s": 12,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": 10,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": 9,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": 8,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": 7,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": 6,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": 5,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": 5,
+          "l": null
+        },
+        {
+          "q": 1,
+          "s": 5,
+          "l": null
+        }
+      ]
+    },
+    {
+      "id": "chi84-jack-cameron",
+      "firstName": "Jack",
+      "lastName": "Cameron",
+      "position": "WR",
+      "playDirection": 4,
+      "blocks": -3,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": 13,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 10,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 6,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": null,
+          "l": null
+        }
+      ]
+    },
+    {
+      "id": "chi84-emery-moorehead",
+      "firstName": "Emery",
+      "lastName": "Moorehead",
+      "position": "TE",
+      "playDirection": 4,
+      "blocks": 1,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 50
+        },
+        {
+          "q": 17,
+          "s": 21,
+          "l": 45
+        },
+        {
+          "q": 12,
+          "s": 20,
+          "l": 36
+        },
+        {
+          "q": 9,
+          "s": 19,
+          "l": 31
+        },
+        {
+          "q": 9,
+          "s": 18,
+          "l": 27
+        },
+        {
+          "q": 8,
+          "s": 17,
+          "l": 25
+        },
+        {
+          "q": 8,
+          "s": 16,
+          "l": 24
+        },
+        {
+          "q": 7,
+          "s": 15,
+          "l": 23
+        },
+        {
+          "q": 7,
+          "s": 14,
+          "l": 22
+        },
+        {
+          "q": 6,
+          "s": 13,
+          "l": "INC"
+        },
+        {
+          "q": 6,
+          "s": 12,
+          "l": "INC"
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": "INC"
+        }
+      ]
+    },
+    {
+      "id": "chi84-pat-dunsmore",
+      "firstName": "Pat",
+      "lastName": "Dunsmore",
+      "position": "TE",
+      "playDirection": 4,
+      "blocks": 1,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 25
+        },
+        {
+          "q": 12,
+          "s": 16,
+          "l": 24
+        },
+        {
+          "q": 7,
+          "s": 15,
+          "l": 23
+        },
+        {
+          "q": 7,
+          "s": 14,
+          "l": 22
+        },
+        {
+          "q": 6,
+          "s": 13,
+          "l": 21
+        },
+        {
+          "q": 6,
+          "s": 12,
+          "l": 20
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": "INC"
+        },
+        {
+          "q": 5,
+          "s": 10,
+          "l": "INC"
+        },
+        {
+          "q": 4,
+          "s": 9,
+          "l": "INC"
+        },
+        {
+          "q": 4,
+          "s": 8,
+          "l": "INC"
+        },
+        {
+          "q": 3,
+          "s": 7,
+          "l": "INC"
+        },
+        {
+          "q": 3,
+          "s": 6,
+          "l": "INC"
+        }
+      ]
+    },
+    {
+      "id": "chi84-mitch-krenk",
+      "firstName": "Mitch",
+      "lastName": "Krenk",
+      "position": "TE",
+      "playDirection": 4,
+      "blocks": 2,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 24
+        },
+        {
+          "q": 16,
+          "s": 20,
+          "l": 23
+        },
+        {
+          "q": 9,
+          "s": 19,
+          "l": 22
+        },
+        {
+          "q": 9,
+          "s": 18,
+          "l": 21
+        },
+        {
+          "q": 8,
+          "s": 17,
+          "l": 20
+        },
+        {
+          "q": 8,
+          "s": 16,
+          "l": 20
+        },
+        {
+          "q": 7,
+          "s": 15,
+          "l": "INC"
+        },
+        {
+          "q": 7,
+          "s": 14,
+          "l": "INC"
+        },
+        {
+          "q": 6,
+          "s": 13,
+          "l": "INC"
+        },
+        {
+          "q": 6,
+          "s": 12,
+          "l": "INC"
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": "INC"
+        },
+        {
+          "q": 5,
+          "s": 10,
+          "l": "INC"
+        }
+      ]
+    },
+    {
+      "id": "chi84-jay-saldi",
+      "firstName": "Jay",
+      "lastName": "Saldi",
+      "position": "TE",
+      "playDirection": 4,
+      "blocks": 2,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": 10,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 10,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 6,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 6,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 1,
+          "s": null,
+          "l": null
+        }
+      ]
+    },
+    {
+      "id": "chi84-walter-payton",
+      "firstName": "Walter",
+      "lastName": "Payton",
+      "position": "RB",
+      "playDirection": 0,
+      "blocks": 2,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 23,
+          "lg": 72
+        },
+        {
+          "n": 9,
+          "sg": 22,
+          "lg": 63
+        },
+        {
+          "n": 8,
+          "sg": 21,
+          "lg": 55
+        },
+        {
+          "n": 6,
+          "sg": 20,
+          "lg": 42
+        },
+        {
+          "n": 5,
+          "sg": 19,
+          "lg": 36
+        },
+        {
+          "n": 4,
+          "sg": 18,
+          "lg": 31
+        },
+        {
+          "n": 3,
+          "sg": 17,
+          "lg": 28
+        },
+        {
+          "n": 2,
+          "sg": 16,
+          "lg": 24
+        },
+        {
+          "n": 1,
+          "sg": 15,
+          "lg": 25
+        },
+        {
+          "n": 0,
+          "sg": 14,
+          "lg": 24
+        },
+        {
+          "n": 0,
+          "sg": 13,
+          "lg": 23
+        },
+        {
+          "n": -2,
+          "sg": 12,
+          "lg": 22
+        }
+      ],
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 31
+        },
+        {
+          "q": 10,
+          "s": 12,
+          "l": 30
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": 29
+        },
+        {
+          "q": 4,
+          "s": 9,
+          "l": 28
+        },
+        {
+          "q": 4,
+          "s": 8,
+          "l": 27
+        },
+        {
+          "q": 3,
+          "s": 7,
+          "l": 26
+        },
+        {
+          "q": 3,
+          "s": 6,
+          "l": 25
+        },
+        {
+          "q": 2,
+          "s": 5,
+          "l": 24
+        },
+        {
+          "q": 2,
+          "s": 5,
+          "l": 23
+        },
+        {
+          "q": 1,
+          "s": 5,
+          "l": 22
+        },
+        {
+          "q": 0,
+          "s": 5,
+          "l": 21
+        },
+        {
+          "q": 0,
+          "s": 5,
+          "l": 20
+        }
+      ]
+    },
+    {
+      "id": "chi84-matt-suhey",
+      "firstName": "Matt",
+      "lastName": "Suhey",
+      "position": "RB",
+      "playDirection": 2,
+      "blocks": 3,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 21,
+          "lg": 21
+        },
+        {
+          "n": 8,
+          "sg": 20,
+          "lg": 21
+        },
+        {
+          "n": 6,
+          "sg": 19,
+          "lg": 21
+        },
+        {
+          "n": 5,
+          "sg": 18,
+          "lg": 21
+        },
+        {
+          "n": 4,
+          "sg": 17,
+          "lg": 21
+        },
+        {
+          "n": 3,
+          "sg": 16,
+          "lg": 21
+        },
+        {
+          "n": 2,
+          "sg": 15,
+          "lg": 21
+        },
+        {
+          "n": 1,
+          "sg": 14,
+          "lg": 21
+        },
+        {
+          "n": 0,
+          "sg": 13,
+          "lg": 21
+        },
+        {
+          "n": 0,
+          "sg": 12,
+          "lg": 21
+        },
+        {
+          "n": -1,
+          "sg": 11,
+          "lg": 21
+        },
+        {
+          "n": -2,
+          "sg": 10,
+          "lg": 21
+        }
+      ],
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 23
+        },
+        {
+          "q": 10,
+          "s": 12,
+          "l": 23
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": 23
+        },
+        {
+          "q": 4,
+          "s": 9,
+          "l": 23
+        },
+        {
+          "q": 4,
+          "s": 8,
+          "l": 22
+        },
+        {
+          "q": 3,
+          "s": 7,
+          "l": 22
+        },
+        {
+          "q": 3,
+          "s": 6,
+          "l": 22
+        },
+        {
+          "q": 2,
+          "s": 5,
+          "l": 21
+        },
+        {
+          "q": 2,
+          "s": 5,
+          "l": 21
+        },
+        {
+          "q": 1,
+          "s": 5,
+          "l": 21
+        },
+        {
+          "q": 0,
+          "s": 5,
+          "l": 20
+        },
+        {
+          "q": 0,
+          "s": 5,
+          "l": 20
+        }
+      ]
+    },
+    {
+      "id": "chi84-calvin-thomas",
+      "firstName": "Calvin",
+      "lastName": "Thomas",
+      "position": "RB",
+      "playDirection": 3,
+      "blocks": 1,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 27,
+          "lg": 37
+        },
+        {
+          "n": 9,
+          "sg": 26,
+          "lg": 36
+        },
+        {
+          "n": 8,
+          "sg": 25,
+          "lg": 35
+        },
+        {
+          "n": 6,
+          "sg": 24,
+          "lg": 34
+        },
+        {
+          "n": 5,
+          "sg": 23,
+          "lg": 33
+        },
+        {
+          "n": 4,
+          "sg": 22,
+          "lg": 32
+        },
+        {
+          "n": 3,
+          "sg": 20,
+          "lg": 31
+        },
+        {
+          "n": 2,
+          "sg": 19,
+          "lg": 30
+        },
+        {
+          "n": 1,
+          "sg": 18,
+          "lg": 29
+        },
+        {
+          "n": 0,
+          "sg": 17,
+          "lg": 28
+        },
+        {
+          "n": 0,
+          "sg": 16,
+          "lg": 27
+        },
+        {
+          "n": -2,
+          "sg": 15,
+          "lg": 26
+        }
+      ],
+      "passGain": [
+        {
+          "q": 9,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 8,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 7,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 6,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 1,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 0,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": -1,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": -2,
+          "s": null,
+          "l": null
+        }
+      ]
+    },
+    {
+      "id": "chi84-dennis-gentry",
+      "firstName": "Dennis",
+      "lastName": "Gentry",
+      "position": "RB",
+      "playDirection": 4,
+      "blocks": -1,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 21,
+          "lg": 22
+        },
+        {
+          "n": 8,
+          "sg": 20,
+          "lg": 22
+        },
+        {
+          "n": 7,
+          "sg": 19,
+          "lg": 22
+        },
+        {
+          "n": 6,
+          "sg": 18,
+          "lg": 22
+        },
+        {
+          "n": 5,
+          "sg": 17,
+          "lg": 22
+        },
+        {
+          "n": 4,
+          "sg": 16,
+          "lg": 22
+        },
+        {
+          "n": 2,
+          "sg": 15,
+          "lg": 22
+        },
+        {
+          "n": 1,
+          "sg": 14,
+          "lg": 22
+        },
+        {
+          "n": 0,
+          "sg": 13,
+          "lg": 22
+        },
+        {
+          "n": 0,
+          "sg": 12,
+          "lg": 22
+        },
+        {
+          "n": -1,
+          "sg": 11,
+          "lg": 22
+        },
+        {
+          "n": -2,
+          "sg": 10,
+          "lg": 22
+        }
+      ],
+      "passGain": [
+        {
+          "q": 6,
+          "s": 13,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": 10,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": 9,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": 8,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": 7,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": 6,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": 5,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": 5,
+          "l": null
+        },
+        {
+          "q": 1,
+          "s": 5,
+          "l": null
+        },
+        {
+          "q": 0,
+          "s": 5,
+          "l": null
+        },
+        {
+          "q": 0,
+          "s": 5,
+          "l": null
+        }
+      ]
+    },
+    {
+      "id": "chi84-tony-hutchison",
+      "firstName": "Tony",
+      "lastName": "Hutchison",
+      "position": "RB",
+      "playDirection": 4,
+      "blocks": -2,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 6,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 5,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 3,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 1,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -1,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -2,
+          "sg": 10,
+          "lg": 10
+        }
+      ],
+      "passGain": [
+        {
+          "q": 8,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 7,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 6,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 1,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 0,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": -1,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": -2,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": -3,
+          "s": null,
+          "l": null
+        }
+      ]
+    },
+    {
+      "id": "chi84-donald-jordan",
+      "firstName": "Donald",
+      "lastName": "Jordan",
+      "position": "RB",
+      "playDirection": 4,
+      "blocks": -1,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 28,
+          "lg": 29
+        },
+        {
+          "n": 12,
+          "sg": 27,
+          "lg": 29
+        },
+        {
+          "n": 11,
+          "sg": 26,
+          "lg": 29
+        },
+        {
+          "n": 10,
+          "sg": 25,
+          "lg": 29
+        },
+        {
+          "n": 9,
+          "sg": 24,
+          "lg": 29
+        },
+        {
+          "n": 8,
+          "sg": 23,
+          "lg": 29
+        },
+        {
+          "n": 7,
+          "sg": 22,
+          "lg": 29
+        },
+        {
+          "n": 6,
+          "sg": 21,
+          "lg": 29
+        },
+        {
+          "n": 5,
+          "sg": 20,
+          "lg": 29
+        },
+        {
+          "n": 3,
+          "sg": 19,
+          "lg": 29
+        },
+        {
+          "n": 0,
+          "sg": 18,
+          "lg": 29
+        },
+        {
+          "n": -2,
+          "sg": 17,
+          "lg": 29
+        }
+      ],
+      "passGain": [
+        {
+          "q": 8,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 7,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 6,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 1,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 0,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": -1,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": -2,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": -3,
+          "s": null,
+          "l": null
+        }
+      ]
+    },
+    {
+      "id": "chi84-keith-van-horne",
+      "firstName": "Keith",
+      "lastName": "Van Horne",
+      "position": "OT",
+      "runBlock": 3,
+      "passBlock": 1
+    },
+    {
+      "id": "chi84-mark-bortz",
+      "firstName": "Mark",
+      "lastName": "Bortz",
+      "position": "OG",
+      "runBlock": 3,
+      "passBlock": 1
+    },
+    {
+      "id": "chi84-jay-hilgenberg",
+      "firstName": "Jay",
+      "lastName": "Hilgenberg",
+      "position": "C",
+      "runBlock": 3,
+      "passBlock": 1
+    },
+    {
+      "id": "chi84-kurt-becker",
+      "firstName": "Kurt",
+      "lastName": "Becker",
+      "position": "OG",
+      "runBlock": 3,
+      "passBlock": 0
+    },
+    {
+      "id": "chi84-jimbo-covert",
+      "firstName": "Jimbo",
+      "lastName": "Covert",
+      "position": "OT",
+      "runBlock": 3,
+      "passBlock": 0
+    },
+    {
+      "id": "chi84-stefan-humphries",
+      "firstName": "Stefan",
+      "lastName": "Humphries",
+      "position": "OG",
+      "runBlock": 2,
+      "passBlock": 0
+    },
+    {
+      "id": "chi84-tom-norman",
+      "firstName": "Tom",
+      "lastName": "Norman",
+      "position": "OG",
+      "runBlock": 1,
+      "passBlock": 0
+    },
+    {
+      "id": "chi84-ron-fada",
+      "firstName": "Ron",
+      "lastName": "Fada",
+      "position": "OG",
+      "runBlock": 2,
+      "passBlock": 0
+    },
+    {
+      "id": "chi84-andy-frederick",
+      "firstName": "Andy",
+      "lastName": "Frederick",
+      "position": "OT",
+      "runBlock": 2,
+      "passBlock": 1
+    },
+    {
+      "id": "chi84-tom-andrews",
+      "firstName": "Tom",
+      "lastName": "Andrews",
+      "position": "C",
+      "runBlock": 1,
+      "passBlock": 1
+    },
+    {
+      "id": "chi84-mike-hartenstine",
+      "firstName": "Mike",
+      "lastName": "Hartenstine",
+      "position": "DE",
+      "tackle": -2,
+      "passRush": 3
+    },
+    {
+      "id": "chi84-richard-dent",
+      "firstName": "Richard",
+      "lastName": "Dent",
+      "position": "DE",
+      "tackle": -4,
+      "passRush": 4
+    },
+    {
+      "id": "chi84-dan-hampton",
+      "firstName": "Dan",
+      "lastName": "Hampton",
+      "position": "DT",
+      "tackle": -4,
+      "passRush": 1
+    },
+    {
+      "id": "chi84-jim-osborne",
+      "firstName": "Jim",
+      "lastName": "Osborne",
+      "position": "DT",
+      "tackle": -3,
+      "passRush": 0
+    },
+    {
+      "id": "chi84-steve-conner",
+      "firstName": "Steve",
+      "lastName": "Conner",
+      "position": "DT",
+      "tackle": 2,
+      "passRush": 1
+    },
+    {
+      "id": "chi84-steve-mcmichael",
+      "firstName": "Steve",
+      "lastName": "McMichael",
+      "position": "DT",
+      "tackle": 0,
+      "passRush": 0
+    },
+    {
+      "id": "chi84-mark-butkus",
+      "firstName": "Mark",
+      "lastName": "Butkus",
+      "position": "DT",
+      "tackle": 0,
+      "passRush": 0
+    },
+    {
+      "id": "chi84-tyrone-keys",
+      "firstName": "Tyrone",
+      "lastName": "Keys",
+      "position": "DE",
+      "tackle": 1,
+      "passRush": 0
+    },
+    {
+      "id": "chi84-shawn-newell",
+      "firstName": "Shawn",
+      "lastName": "Newell",
+      "position": "DE",
+      "tackle": -1,
+      "passRush": 0
+    },
+    {
+      "id": "chi84-mike-singletary",
+      "firstName": "Mike",
+      "lastName": "Singletary",
+      "position": "LB",
+      "tackle": -4,
+      "passRush": 2,
+      "passDefense": -1,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "chi84-otis-wilson",
+      "firstName": "Otis",
+      "lastName": "Wilson",
+      "position": "LB",
+      "tackle": -2,
+      "passRush": 2,
+      "passDefense": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "chi84-al-harris",
+      "firstName": "Al",
+      "lastName": "Harris",
+      "position": "LB",
+      "tackle": -1,
+      "passRush": 1,
+      "passDefense": 2,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "chi84-brian-cabral",
+      "firstName": "Brian",
+      "lastName": "Cabral",
+      "position": "LB",
+      "tackle": -1,
+      "passRush": 1,
+      "passDefense": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "chi84-raymond-morris",
+      "firstName": "Raymond",
+      "lastName": "Morris",
+      "position": "LB",
+      "tackle": 4,
+      "passRush": 0,
+      "passDefense": 4,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "chi84-ron-rivera",
+      "firstName": "Ron",
+      "lastName": "Rivera",
+      "position": "LB",
+      "tackle": 3,
+      "passRush": 1,
+      "passDefense": 2,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "chi84-kurt-schleim",
+      "firstName": "Kurt",
+      "lastName": "Schleim",
+      "position": "LB",
+      "tackle": 3,
+      "passRush": 0,
+      "passDefense": 2,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "chi84-wilbur-marshall",
+      "firstName": "Wilbur",
+      "lastName": "Marshall",
+      "position": "LB",
+      "tackle": 3,
+      "passRush": 0,
+      "passDefense": 3,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "chi84-dan-rains",
+      "firstName": "Dan",
+      "lastName": "Rains",
+      "position": "LB",
+      "tackle": 4,
+      "passRush": 0,
+      "passDefense": 3,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "chi84-leslie-frazier",
+      "firstName": "Leslie",
+      "lastName": "Frazier",
+      "position": "DB",
+      "passDefense": -4,
+      "passRush": 0,
+      "intercept": {
+        "from": 45,
+        "to": 48
+      },
+      "role": "CB"
+    },
+    {
+      "id": "chi84-todd-bell",
+      "firstName": "Todd",
+      "lastName": "Bell",
+      "position": "DB",
+      "passDefense": -4,
+      "passRush": 0,
+      "intercept": {
+        "from": 46,
+        "to": 48
+      },
+      "role": "S"
+    },
+    {
+      "id": "chi84-mike-richardson",
+      "firstName": "Mike",
+      "lastName": "Richardson",
+      "position": "DB",
+      "passDefense": -1,
+      "passRush": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "role": "CB"
+    },
+    {
+      "id": "chi84-gary-fencik",
+      "firstName": "Gary",
+      "lastName": "Fencik",
+      "position": "DB",
+      "passDefense": -2,
+      "passRush": 0,
+      "intercept": {
+        "from": 45,
+        "to": 48
+      },
+      "role": "S"
+    },
+    {
+      "id": "chi84-jeff-fisher",
+      "firstName": "Jeff",
+      "lastName": "Fisher",
+      "position": "DB",
+      "passDefense": 1,
+      "passRush": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "chi84-dave-duerson",
+      "firstName": "Dave",
+      "lastName": "Duerson",
+      "position": "DB",
+      "passDefense": 0,
+      "passRush": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "chi84-shaun-gayle",
+      "firstName": "Shaun",
+      "lastName": "Gayle",
+      "position": "DB",
+      "passDefense": 3,
+      "passRush": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "chi84-terry-schmidt",
+      "firstName": "Terry",
+      "lastName": "Schmidt",
+      "position": "DB",
+      "passDefense": 2,
+      "passRush": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "chi84-bob-thomas",
+      "firstName": "Bob",
+      "lastName": "Thomas",
+      "position": "K",
+      "fieldGoals": [
+        {
+          "minYards": 18,
+          "maxYards": 25,
+          "good": {
+            "from": 1,
+            "to": 43
+          }
+        },
+        {
+          "minYards": 26,
+          "maxYards": 35,
+          "good": {
+            "from": 1,
+            "to": 38
+          }
+        },
+        {
+          "minYards": 36,
+          "maxYards": 45,
+          "good": {
+            "from": 1,
+            "to": 23
+          }
+        },
+        {
+          "minYards": 46,
+          "maxYards": 50,
+          "good": {
+            "from": 1,
+            "to": 11
+          }
+        },
+        {
+          "minYards": 51,
+          "maxYards": 60,
+          "good": {
+            "from": 1,
+            "to": 1
+          }
+        }
+      ],
+      "extraPoint": {
+        "from": 1,
+        "to": 45
+      }
+    },
+    {
+      "id": "chi84-dave-finzer",
+      "firstName": "Dave",
+      "lastName": "Finzer",
+      "position": "P",
+      "punts": [
+        {
+          "yards": 59,
+          "returner": "PR1"
+        },
+        {
+          "yards": 50,
+          "returner": "PR2"
+        },
+        {
+          "yards": 46,
+          "returner": "PR3"
+        },
+        {
+          "yards": 45,
+          "returner": "PR4"
+        },
+        {
+          "yards": 43,
+          "returner": "PR1"
+        },
+        {
+          "yards": 39,
+          "returner": "PR2"
+        },
+        {
+          "yards": 37,
+          "returner": "PR1"
+        },
+        {
+          "yards": 36,
+          "returner": "FC"
+        },
+        {
+          "yards": 35,
+          "returner": "FC"
+        },
+        {
+          "yards": 30,
+          "returner": "FC"
+        },
+        {
+          "yards": 20,
+          "returner": "FC"
+        }
+      ],
+      "special": [
+        {
+          "runNumber": {
+            "from": 1,
+            "to": 1
+          },
+          "result": {
+            "type": "NO_RETURN",
+            "yards": 87
+          }
+        },
+        {
+          "runNumber": {
+            "from": 2,
+            "to": 3
+          },
+          "result": {
+            "type": "BLOCKED"
+          }
+        },
+        {
+          "runNumber": {
+            "from": 4,
+            "to": 12
+          },
+          "result": {
+            "type": "PENALTY"
+          }
+        }
+      ]
+    }
+  ],
+  "startingLineup": {
+    "offense": [
+      {
+        "listed": "QB",
+        "playerId": "chi84-jim-mcmahon"
+      },
+      {
+        "listed": "WR",
+        "playerId": "chi84-willie-gault"
+      },
+      {
+        "listed": "WR",
+        "playerId": "chi84-dennis-mckinnon"
+      },
+      {
+        "listed": "TE",
+        "playerId": "chi84-emery-moorehead"
+      },
+      {
+        "listed": "RB",
+        "playerId": "chi84-walter-payton"
+      },
+      {
+        "listed": "RB",
+        "playerId": "chi84-matt-suhey"
+      },
+      {
+        "listed": "OT",
+        "playerId": "chi84-keith-van-horne"
+      },
+      {
+        "listed": "OG",
+        "playerId": "chi84-mark-bortz"
+      },
+      {
+        "listed": "OC",
+        "playerId": "chi84-jay-hilgenberg"
+      },
+      {
+        "listed": "OG",
+        "playerId": "chi84-kurt-becker"
+      },
+      {
+        "listed": "OT",
+        "playerId": "chi84-jimbo-covert"
+      }
+    ],
+    "defenseFormation": "4-3",
+    "defense": [
+      {
+        "listed": "DE",
+        "playerId": "chi84-richard-dent"
+      },
+      {
+        "listed": "DE",
+        "playerId": "chi84-mike-hartenstine"
+      },
+      {
+        "listed": "DT",
+        "playerId": "chi84-dan-hampton"
+      },
+      {
+        "listed": "DT",
+        "playerId": "chi84-steve-mcmichael"
+      },
+      {
+        "listed": "LB",
+        "playerId": "chi84-mike-singletary"
+      },
+      {
+        "listed": "LB",
+        "playerId": "chi84-al-harris"
+      },
+      {
+        "listed": "LB",
+        "playerId": "chi84-otis-wilson"
+      },
+      {
+        "listed": "CB",
+        "playerId": "chi84-mike-richardson"
+      },
+      {
+        "listed": "CB",
+        "playerId": "chi84-leslie-frazier"
+      },
+      {
+        "listed": "DS",
+        "playerId": "chi84-todd-bell"
+      },
+      {
+        "listed": "DS",
+        "playerId": "chi84-gary-fencik"
+      }
+    ]
+  },
+  "kickReturn": {
+    "returners": {
+      "KR1": {
+        "name": "Jack Cameron",
+        "playerId": "chi84-jack-cameron"
+      },
+      "KR2": {
+        "sameAs": "KR1"
+      },
+      "KR3": {
+        "name": "Dennis Gentry",
+        "playerId": "chi84-dennis-gentry"
+      },
+      "KR4": {
+        "sameAs": "KR1"
+      }
+    },
+    "table": [
+      {
+        "KR1": {
+          "yards": 40,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 33,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 34,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 32,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 26,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 26,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 24,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 24,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 21,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 21,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 20,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 20,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 19,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 19,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 17,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 17,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 11,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 11,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 9,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 9,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 6,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 6,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 4,
+          "fumble": true,
+          "breakaway": false
+        },
+        "KR2": null,
+        "KR3": {
+          "yards": 4,
+          "fumble": true,
+          "breakaway": false
+        },
+        "KR4": null
+      }
+    ],
+    "breakaway": {
+      "KR1": null,
+      "KR2": null,
+      "KR3": null,
+      "KR4": null
+    }
+  },
+  "puntReturn": {
+    "returners": {
+      "PR1": {
+        "name": "Jeff Fisher",
+        "playerId": "chi84-jeff-fisher"
+      },
+      "PR2": {
+        "sameAs": "PR1"
+      },
+      "PR3": {
+        "sameAs": "PR1"
+      },
+      "PR4": {
+        "sameAs": "PR1"
+      }
+    },
+    "table": [
+      {
+        "PR1": {
+          "yards": 17,
+          "fumble": false,
+          "breakaway": true
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 14,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 13,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 12,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 10,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 9,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 8,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 7,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 6,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 5,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 4,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      },
+      {
+        "PR1": {
+          "yards": 3,
+          "fumble": true,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": null
+      }
+    ],
+    "breakaway": {
+      "PR1": 28,
+      "PR2": null,
+      "PR3": null,
+      "PR4": null
+    }
+  },
+  "dataNotes": [
+    "Tony Hutchison: row \"5: 410/10\": missing slash in a three-digit value",
+    "Interception ranges follow the Avalon Hill worksheet table, one rule for every season (the official 1984 cards gave one number per interception): 0-1 interceptions \"48?\", 2 \"48\", 3 \"47-48\" and so on.",
+    "Mike Singletary: tackles corrected to Minus 4; the card prints \"Plus 4\", almost certainly a lost minus sign (the other starting linebackers are Minus 2 and Minus 1, the backups Plus 3 and Plus 4)."
+  ]
+}

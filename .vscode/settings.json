@@ -1,0 +1,6 @@
+{
+  // Use the project's own TypeScript (the version Angular is built for) instead of the one bundled with VS Code,
+  // so the editor reports exactly what `npm start` and `npm test` see.
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}

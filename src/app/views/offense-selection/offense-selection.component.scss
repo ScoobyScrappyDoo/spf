@@ -1,0 +1,228 @@
+.offense-view {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px 0;
+  padding: 0;
+
+  // background: transparent;
+}
+
+/* ALL THREE MAIN ROWS (Header, Middle, Bottom) */
+.main-header,
+.middle-container,
+.tab-row {
+  width: 100%;
+  /* They all share the same width now */
+}
+
+/* panel 1 */
+.main-header {
+  height: 60px;
+  background: #2c3e50;
+  border-radius: var(--app-radius);
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+}
+
+/* THE MIDDLE SECTION: This holds the Field and Stat Card */
+.middle-container {
+  flex: 1;
+  display: grid;
+
+  /* Default: Only one column takes up all space*/
+  grid-template-columns: 1fr;
+
+  gap: 10px;
+  /* Vertical gap between field and stats */
+  min-height: 0;
+  transition: grid-template-columns 0.3s ease;
+
+  &.with-stats {
+    grid-template-columns: 1fr 400px;
+  }
+}
+
+/* panel 2 */
+.main-content {
+  flex: 1;
+  display: grid;
+  gap: 10px;
+  border-radius: var(--app-radius);
+  padding: 10px;
+
+  height: calc(100vh - 100px);
+
+  overflow: hidden; // Prevents the main page from growing
+}
+
+.left-column {
+  display: grid;
+  grid-template-rows: auto 1fr; // Board hugs top, Tabs fill the rest
+  height: 100%;
+
+  background-color: #4A76B2;
+  overflow: hidden;
+
+  border-radius: var(--app-radius);
+}
+
+.field-row {
+  background-color: #4A76B2;
+  border-radius: var(--app-radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+}
+
+.field-skeleton {
+  border-radius: var(--app-radius);
+  /* This makes the field's white border look much more modern */
+
+  display: grid;
+  grid-template-columns: repeat(9, 100px);
+  grid-auto-rows: 130px;
+  gap: 12px;
+  padding: 20px;
+  border: 2px solid white;
+  background: rgba(255, 255, 255, 0.05);
+
+  /* Very slight tint */
+  width: min-content;
+}
+
+.slot {
+  /* Use the global variable for consistency */
+  border-radius: var(--card-radius);
+
+  width: 100px;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  border: 2px solid #333;
+  border-radius: 4px;
+  font-size: 11px;
+  transition: all 0.2s ease-in-out;
+  color: #000;
+
+  /* DEFAULT COLOR: Skill players are light-brown/khaki */
+  background-color: darkkhaki;
+
+  /* SPECIFIC COLORS: These override the default */
+  &.line-man {
+    background-color: lightgray !important;
+  }
+
+  // &.core-back {
+  //   background-color: #90ee90 !important;
+  // }
+
+  /* Bright Green for RB1 */
+  &.qb-fixed {
+    background-color: darkgray !important;
+  }
+
+  /* VISIBILITY LOGIC: Use opacity to prevent the "shifting" but keep the color */
+  opacity: 0.15; // Almost invisible by default
+  pointer-events: none;
+
+  &.is-active,
+  &.line-man,
+  &.qb-fixed,
+  &.core-back {
+    opacity: 1; // Fully visible
+    pointer-events: auto;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.right-col-stats {
+  // background: red;
+  color: black;
+  padding: 20px;
+  border-left: 4px solid #4A76B2;
+}
+
+.stats-column {
+  // width: 400px;
+  /* Your fixed width */
+  // height: calc(100vh - 60px);
+  height: 100%;
+  background: white;
+  border-radius: var(--app-radius);
+  /* Lock height to the screen minus header */
+  // height: 100px !important;
+  // border-left: 2px solid #ddd;
+  // display: flex;
+  // flex-direction: column; // Stack items vertically
+  // padding: 5px;
+  // box-sizing: border-box;
+  // overflow: hidden; // Prevents the card itself from growing
+}
+
+.stats-body {
+  flex: 1; // Takes up all available middle space
+  // overflow-y: auto; // ONLY this part scrolls if stats are long
+  overflow: hidden;
+  min-height: 0; // Essential flexbox fix to allow shrinking
+  // padding-bottom: 10px;
+  padding: 5px;
+}
+
+.stats-actions {
+  flex-shrink: 0; // Ensures the button area never gets squashed
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+
+  /* Force the DevExtreme button to stay compact */
+  ::ng-deep .dx-button {
+    height: 35px; // Reduced fixed height for the button
+    width: 180px;
+  }
+}
+
+.stats-footer {
+  /* Pins the button area to the bottom */
+  flex-shrink: 0;
+  padding: 15px;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: center;
+  background: #f9f9f9;
+
+  /* Explicitly control the DevExpress Button height here */
+  ::ng-deep .dx-button {
+    height: 35px !important; // Forced height
+    width: 200px;
+  }
+}
+
+/* panel 3 */
+.tab-row {
+  /* This is the container for the Coach Desk */
+  //  height: 100%;
+  height: 25vh;
+  background-color: lightcyan;
+  border-radius: var(--app-radius);
+
+  // min-height: 0; // The magic fix that allows children to be smaller than their content
+  overflow: hidden;
+
+  /* Force DevExtreme components to occupy ONLY the 30% area */
+  ::ng-deep {
+    .dx-tabpanel,
+    .dx-tabpanel-container,
+    .dx-list {
+      height: 100% !important;
+    }
+  }
+}

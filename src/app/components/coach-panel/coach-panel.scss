@@ -1,0 +1,61 @@
+:host { display: block; color: white; }
+h2 { margin: 0 0 .45rem; text-align: center; font-weight: 400; font-size: 1.2rem; }
+h3 { margin: .1rem 0 .25rem; font-size: .85rem; font-weight: 600; opacity: .85; }
+
+.body { display: grid; grid-template-columns: 11rem 1fr; gap: 1rem; min-height: 11rem; }
+.steps { display: flex; flex-direction: column; gap: .35rem; }
+.steps button, .options button {
+  text-align: left; background: transparent; border: 1.5px solid rgba(255,255,255,.75); border-radius: 5px;
+  padding: .3rem .6rem; color: white; cursor: pointer; font-size: .9rem;
+}
+/* The play and strategy lists are long: a little tighter, so the whole column fits a 1080 screen. */
+.options button { padding: .2rem .55rem; font-size: .88rem; }
+.steps button.on { background: var(--spf-field-deep); border-color: white; color: var(--spf-line); }
+.steps button:hover:not(.on), .options button:hover:not(:disabled):not(.on) { background: rgba(255,255,255,.1); }
+
+.content { padding-right: .1rem; }
+/* Formation tiles the same size as the defense's: four to a row, all eleven in view. */
+.formations { display: grid; grid-template-columns: repeat(4, 1fr); gap: .4rem; }
+.thumb { background: var(--spf-line); border: 2px solid #1d3557; border-radius: 3px; padding: .3rem; cursor: pointer; display: grid; gap: .25rem; }
+.thumb.on { border-color: var(--spf-frame); box-shadow: 0 0 0 2px var(--spf-frame); }
+.mini { display: grid; grid-template-columns: repeat(9, 1fr); grid-template-rows: .55rem .55rem; gap: 2px; }
+.mini i { display: block; }
+.mini .line { background: #d9d9d9; }
+.mini .skill { background: var(--spf-skill); }
+.mini .qb { background: var(--spf-qb); }
+/* Small tiles: the caption may take two lines rather than be cut off. */
+.cap { font-size: .66rem; line-height: 1.15; color: #1d3557; text-align: left; font-weight: 600; }
+
+.options { list-style: none; margin: 0; padding: 0; display: grid; gap: .22rem; }
+.options li { display: flex; flex-direction: column; }
+.options button.on { background: white; color: var(--spf-field); border-color: white; }
+.options button:disabled { opacity: .4; cursor: not-allowed; }
+.options b { display: inline-block; min-width: 2.2rem; }
+small { font-size: .68rem; line-height: 1.2; opacity: .7; margin: 0 0 0 .2rem; }
+.two { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1rem; }
+.fg { margin: .4rem 0 0; font-size: .85rem; color: var(--spf-line); }
+.coffin { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem .5rem; margin-top: .4rem; font-size: .85rem; }
+.coffin > * { white-space: nowrap; }
+.coffin select { font: inherit; padding: .25rem .4rem; border-radius: 4px; border: 0; max-width: 100%; min-width: 0; }
+.yn { display: flex; }
+.yn button {
+  font: inherit; font-size: .82rem; padding: .2rem .7rem; cursor: pointer; color: white;
+  border: 1.5px solid rgba(255, 255, 255, .75); background: transparent;
+}
+.yn button:first-child { border-radius: 5px 0 0 5px; border-right-width: 0; }
+.yn button:last-child { border-radius: 0 5px 5px 0; }
+.yn button.on { background: white; color: var(--spf-field); font-weight: 600; }
+.yards { font-weight: 600; color: var(--spf-line); }
+.slider { margin-top: .35rem; }
+.slider input { width: 100%; accent-color: var(--spf-line); cursor: pointer; margin: 0; }
+.ticks { display: flex; justify-content: space-between; font-size: .72rem; opacity: .75; padding: 0 .2rem; }
+.check { display: block; font-size: .88rem; margin: .2rem 0; }
+
+.summary {
+  display: grid; grid-template-columns: 5.5rem max-content 1fr; gap: .2rem .5rem; margin: .5rem 0 0; font-size: .9rem; align-items: baseline;
+}
+.summary dt { font-weight: 700; }
+.summary dd { margin: 0; }
+.summary .code { color: var(--spf-line); }
+.column { display: flex; gap: .7rem; flex-wrap: wrap; font-variant-numeric: tabular-nums; }
+

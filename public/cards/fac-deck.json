@@ -1,0 +1,5778 @@
+[
+  {
+    "id": "F01",
+    "isZ": false,
+    "runNumber": 1,
+    "outOfBounds": false,
+    "passNumber": 1,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LG",
+          "LT"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RG",
+          "RT"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "LG"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "RG"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "BC"
+    },
+    "solitaire": [
+      "RUN_KEY_BC",
+      "RUN_KEY_BC",
+      "PASS",
+      "PREVENT_DOUBLE",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F02",
+    "isZ": false,
+    "runNumber": 1,
+    "outOfBounds": false,
+    "passNumber": 1,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LG",
+          "LT"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RG",
+          "RT"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "LG"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "RG"
+        ]
+      }
+    },
+    "endAround": -6,
+    "passes": {
+      "QK": "FL",
+      "SH": "FL",
+      "LG": "FL"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "D",
+          "penalty": 2
+        },
+        {
+          "against": "D",
+          "penalty": 2
+        },
+        {
+          "against": "R",
+          "penalty": 1
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS",
+      "BLITZ",
+      "PASS_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F03",
+    "isZ": false,
+    "runNumber": 1,
+    "outOfBounds": false,
+    "passNumber": 2,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LG",
+          "LT"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RG",
+          "RT"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "LG"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "RG"
+        ]
+      }
+    },
+    "endAround": -6,
+    "passes": {
+      "QK": "FL",
+      "SH": "FL",
+      "LG": "FL"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 2
+        },
+        {
+          "against": "O",
+          "penalty": 2
+        },
+        {
+          "against": "K",
+          "penalty": 1
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PREVENT_DOUBLE",
+      "BLITZ",
+      "PASS_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F04",
+    "isZ": false,
+    "runNumber": 1,
+    "outOfBounds": false,
+    "passNumber": 2,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LG",
+          "LT"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RG",
+          "RT"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "LG"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "RG"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "RE",
+      "SH": "RE",
+      "LG": "RE"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "RT"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS",
+      "PASS",
+      "PASS",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F05",
+    "isZ": false,
+    "runNumber": 1,
+    "outOfBounds": false,
+    "passNumber": 3,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LG",
+          "LT"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RG",
+          "RT"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "LG"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "RG"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "RE",
+      "SH": "RE",
+      "LG": "RE"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "RE"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "BLITZ",
+      "BLITZ",
+      "PASS_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F06",
+    "isZ": false,
+    "runNumber": 1,
+    "outOfBounds": false,
+    "passNumber": 3,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LG",
+          "LT"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RG",
+          "RT"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "LG"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "RG"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "BC"
+    },
+    "solitaire": [
+      "RUN_KEY_BC",
+      "RUN_KEY_BC",
+      "PASS",
+      "PREVENT_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F07",
+    "isZ": false,
+    "runNumber": 1,
+    "outOfBounds": false,
+    "passNumber": 4,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LG",
+          "LT"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RG",
+          "RT"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "LG"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "RG"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "RE",
+      "SH": "RE",
+      "LG": "RE"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "CN"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PREVENT",
+      "PREVENT_DOUBLE",
+      "PREVENT_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F08",
+    "isZ": false,
+    "runNumber": 2,
+    "outOfBounds": false,
+    "passNumber": 5,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LG",
+          "LE"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RG",
+          "RE"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "LG"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "RG"
+        ]
+      }
+    },
+    "endAround": -5,
+    "passes": {
+      "QK": "BK2",
+      "SH": "BK2",
+      "LG": "BK2"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "D",
+          "penalty": 5
+        },
+        {
+          "against": "D",
+          "penalty": 1
+        },
+        {
+          "against": "K",
+          "penalty": 1
+        },
+        {
+          "against": "K",
+          "penalty": 1
+        }
+      ]
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS",
+      "PASS_DOUBLE",
+      "PREVENT_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F09",
+    "isZ": false,
+    "runNumber": 2,
+    "outOfBounds": false,
+    "passNumber": 5,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LG",
+          "LE"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RG",
+          "RE"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "LG"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "RG"
+        ]
+      }
+    },
+    "endAround": -6,
+    "passes": {
+      "QK": "FL",
+      "SH": "FL",
+      "LG": "FL"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 5
+        },
+        {
+          "against": "O",
+          "penalty": 1
+        },
+        {
+          "against": "R",
+          "penalty": 12
+        },
+        {
+          "against": "R",
+          "penalty": 5
+        }
+      ]
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS_DOUBLE",
+      "PREVENT",
+      "PASS",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F10",
+    "isZ": false,
+    "runNumber": 2,
+    "outOfBounds": false,
+    "passNumber": 7,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LG",
+          "LE"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RG",
+          "RE"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "CN",
+          "LG"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "CN",
+          "RG"
+        ]
+      }
+    },
+    "endAround": -6,
+    "passes": {
+      "QK": "FL",
+      "SH": "FL",
+      "LG": "FL"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 2
+        },
+        {
+          "against": "D",
+          "penalty": 1
+        },
+        {
+          "against": "R",
+          "penalty": 1
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PREVENT_DOUBLE",
+      "BLITZ",
+      "PASS_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F11",
+    "isZ": false,
+    "runNumber": 3,
+    "outOfBounds": false,
+    "passNumber": 8,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "F"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "J"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "G"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "I"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "RE",
+      "SH": "RE",
+      "LG": "RE"
+    },
+    "screen": {
+      "result": "INT"
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "D"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PREVENT_DOUBLE",
+      "BLITZ",
+      "PASS_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F12",
+    "isZ": false,
+    "runNumber": 3,
+    "outOfBounds": false,
+    "passNumber": 8,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LG",
+        "box": "F"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RG",
+        "box": "J"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "H"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "H"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "LE",
+      "SH": "LE",
+      "LG": "LE"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "BC"
+    },
+    "solitaire": [
+      "RUN_KEY_BC",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F13",
+    "isZ": false,
+    "runNumber": 3,
+    "outOfBounds": false,
+    "passNumber": 9,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LG",
+        "box": "F"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RG",
+        "box": "J"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "H"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "H"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "LE",
+      "SH": "LE",
+      "LG": "LE"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "BC"
+    },
+    "solitaire": [
+      "RUN_KEY_BC",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F14",
+    "isZ": false,
+    "runNumber": 4,
+    "outOfBounds": false,
+    "passNumber": 12,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "G"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "I"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "H"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "H"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "FL",
+      "SH": "FL",
+      "LG": "FL"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "N"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS_DOUBLE",
+      "PASS",
+      "PASS",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F15",
+    "isZ": false,
+    "runNumber": 4,
+    "outOfBounds": false,
+    "passNumber": 13,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LE",
+        "box": "F"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RE",
+        "box": "J"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "C"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "C"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "LE",
+      "SH": "LE",
+      "LG": "LE"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "BC"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PREVENT",
+      "PREVENT_DOUBLE",
+      "PREVENT_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F16",
+    "isZ": false,
+    "runNumber": 4,
+    "outOfBounds": false,
+    "passNumber": 14,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LT"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RT"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "CN"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "CN"
+        ]
+      }
+    },
+    "endAround": -5,
+    "passes": {
+      "QK": "BK2",
+      "SH": "BK2",
+      "LG": "BK2"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 1
+        },
+        {
+          "against": "O",
+          "penalty": 7
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS",
+      "PASS_DOUBLE",
+      "PREVENT_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F17",
+    "isZ": false,
+    "runNumber": 4,
+    "outOfBounds": false,
+    "passNumber": 14,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LT"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RT"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "CN"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "CN"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "LE",
+      "SH": "LE",
+      "LG": "LE"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "LT"
+    },
+    "solitaire": [
+      "RUN_KEY_BC",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F18",
+    "isZ": false,
+    "runNumber": 5,
+    "outOfBounds": false,
+    "passNumber": 15,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LE",
+        "box": "F"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RE",
+        "box": "J"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "C"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "C"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "BK2",
+      "SH": "BK2",
+      "LG": "BK2"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "BC"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS_DOUBLE",
+      "PREVENT",
+      "PASS",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F19",
+    "isZ": false,
+    "runNumber": 5,
+    "outOfBounds": false,
+    "passNumber": 15,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LT"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RT"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "CN"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "CN"
+        ]
+      }
+    },
+    "endAround": -6,
+    "passes": {
+      "QK": "FL",
+      "SH": "FL",
+      "LG": "FL"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 3
+        },
+        {
+          "against": "O",
+          "penalty": 7
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS_DOUBLE",
+      "PREVENT",
+      "PASS",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F20",
+    "isZ": false,
+    "runNumber": 5,
+    "outOfBounds": false,
+    "passNumber": 16,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LE",
+        "box": "F"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RE",
+        "box": "J"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "C"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "C"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "LE",
+      "SH": "LE",
+      "LG": "LE"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "BC"
+    },
+    "solitaire": [
+      "RUN_KEY_BC",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F21",
+    "isZ": false,
+    "runNumber": 5,
+    "outOfBounds": false,
+    "passNumber": 16,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LT"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RT"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "CN"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "CN"
+        ]
+      }
+    },
+    "endAround": -5,
+    "passes": {
+      "QK": "BK2",
+      "SH": "BK2",
+      "LG": "BK2"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 7
+        },
+        {
+          "against": "D",
+          "penalty": 8
+        },
+        {
+          "against": "R",
+          "penalty": 13
+        },
+        {
+          "against": "K",
+          "penalty": 9
+        }
+      ]
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS_DOUBLE",
+      "PREVENT",
+      "PASS",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F22",
+    "isZ": false,
+    "runNumber": 5,
+    "outOfBounds": false,
+    "passNumber": 17,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LT",
+        "box": "B"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RT",
+        "box": "D"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "LG",
+        "box": "G"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "RG",
+        "box": "I"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "FL",
+      "SH": "FL",
+      "LG": "FL"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "O"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS_DOUBLE",
+      "PREVENT",
+      "PASS",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F23",
+    "isZ": false,
+    "runNumber": 5,
+    "outOfBounds": false,
+    "passNumber": 17,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LT"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RT"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "CN"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "CN"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "RE",
+      "SH": "RE",
+      "LG": "RE"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "RG"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PREVENT",
+      "PREVENT_DOUBLE",
+      "PREVENT_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F24",
+    "isZ": false,
+    "runNumber": 5,
+    "outOfBounds": false,
+    "passNumber": 18,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "BK"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "BK"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "CN"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "CN"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "BC"
+    },
+    "solitaire": [
+      "RUN_KEY_BC",
+      "RUN_KEY_BC",
+      "PASS_DOUBLE",
+      "PREVENT_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F25",
+    "isZ": false,
+    "runNumber": 5,
+    "outOfBounds": false,
+    "passNumber": 18,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LE",
+        "box": "F"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RE",
+        "box": "J"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "C"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "C"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "D",
+          "penalty": 1
+        },
+        {
+          "against": "O",
+          "penalty": 7
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F26",
+    "isZ": false,
+    "runNumber": 5,
+    "outOfBounds": false,
+    "passNumber": 19,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LT",
+        "box": "A"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RT",
+        "box": "E"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "LG",
+        "box": "B"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "RG",
+        "box": "D"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "LE",
+      "SH": "LE",
+      "LG": "LE"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "QB"
+    },
+    "solitaire": [
+      "RUN_KEY_BC",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F27",
+    "isZ": false,
+    "runNumber": 6,
+    "outOfBounds": false,
+    "passNumber": 10,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LT",
+        "box": "G"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RT",
+        "box": "I"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "I"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "G"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "D",
+          "penalty": 1
+        },
+        {
+          "against": "O",
+          "penalty": 7
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F28",
+    "isZ": false,
+    "runNumber": 6,
+    "outOfBounds": false,
+    "passNumber": 11,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LT",
+        "box": "B"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RT",
+        "box": "D"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "LG",
+        "box": "B"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "RG",
+        "box": "I"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "BK1",
+      "SH": "BK1",
+      "LG": "BK1"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "D",
+          "penalty": 1
+        },
+        {
+          "against": "D",
+          "penalty": 7
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PASS",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F29",
+    "isZ": false,
+    "runNumber": 6,
+    "outOfBounds": false,
+    "passNumber": 26,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "A"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "D"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "B"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "C"
+        ]
+      }
+    },
+    "endAround": -3,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 3
+        },
+        {
+          "against": "O",
+          "penalty": 3
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "PREVENT",
+      "RUN_NO_KEY",
+      "RUN_KEY_BC",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F30",
+    "isZ": false,
+    "runNumber": 6,
+    "outOfBounds": false,
+    "passNumber": 26,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "A"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "D"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "B"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "C"
+        ]
+      }
+    },
+    "endAround": -4,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "D",
+          "penalty": 7
+        },
+        {
+          "against": "O",
+          "penalty": 8
+        },
+        {
+          "against": "R",
+          "penalty": 13
+        },
+        {
+          "against": "K",
+          "penalty": 5
+        }
+      ]
+    },
+    "solitaire": [
+      "PASS_DOUBLE",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "PASS"
+    ]
+  },
+  {
+    "id": "F31",
+    "isZ": false,
+    "runNumber": 6,
+    "outOfBounds": false,
+    "passNumber": 27,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "G"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "I"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "H"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "H"
+      }
+    },
+    "endAround": -2,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 2
+    },
+    "z": {
+      "type": "FUMBLE",
+      "homeTeamExempt": true
+    },
+    "solitaire": [
+      "PREVENT",
+      "RUN_NO_KEY",
+      "RUN_KEY_BC",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F32",
+    "isZ": false,
+    "runNumber": 6,
+    "outOfBounds": false,
+    "passNumber": 27,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "A"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "D"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "B"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "C"
+        ]
+      }
+    },
+    "endAround": -2,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "FUMBLE",
+      "homeTeamExempt": false
+    },
+    "solitaire": [
+      "PREVENT",
+      "RUN_NO_KEY",
+      "RUN_KEY_BC",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F33",
+    "isZ": false,
+    "runNumber": 6,
+    "outOfBounds": false,
+    "passNumber": 28,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LG",
+        "box": "F"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RG",
+        "box": "J"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "H"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "H"
+      }
+    },
+    "endAround": -5,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 2
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 1
+        },
+        {
+          "against": "O",
+          "penalty": 7
+        },
+        {
+          "against": "R",
+          "penalty": 5
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F34",
+    "isZ": false,
+    "runNumber": 6,
+    "outOfBounds": false,
+    "passNumber": 28,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LE",
+        "box": "H"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RE",
+        "box": "H"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "LT",
+        "box": "G"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "RT",
+        "box": "I"
+      }
+    },
+    "endAround": -2,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 0.5
+    },
+    "z": {
+      "type": "FUMBLE",
+      "homeTeamExempt": true
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "PASS",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F35",
+    "isZ": false,
+    "runNumber": 6,
+    "outOfBounds": false,
+    "passNumber": 29,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "F"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "J"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "G"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "J"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 2
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "LE"
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F36",
+    "isZ": false,
+    "runNumber": 7,
+    "outOfBounds": false,
+    "passNumber": 21,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LE"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RE"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "BK"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "BK"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "LE",
+      "SH": "LE",
+      "LG": "LE"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "LG"
+    },
+    "solitaire": [
+      "RUN_KEY_BC",
+      "RUN_KEY_BC",
+      "PASS_DOUBLE",
+      "PREVENT_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F37",
+    "isZ": false,
+    "runNumber": 7,
+    "outOfBounds": false,
+    "passNumber": 21,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LE"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RE"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "BK"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "BK"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "LE",
+      "SH": "LE",
+      "LG": "LE"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "LG"
+    },
+    "solitaire": [
+      "RUN_KEY_BC",
+      "RUN_KEY_BC",
+      "PASS_DOUBLE",
+      "PREVENT_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F38",
+    "isZ": false,
+    "runNumber": 7,
+    "outOfBounds": false,
+    "passNumber": 22,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LT",
+        "box": "A"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RT",
+        "box": "E"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "LG",
+        "box": "B"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "RG",
+        "box": "D"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "LE",
+      "SH": "LE",
+      "LG": "LE"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "BC"
+    },
+    "solitaire": [
+      "RUN_KEY_BC",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F39",
+    "isZ": false,
+    "runNumber": 7,
+    "outOfBounds": false,
+    "passNumber": 23,
+    "runs": {
+      "SL": {
+        "kind": "break"
+      },
+      "SR": {
+        "kind": "break"
+      },
+      "IL": {
+        "kind": "break"
+      },
+      "IR": {
+        "kind": "break"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "RE",
+      "SH": "RE",
+      "LG": "RE"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "CN"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PREVENT",
+      "PREVENT_DOUBLE",
+      "PREVENT_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F40",
+    "isZ": false,
+    "runNumber": 7,
+    "outOfBounds": false,
+    "passNumber": 23,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LE"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RE"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "BK"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "BK"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "RE",
+      "SH": "RE",
+      "LG": "RE"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "RT"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PREVENT",
+      "BLITZ",
+      "PASS",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F41",
+    "isZ": false,
+    "runNumber": 7,
+    "outOfBounds": false,
+    "passNumber": 24,
+    "runs": {
+      "SL": {
+        "kind": "break"
+      },
+      "SR": {
+        "kind": "break"
+      },
+      "IL": {
+        "kind": "break"
+      },
+      "IR": {
+        "kind": "break"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "RE",
+      "SH": "RE",
+      "LG": "RE"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "RG"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PREVENT",
+      "PREVENT_DOUBLE",
+      "PREVENT_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F42",
+    "isZ": false,
+    "runNumber": 7,
+    "outOfBounds": false,
+    "passNumber": 25,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "A"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "D"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "B"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "C"
+        ]
+      }
+    },
+    "endAround": -3,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 7
+        },
+        {
+          "against": "D",
+          "penalty": 8
+        },
+        {
+          "against": "R",
+          "penalty": 13
+        },
+        {
+          "against": "K",
+          "penalty": 9
+        }
+      ]
+    },
+    "solitaire": [
+      "PREVENT",
+      "RUN_NO_KEY",
+      "RUN_KEY_BC",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F43",
+    "isZ": false,
+    "runNumber": 7,
+    "outOfBounds": false,
+    "passNumber": 25,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "A"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "D"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "B"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "C"
+        ]
+      }
+    },
+    "endAround": -1,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "FUMBLE",
+      "homeTeamExempt": false
+    },
+    "solitaire": [
+      "BLITZ",
+      "RUN_NO_KEY",
+      "RUN_KEY_BC",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F44",
+    "isZ": false,
+    "runNumber": 8,
+    "outOfBounds": false,
+    "passNumber": 29,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LT",
+        "box": "A"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RT",
+        "box": "E"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "LG",
+        "box": "B"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "RG",
+        "box": "D"
+      }
+    },
+    "endAround": -2,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 2
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 1
+        },
+        {
+          "against": "O",
+          "penalty": 1
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "PREVENT",
+      "RUN_NO_KEY",
+      "PASS",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F45",
+    "isZ": false,
+    "runNumber": 8,
+    "outOfBounds": false,
+    "passNumber": 30,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LT",
+        "box": "A"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RT",
+        "box": "E"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "LG",
+        "box": "B"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "RG",
+        "box": "D"
+      }
+    },
+    "endAround": -1,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 0.5
+    },
+    "z": {
+      "type": "FUMBLE",
+      "homeTeamExempt": true
+    },
+    "solitaire": [
+      "BLITZ",
+      "RUN_NO_KEY",
+      "RUN_KEY_BC",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F46",
+    "isZ": false,
+    "runNumber": 8,
+    "outOfBounds": false,
+    "passNumber": 31,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LT",
+        "box": "A"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RT",
+        "box": "E"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "LG",
+        "box": "B"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "RG",
+        "box": "D"
+      }
+    },
+    "endAround": -5,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 2
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 1
+        },
+        {
+          "against": "D",
+          "penalty": 5
+        },
+        {
+          "against": "K",
+          "penalty": 5
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F47",
+    "isZ": false,
+    "runNumber": 8,
+    "outOfBounds": false,
+    "passNumber": 32,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "A"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "D"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "B"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "C"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "INT"
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "E"
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F48",
+    "isZ": false,
+    "runNumber": 8,
+    "outOfBounds": false,
+    "passNumber": 32,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LE",
+        "box": "H"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RE",
+        "box": "H"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "LT",
+        "box": "G"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "RT",
+        "box": "I"
+      }
+    },
+    "endAround": -4,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 0.5
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "D",
+          "penalty": 2
+        },
+        {
+          "against": "O",
+          "penalty": 5
+        },
+        {
+          "against": "K",
+          "penalty": 5
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "PASS_DOUBLE",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F49",
+    "isZ": false,
+    "runNumber": 9,
+    "outOfBounds": false,
+    "passNumber": 33,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LE",
+        "box": "F"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RE",
+        "box": "J"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "C"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "C"
+      }
+    },
+    "endAround": -1,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 2
+    },
+    "z": {
+      "type": "FUMBLE",
+      "homeTeamExempt": true
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PASS",
+      "PASS"
+    ]
+  },
+  {
+    "id": "F50",
+    "isZ": false,
+    "runNumber": 9,
+    "outOfBounds": false,
+    "passNumber": 33,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LE",
+        "box": "F"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RE",
+        "box": "J"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "C"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "C"
+      }
+    },
+    "endAround": -4,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 2
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "D",
+          "penalty": 1
+        },
+        {
+          "against": "D",
+          "penalty": 7
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "PASS_DOUBLE",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "PREVENT_DOUBLE"
+    ]
+  },
+  {
+    "id": "F51",
+    "isZ": false,
+    "runNumber": 9,
+    "outOfBounds": false,
+    "passNumber": 34,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "B"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "E"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "C"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "D"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "G"
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F52",
+    "isZ": false,
+    "runNumber": 9,
+    "outOfBounds": false,
+    "passNumber": 35,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "B"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "E"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "C"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "D"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "F"
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F53",
+    "isZ": false,
+    "runNumber": 9,
+    "outOfBounds": false,
+    "passNumber": 36,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "B"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "E"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "C"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "D"
+        ]
+      }
+    },
+    "endAround": -2,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "FUMBLE",
+      "homeTeamExempt": true
+    },
+    "solitaire": [
+      "PREVENT",
+      "RUN_NO_KEY",
+      "PASS",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F54",
+    "isZ": false,
+    "runNumber": 9,
+    "outOfBounds": false,
+    "passNumber": 36,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LG",
+        "box": "F"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RG",
+        "box": "J"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "H"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "H"
+      }
+    },
+    "endAround": -3,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 2
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 1
+        },
+        {
+          "against": "O",
+          "penalty": 1
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "PREVENT_DOUBLE",
+      "RUN_NO_KEY",
+      "RUN_KEY_BC",
+      "PREVENT",
+      "PREVENT"
+    ]
+  },
+  {
+    "id": "F55",
+    "isZ": false,
+    "runNumber": 10,
+    "outOfBounds": false,
+    "passNumber": 37,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "B"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "E"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "C"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "D"
+        ]
+      }
+    },
+    "endAround": -2,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "FUMBLE",
+      "homeTeamExempt": true
+    },
+    "solitaire": [
+      "PREVENT",
+      "RUN_NO_KEY",
+      "PASS",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F56",
+    "isZ": false,
+    "runNumber": 10,
+    "outOfBounds": false,
+    "passNumber": 37,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LE",
+        "box": "F"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RE",
+        "box": "J"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "C"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "C"
+      }
+    },
+    "endAround": -4,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 0.5
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 1
+        },
+        {
+          "against": "O",
+          "penalty": 1
+        },
+        {
+          "against": "K",
+          "penalty": 1
+        },
+        {
+          "against": "K",
+          "penalty": 15
+        }
+      ]
+    },
+    "solitaire": [
+      "PASS_DOUBLE",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F57",
+    "isZ": false,
+    "runNumber": 10,
+    "outOfBounds": false,
+    "passNumber": 38,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "B"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "E"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "C"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "D"
+        ]
+      }
+    },
+    "endAround": -1,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "FUMBLE",
+      "homeTeamExempt": false
+    },
+    "solitaire": [
+      "BLITZ",
+      "RUN_NO_KEY",
+      "RUN_KEY_BC",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F58",
+    "isZ": false,
+    "runNumber": 10,
+    "outOfBounds": false,
+    "passNumber": 39,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "B"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "E"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "C"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "D"
+        ]
+      }
+    },
+    "endAround": -3,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 1
+        },
+        {
+          "against": "O",
+          "penalty": 1
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "PREVENT_DOUBLE",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F59",
+    "isZ": false,
+    "runNumber": 10,
+    "outOfBounds": false,
+    "passNumber": 39,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "B"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "E"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "C"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "D"
+        ]
+      }
+    },
+    "endAround": -2,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "FUMBLE",
+      "homeTeamExempt": true
+    },
+    "solitaire": [
+      "PREVENT",
+      "RUN_NO_KEY",
+      "PASS",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F60",
+    "isZ": false,
+    "runNumber": 10,
+    "outOfBounds": false,
+    "passNumber": 40,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LT",
+        "box": "B"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RT",
+        "box": "D"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "LG",
+        "box": "G"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "RG",
+        "box": "I"
+      }
+    },
+    "endAround": -2,
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 2
+    },
+    "z": {
+      "type": "FUMBLE",
+      "homeTeamExempt": true
+    },
+    "solitaire": [
+      "PREVENT",
+      "RUN_NO_KEY",
+      "PASS",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F61",
+    "isZ": false,
+    "runNumber": 11,
+    "outOfBounds": false,
+    "passNumber": 41,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "A",
+          "F"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "D",
+          "I"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "B",
+          "G"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "C",
+          "H"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 0.5
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "B"
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F62",
+    "isZ": false,
+    "runNumber": 11,
+    "outOfBounds": false,
+    "passNumber": 42,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "A",
+          "F"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "D",
+          "I"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "B",
+          "G"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "C",
+          "H"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "LE",
+      "SH": "LE",
+      "LG": "PASS_RUSH"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 0.5
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "B"
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F63",
+    "isZ": false,
+    "runNumber": 11,
+    "outOfBounds": false,
+    "passNumber": 43,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "A",
+          "F"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "D",
+          "I"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "B",
+          "G"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "C",
+          "H"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "FL",
+      "SH": "FL",
+      "LG": "PASS_RUSH"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 0.5
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "A"
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F64",
+    "isZ": false,
+    "runNumber": 11,
+    "outOfBounds": false,
+    "passNumber": 43,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "A",
+          "F"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "D",
+          "I"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "B",
+          "G"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "C",
+          "H"
+        ]
+      }
+    },
+    "endAround": -3,
+    "passes": {
+      "QK": "LE",
+      "SH": "LE",
+      "LG": "PASS_RUSH"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "D",
+          "penalty": 9
+        },
+        {
+          "against": "D",
+          "penalty": 9
+        },
+        {
+          "against": "K",
+          "penalty": 9
+        },
+        {
+          "against": "K",
+          "penalty": 15
+        }
+      ]
+    },
+    "solitaire": [
+      "PREVENT",
+      "RUN_NO_KEY",
+      "RUN_KEY_BC",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F65",
+    "isZ": false,
+    "runNumber": 11,
+    "outOfBounds": false,
+    "passNumber": 44,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "A",
+          "F"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "D",
+          "I"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "B",
+          "G"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "C",
+          "H"
+        ]
+      }
+    },
+    "endAround": -4,
+    "passes": {
+      "QK": "FL",
+      "SH": "FL",
+      "LG": "PASS_RUSH"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "D",
+          "penalty": 1
+        },
+        {
+          "against": "D",
+          "penalty": 1
+        },
+        {
+          "against": "R",
+          "penalty": 1
+        },
+        {
+          "against": "K",
+          "penalty": 15
+        }
+      ]
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "PASS_DOUBLE"
+    ]
+  },
+  {
+    "id": "F66",
+    "isZ": false,
+    "runNumber": 12,
+    "outOfBounds": false,
+    "passNumber": 45,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "B",
+          "G"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "E",
+          "J"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "C",
+          "H"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "D",
+          "I"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "FL",
+      "SH": "PASS_RUSH",
+      "LG": "PASS_RUSH"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "J"
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F67",
+    "isZ": false,
+    "runNumber": 12,
+    "outOfBounds": false,
+    "passNumber": 45,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "B",
+          "G"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "E",
+          "J"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "C",
+          "H"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "D",
+          "I"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "PASS_RUSH",
+      "SH": "PASS_RUSH",
+      "LG": "PASS_RUSH"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "H"
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F68",
+    "isZ": false,
+    "runNumber": 12,
+    "outOfBounds": false,
+    "passNumber": 46,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "B",
+          "G"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "E",
+          "J"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "C",
+          "H"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "D",
+          "I"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "LE",
+      "SH": "PASS_RUSH",
+      "LG": "PASS_RUSH"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "E"
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F69",
+    "isZ": false,
+    "runNumber": 12,
+    "outOfBounds": false,
+    "passNumber": 46,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "B",
+          "G"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "E",
+          "J"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "C",
+          "H"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "D",
+          "I"
+        ]
+      }
+    },
+    "endAround": -1,
+    "passes": {
+      "QK": "RE",
+      "SH": "PASS_RUSH",
+      "LG": "PASS_RUSH"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 0.5
+    },
+    "z": {
+      "type": "FUMBLE",
+      "homeTeamExempt": false
+    },
+    "solitaire": [
+      "PREVENT_DOUBLE",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "PASS"
+    ]
+  },
+  {
+    "id": "F70",
+    "isZ": false,
+    "runNumber": 12,
+    "outOfBounds": false,
+    "passNumber": 47,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "B",
+          "G"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "E",
+          "J"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "C",
+          "H"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "D",
+          "I"
+        ]
+      }
+    },
+    "endAround": -4,
+    "passes": {
+      "QK": "RE",
+      "SH": "PASS_RUSH",
+      "LG": "PASS_RUSH"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 3
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 1
+        },
+        {
+          "against": "O",
+          "penalty": 7
+        },
+        {
+          "against": "R",
+          "penalty": 5
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "PASS_DOUBLE",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F71",
+    "isZ": false,
+    "runNumber": 12,
+    "outOfBounds": false,
+    "passNumber": 47,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "B",
+          "G"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "E",
+          "J"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "C",
+          "H"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "D",
+          "I"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "RE",
+      "SH": "PASS_RUSH",
+      "LG": "PASS_RUSH"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "L"
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F72",
+    "isZ": false,
+    "runNumber": 12,
+    "outOfBounds": false,
+    "passNumber": 48,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "B",
+          "G"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "E",
+          "J"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "C",
+          "H"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "D",
+          "I"
+        ]
+      }
+    },
+    "endAround": -4,
+    "passes": {
+      "QK": "LE",
+      "SH": "PASS_RUSH",
+      "LG": "PASS_RUSH"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 3
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 14
+        },
+        {
+          "against": "O",
+          "penalty": 14
+        },
+        {
+          "against": "K",
+          "penalty": 14
+        },
+        {
+          "against": "R",
+          "penalty": 1
+        }
+      ]
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F73",
+    "isZ": false,
+    "runNumber": 1,
+    "outOfBounds": true,
+    "passNumber": 4,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LG",
+          "LT"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RG",
+          "RT"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "LG"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "RG"
+        ]
+      }
+    },
+    "endAround": -6,
+    "passes": {
+      "QK": "FL",
+      "SH": "FL",
+      "LG": "FL"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "D",
+          "penalty": 5
+        },
+        {
+          "against": "D",
+          "penalty": 1
+        },
+        {
+          "against": "R",
+          "penalty": 1
+        },
+        {
+          "against": "K",
+          "penalty": 1
+        }
+      ]
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS",
+      "PASS_DOUBLE",
+      "PREVENT_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F74",
+    "isZ": false,
+    "runNumber": 10,
+    "outOfBounds": true,
+    "passNumber": 38,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "B"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "E"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "C"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "D"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "I"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "RUN_KEY_BC",
+      "PASS",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F75",
+    "isZ": false,
+    "runNumber": 10,
+    "outOfBounds": true,
+    "passNumber": 40,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LE",
+        "box": "F"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RE",
+        "box": "J"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "C"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "CN",
+        "box": "C"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 0.5
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "C"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "RUN_KEY_BC",
+      "PASS",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F76",
+    "isZ": false,
+    "runNumber": 11,
+    "outOfBounds": true,
+    "passNumber": 41,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "A",
+          "F"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "D",
+          "I"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "B",
+          "G"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "C",
+          "H"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "LT"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "RUN_KEY_BC",
+      "PASS",
+      "PREVENT_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F77",
+    "isZ": false,
+    "runNumber": 11,
+    "outOfBounds": true,
+    "passNumber": 42,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "A",
+          "F"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "D",
+          "I"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "B",
+          "G"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "C",
+          "H"
+        ]
+      }
+    },
+    "endAround": -4,
+    "passes": {
+      "QK": "RE",
+      "SH": "RE",
+      "LG": "PASS_RUSH"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 3
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "D",
+          "penalty": 2
+        },
+        {
+          "against": "D",
+          "penalty": 2
+        },
+        {
+          "against": "R",
+          "penalty": 1
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "PASS_DOUBLE",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F78",
+    "isZ": false,
+    "runNumber": 11,
+    "outOfBounds": true,
+    "passNumber": 44,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "A",
+          "F"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "D",
+          "I"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "B",
+          "G"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "C",
+          "H"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "FL",
+      "SH": "FL",
+      "LG": "PASS_RUSH"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 3
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "D"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "RUN_KEY_BC",
+      "PASS",
+      "PREVENT_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F79",
+    "isZ": false,
+    "runNumber": 12,
+    "outOfBounds": true,
+    "passNumber": 48,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "B",
+          "G"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "E",
+          "J"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "C",
+          "H"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "D",
+          "I"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "PASS_RUSH",
+      "SH": "PASS_RUSH",
+      "LG": "PASS_RUSH"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "M"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PREVENT",
+      "PREVENT_DOUBLE",
+      "PREVENT_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F80",
+    "isZ": false,
+    "runNumber": 2,
+    "outOfBounds": true,
+    "passNumber": 6,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LG",
+          "LE"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RG",
+          "RE"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "CN",
+          "LG"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "CN",
+          "RG"
+        ]
+      }
+    },
+    "endAround": -3,
+    "passes": {
+      "QK": "BK1",
+      "SH": "BK1",
+      "LG": "BK1"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 1
+        },
+        {
+          "against": "O",
+          "penalty": 1
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS",
+      "PREVENT",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F81",
+    "isZ": false,
+    "runNumber": 2,
+    "outOfBounds": true,
+    "passNumber": 6,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LG",
+          "LE"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RG",
+          "RE"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "CN",
+          "LG"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "CN",
+          "RG"
+        ]
+      }
+    },
+    "endAround": -5,
+    "passes": {
+      "QK": "BK2",
+      "SH": "BK2",
+      "LG": "BK2"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 5
+        },
+        {
+          "against": "O",
+          "penalty": 1
+        },
+        {
+          "against": "K",
+          "penalty": 1
+        },
+        {
+          "against": "R",
+          "penalty": 5
+        }
+      ]
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS",
+      "PASS_DOUBLE",
+      "PREVENT_DOUBLE",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F82",
+    "isZ": false,
+    "runNumber": 3,
+    "outOfBounds": true,
+    "passNumber": 7,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LG"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "CN",
+          "RG"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "CN",
+          "LG"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "RG"
+        ]
+      }
+    },
+    "endAround": -6,
+    "passes": {
+      "QK": "FL",
+      "SH": "FL",
+      "LG": "FL"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 2
+        },
+        {
+          "against": "O",
+          "penalty": 2
+        },
+        {
+          "against": "K",
+          "penalty": 1
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS",
+      "PREVENT",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F83",
+    "isZ": false,
+    "runNumber": 3,
+    "outOfBounds": true,
+    "passNumber": 9,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LT",
+        "box": "G"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RT",
+        "box": "I"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "I"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "BK",
+        "box": "G"
+      }
+    },
+    "endAround": -1,
+    "passes": {
+      "QK": "BK1",
+      "SH": "BK1",
+      "LG": "BK1"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "FUMBLE",
+      "homeTeamExempt": false
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS",
+      "PREVENT",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F84",
+    "isZ": false,
+    "runNumber": 4,
+    "outOfBounds": true,
+    "passNumber": 12,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LG"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RG"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "LT"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "RT"
+        ]
+      }
+    },
+    "endAround": -6,
+    "passes": {
+      "QK": "BK2",
+      "SH": "BK2",
+      "LG": "BK2"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "D",
+          "penalty": 1
+        },
+        {
+          "against": "O",
+          "penalty": 7
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS",
+      "PREVENT",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F85",
+    "isZ": false,
+    "runNumber": 4,
+    "outOfBounds": true,
+    "passNumber": 13,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LT"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RT"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "LT"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "RT"
+        ]
+      }
+    },
+    "endAround": -1,
+    "passes": {
+      "QK": "BK1",
+      "SH": "BK1",
+      "LG": "BK1"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "FUMBLE",
+      "homeTeamExempt": false
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS",
+      "PREVENT",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F86",
+    "isZ": false,
+    "runNumber": 5,
+    "outOfBounds": true,
+    "passNumber": 19,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LT",
+        "box": "A"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RT",
+        "box": "E"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "LG",
+        "box": "B"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "RG",
+        "box": "D"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 4
+        },
+        {
+          "against": "O",
+          "penalty": 4
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        },
+        {
+          "against": "R",
+          "penalty": 11
+        }
+      ]
+    },
+    "solitaire": [
+      "PASS",
+      "RUN_NO_KEY",
+      "RUN_NO_KEY",
+      "PREVENT",
+      "RUN_KEY_BC"
+    ]
+  },
+  {
+    "id": "F87",
+    "isZ": false,
+    "runNumber": 5,
+    "outOfBounds": true,
+    "passNumber": 20,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LT",
+        "box": "A"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RT",
+        "box": "E"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "LG",
+        "box": "B"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "RG",
+        "box": "D"
+      }
+    },
+    "endAround": -1,
+    "passes": {
+      "QK": "BK1",
+      "SH": "BK1",
+      "LG": "BK1"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "FUMBLE",
+      "homeTeamExempt": false
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS",
+      "PREVENT",
+      "PASS",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F88",
+    "isZ": false,
+    "runNumber": 5,
+    "outOfBounds": true,
+    "passNumber": 20,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "BK"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "BK"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "BK"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "BK"
+        ]
+      }
+    },
+    "endAround": -5,
+    "passes": {
+      "QK": "BK1",
+      "SH": "BK1",
+      "LG": "BK1"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "D",
+          "penalty": 7
+        },
+        {
+          "against": "D",
+          "penalty": 8
+        },
+        {
+          "against": "R",
+          "penalty": 13
+        },
+        {
+          "against": "K",
+          "penalty": 5
+        }
+      ]
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS",
+      "PREVENT",
+      "RUN_KEY_BC",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F89",
+    "isZ": false,
+    "runNumber": 6,
+    "outOfBounds": true,
+    "passNumber": 10,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LG"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RG"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "LT"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "RT"
+        ]
+      }
+    },
+    "endAround": -3,
+    "passes": {
+      "QK": "BK1",
+      "SH": "BK1",
+      "LG": "BK1"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "D",
+          "penalty": 1
+        },
+        {
+          "against": "D",
+          "penalty": 1
+        },
+        {
+          "against": "K",
+          "penalty": 9
+        },
+        {
+          "against": "K",
+          "penalty": 9
+        }
+      ]
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS",
+      "PREVENT",
+      "PASS",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F90",
+    "isZ": false,
+    "runNumber": 6,
+    "outOfBounds": true,
+    "passNumber": 11,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LG"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RG"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "LT"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "RT"
+        ]
+      }
+    },
+    "endAround": -3,
+    "passes": {
+      "QK": "BK1",
+      "SH": "BK1",
+      "LG": "BK1"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "D",
+          "penalty": 1
+        },
+        {
+          "against": "D",
+          "penalty": 1
+        },
+        {
+          "against": "K",
+          "penalty": 9
+        },
+        {
+          "against": "K",
+          "penalty": 9
+        }
+      ]
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS",
+      "PREVENT",
+      "PASS",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F91",
+    "isZ": false,
+    "runNumber": 7,
+    "outOfBounds": true,
+    "passNumber": 22,
+    "runs": {
+      "SL": {
+        "kind": "blockers",
+        "players": [
+          "LE"
+        ]
+      },
+      "SR": {
+        "kind": "blockers",
+        "players": [
+          "RE"
+        ]
+      },
+      "IL": {
+        "kind": "blockers",
+        "players": [
+          "BK"
+        ]
+      },
+      "IR": {
+        "kind": "blockers",
+        "players": [
+          "BK"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "RE",
+      "SH": "RE",
+      "LG": "RE"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "RE"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS",
+      "PASS",
+      "PASS",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F92",
+    "isZ": false,
+    "runNumber": 7,
+    "outOfBounds": true,
+    "passNumber": 24,
+    "runs": {
+      "SL": {
+        "kind": "break"
+      },
+      "SR": {
+        "kind": "break"
+      },
+      "IL": {
+        "kind": "break"
+      },
+      "IR": {
+        "kind": "break"
+      }
+    },
+    "endAround": -5,
+    "passes": {
+      "QK": "BK2",
+      "SH": "BK2",
+      "LG": "BK2"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "PENALTY",
+      "byCategory": [
+        {
+          "against": "O",
+          "penalty": 6
+        },
+        {
+          "against": "O",
+          "penalty": 10
+        },
+        {
+          "against": "K",
+          "penalty": 9
+        },
+        {
+          "against": "K",
+          "penalty": 9
+        }
+      ]
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "PASS",
+      "PREVENT",
+      "PASS",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F93",
+    "isZ": false,
+    "runNumber": 8,
+    "outOfBounds": true,
+    "passNumber": 30,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "A"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "D"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "B"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "C"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "INC"
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "K"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "RUN_KEY_BC",
+      "PASS",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F94",
+    "isZ": false,
+    "runNumber": 8,
+    "outOfBounds": true,
+    "passNumber": 31,
+    "runs": {
+      "SL": {
+        "kind": "boxes",
+        "boxes": [
+          "A"
+        ]
+      },
+      "SR": {
+        "kind": "boxes",
+        "boxes": [
+          "D"
+        ]
+      },
+      "IL": {
+        "kind": "boxes",
+        "boxes": [
+          "B"
+        ]
+      },
+      "IR": {
+        "kind": "boxes",
+        "boxes": [
+          "C"
+        ]
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 1
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "LE"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "RUN_KEY_BC",
+      "PASS",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F95",
+    "isZ": false,
+    "runNumber": 9,
+    "outOfBounds": true,
+    "passNumber": 34,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LT",
+        "box": "B"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RT",
+        "box": "D"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "LG",
+        "box": "G"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "RG",
+        "box": "I"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 2
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "A"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "RUN_KEY_BC",
+      "PASS",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "F96",
+    "isZ": false,
+    "runNumber": 9,
+    "outOfBounds": true,
+    "passNumber": 35,
+    "runs": {
+      "SL": {
+        "kind": "matchup",
+        "blocker": "LT",
+        "box": "A"
+      },
+      "SR": {
+        "kind": "matchup",
+        "blocker": "RT",
+        "box": "E"
+      },
+      "IL": {
+        "kind": "matchup",
+        "blocker": "LG",
+        "box": "B"
+      },
+      "IR": {
+        "kind": "matchup",
+        "blocker": "RG",
+        "box": "D"
+      }
+    },
+    "endAround": "OK",
+    "passes": {
+      "QK": "ORIG",
+      "SH": "ORIG",
+      "LG": "ORIG"
+    },
+    "screen": {
+      "result": "COM",
+      "multiplier": 0.5
+    },
+    "z": {
+      "type": "INJURY",
+      "target": "C"
+    },
+    "solitaire": [
+      "RUN_NO_KEY",
+      "RUN_KEY_BC",
+      "PASS",
+      "BLITZ",
+      "RUN_NO_KEY"
+    ]
+  },
+  {
+    "id": "Z01",
+    "isZ": true
+  },
+  {
+    "id": "Z02",
+    "isZ": true
+  },
+  {
+    "id": "Z03",
+    "isZ": true
+  },
+  {
+    "id": "Z04",
+    "isZ": true
+  },
+  {
+    "id": "Z05",
+    "isZ": true
+  },
+  {
+    "id": "Z06",
+    "isZ": true
+  },
+  {
+    "id": "Z07",
+    "isZ": true
+  },
+  {
+    "id": "Z08",
+    "isZ": true
+  },
+  {
+    "id": "Z09",
+    "isZ": true
+  },
+  {
+    "id": "Z10",
+    "isZ": true
+  },
+  {
+    "id": "Z11",
+    "isZ": true
+  },
+  {
+    "id": "Z12",
+    "isZ": true
+  },
+  {
+    "id": "Z13",
+    "isZ": true
+  }
+]

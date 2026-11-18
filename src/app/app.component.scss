@@ -1,0 +1,32 @@
+.dashboard-container {
+  padding: 40px;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.tile-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 150px); // 4 columns of 150px
+  grid-auto-rows: 150px;
+  gap: 10px;
+}
+
+.tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+
+  &:hover {
+    transform: scale(0.98); // Slight press effect like WPF
+    filter: brightness(1.1);
+  }
+
+  &.small { grid-column: span 1; grid-row: span 1; }
+  &.large { grid-column: span 2; grid-row: span 1; }
+}

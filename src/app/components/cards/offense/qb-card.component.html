@@ -1,0 +1,48 @@
+<div class="qb-card-container">
+  <div class="card-header">
+    <h3>{{ player.name }} {{ player.surname }}</h3>
+    <span class="pos-badge">{{ player.position }}</span>
+  </div>
+
+  <div class="endurance-meter">
+    <dx-linear-gauge [value]="80" [subvalues]="[20, 50, 80]">
+       </dx-linear-gauge>
+  </div>
+
+  <div class="passing-grid">
+    <div class="pass-row"><strong>Quick:</strong> {{ player.passQuick.com }}</div>
+    <div class="pass-row"><strong>Short:</strong> {{ player.passShort.com }}</div>
+    <div class="pass-row"><strong>Long:</strong> {{ player.passLong.com }}</div>
+  </div>
+
+  <div class="pass-rush-section">
+    <h4>Pass Rush</h4>
+    <div>Sack: {{ player.passRush.sack.min }}-{{ player.passRush.sack.max }}</div>
+    <div>Runs: {{ player.passRush.runs.min }}-{{ player.passRush.runs.max }}</div>
+  </div>
+
+  <div class="player-card glass-panel">
+  <div class="pass-rush-viz">
+    <label>Pass Rush Risk</label>
+    
+    <dx-linear-gauge
+      [value]="player.passRush.sack.max" 
+      >
+      
+      <dxo-scale
+        [startValue]="1"
+        [endValue]="48"
+        [tickInterval]="12">
+      </dxo-scale>
+
+      <dxo-range-container>
+        <dxi-range [startValue]="1" [endValue]="player.passRush.sack.max" color="#ff4d4d"></dxi-range>
+        <dxi-range [startValue]="player.passRush.sack.max" [endValue]="48" color="rgba(255,255,255,0.3)"></dxi-range>
+      </dxo-range-container>
+
+      <dxo-value-indicator type="rangebar" color="#ff4d4d"></dxo-value-indicator>
+    </dx-linear-gauge>
+  </div>
+</div>
+
+</div>

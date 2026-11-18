@@ -1,0 +1,63 @@
+:host { display: block; min-height: 100vh; min-width: var(--page-min-width); background: var(--page-stats); }
+main { padding: 1.4rem 1.6rem 2rem; display: grid; gap: .8rem; max-width: 90rem; }
+.frame { border: 6px solid var(--spf-frame); border-radius: var(--radius-panel); padding: .8rem 1.1rem; color: white; }
+h2 { margin: 0 0 .5rem; font-weight: 400; font-size: 1.2rem; }
+h3 { margin: .9rem 0 .25rem; font-size: .95rem; color: #ffd27a; }
+h3:first-of-type { margin-top: .2rem; }
+
+table { width: 100%; border-collapse: collapse; font-size: .88rem; font-variant-numeric: tabular-nums; }
+th, td { padding: .25rem .4rem; border-bottom: 1px solid rgba(255, 255, 255, .15); text-align: right; }
+th:first-child, td:first-child { text-align: left; }
+thead th { font-weight: 600; opacity: .8; border-bottom-color: rgba(255, 255, 255, .4); }
+.pos { opacity: .65; font-size: .8rem; }
+.none { margin: 0; opacity: .8; font-size: .9rem; }
+
+/* The team comparison: away | stat | home, like a box score. */
+/* Three even columns: each team's numbers centred under its name, the labels in the middle. */
+.team { max-width: 44rem; margin: 0 auto; font-size: .95rem; table-layout: fixed; }
+.team th, .team td { text-align: center !important; }
+.team thead th:nth-child(1), .team thead th:nth-child(3) { width: 32%; }
+.team td.num:first-child, .team td.num:last-child, .team thead th.num:first-child, .team thead th.num:last-child { text-align: center; }
+.team th, .team td { white-space: nowrap; }
+.team th[scope='row'] { text-align: center; font-weight: 400; opacity: .9; }
+.team td.num:first-child { text-align: left; }
+.team td.num:last-child, .team thead th.num:last-child { text-align: right; }
+.team thead th.num:first-child { text-align: left; }
+/* Team headings: the full name stands out; "(away)" / "(home)" keeps the old heading look. */
+.team .names th { vertical-align: bottom; opacity: 1; }
+.team .names .full { display: block; font-size: 1.3rem; font-weight: 700; color: white; }
+.team .names .side { display: block; font-weight: 600; opacity: .8; }
+.team .score td { font-size: 1.4rem; font-weight: 700; text-align: center; }
+.team .score td.num:first-child { text-align: left; }
+.team .score td.num:last-child { text-align: right; }
+.team .sub th[scope='row'] { font-size: .82rem; opacity: .7; }
+.team .sub td { font-size: .82rem; opacity: .75; }
+
+.top { display: flex; align-items: center; justify-content: space-between; gap: 1rem; color: white; }
+.score { margin: 0; font-size: 1.05rem; }
+.score b { font-size: 1.3rem; margin: 0 .25rem; }
+.dash { opacity: .6; }
+.tabs { display: flex; gap: 2px; }
+.tabs button {
+  font: inherit; font-size: .95rem; padding: .45rem 1rem; cursor: pointer; border: 0; color: white;
+  background: rgba(255, 255, 255, .14);
+}
+.tabs button:first-child { border-radius: 5px 0 0 5px; }
+.tabs button:last-child { border-radius: 0 5px 5px 0; }
+.tabs button.on { background: white; color: var(--page-stats); font-weight: 600; }
+.tabs button:hover:not(.on) { background: rgba(255, 255, 255, .24); }
+
+.players { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; align-items: start; }
+
+/* The defense table has the most columns: names stay on one line, the numbers get tighter. */
+table.defense td:first-child { white-space: nowrap; }
+table.defense th:not(:first-child), table.defense td:not(:first-child) { padding-left: .3rem; padding-right: .3rem; }
+
+/* NFL-style tables: the team's totals under a line */
+table.box tfoot td { border-top: 2px solid currentColor; font-weight: 700; padding-top: .3rem; }
+/* A fixed layout: the name column has one width on both sides (a long name ends in "…" rather than pushing the
+   numbers), and the number columns share the rest equally, so the two teams' tables line up exactly. */
+table.box { table-layout: fixed; width: 100%; }
+table.box th:first-child { width: 11.5rem; }
+table.box th + th { padding-left: .5rem; }
+table.box tbody td:first-child, table.box tfoot td:first-child { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }

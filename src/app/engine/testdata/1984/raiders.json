@@ -1,0 +1,2745 @@
+{
+  "id": "1984-raiders",
+  "year": 1984,
+  "name": "Los Angeles Raiders",
+  "shortName": "Raiders",
+  "abbreviation": "RAI",
+  "division": "AFC West",
+  "coach": "Tom Flores",
+  "record": "11-5",
+  "bigPlays": {
+    "home": 1,
+    "road": 1
+  },
+  "fumblesLost": {
+    "from": 1,
+    "to": 23
+  },
+  "players": [
+    {
+      "id": "rai84-marc-wilson",
+      "firstName": "Marc",
+      "lastName": "Wilson",
+      "jersey": 1,
+      "position": "QB",
+      "endurance": "A",
+      "passing": {
+        "quick": {
+          "com": {
+            "from": 1,
+            "to": 34
+          },
+          "inc": {
+            "from": 35,
+            "to": 47
+          },
+          "int": {
+            "from": 48,
+            "to": 48
+          }
+        },
+        "short": {
+          "com": {
+            "from": 1,
+            "to": 26
+          },
+          "inc": {
+            "from": 27,
+            "to": 45
+          },
+          "int": {
+            "from": 46,
+            "to": 48
+          }
+        },
+        "long": {
+          "com": {
+            "from": 1,
+            "to": 19
+          },
+          "inc": {
+            "from": 20,
+            "to": 42
+          },
+          "int": {
+            "from": 43,
+            "to": 48
+          }
+        }
+      },
+      "passRush": {
+        "sack": {
+          "from": 1,
+          "to": 14
+        },
+        "runs": {
+          "from": 15,
+          "to": 30
+        },
+        "com": {
+          "from": 31,
+          "to": 41
+        },
+        "inc": {
+          "from": 42,
+          "to": 48
+        }
+      },
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 14,
+          "lg": 14
+        },
+        {
+          "n": 4,
+          "sg": 14,
+          "lg": 14
+        },
+        {
+          "n": 4,
+          "sg": 14,
+          "lg": 14
+        },
+        {
+          "n": 3,
+          "sg": 14,
+          "lg": 14
+        },
+        {
+          "n": 2,
+          "sg": 14,
+          "lg": 14
+        },
+        {
+          "n": 2,
+          "sg": 14,
+          "lg": 14
+        },
+        {
+          "n": 1,
+          "sg": 14,
+          "lg": 14
+        },
+        {
+          "n": 0,
+          "sg": 14,
+          "lg": 14
+        },
+        {
+          "n": -1,
+          "sg": 14,
+          "lg": 14
+        },
+        {
+          "n": -2,
+          "sg": 14,
+          "lg": 14
+        },
+        {
+          "n": -3,
+          "sg": 14,
+          "lg": 14
+        },
+        {
+          "n": -4,
+          "sg": 14,
+          "lg": 14
+        }
+      ]
+    },
+    {
+      "id": "rai84-jim-plunkett",
+      "firstName": "Jim",
+      "lastName": "Plunkett",
+      "jersey": 1,
+      "position": "QB",
+      "endurance": "B",
+      "passing": {
+        "quick": {
+          "com": {
+            "from": 1,
+            "to": 34
+          },
+          "inc": {
+            "from": 35,
+            "to": 47
+          },
+          "int": {
+            "from": 48,
+            "to": 48
+          }
+        },
+        "short": {
+          "com": {
+            "from": 1,
+            "to": 26
+          },
+          "inc": {
+            "from": 27,
+            "to": 45
+          },
+          "int": {
+            "from": 46,
+            "to": 48
+          }
+        },
+        "long": {
+          "com": {
+            "from": 1,
+            "to": 18
+          },
+          "inc": {
+            "from": 19,
+            "to": 43
+          },
+          "int": {
+            "from": 44,
+            "to": 48
+          }
+        }
+      },
+      "passRush": {
+        "sack": {
+          "from": 1,
+          "to": 15
+        },
+        "runs": {
+          "from": 16,
+          "to": 30
+        },
+        "com": {
+          "from": 31,
+          "to": 41
+        },
+        "inc": {
+          "from": 42,
+          "to": 48
+        }
+      },
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 3,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 1,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -1,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -3,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -5,
+          "sg": 10,
+          "lg": 10
+        }
+      ]
+    },
+    {
+      "id": "rai84-david-humm",
+      "firstName": "David",
+      "lastName": "Humm",
+      "jersey": 1,
+      "position": "QB",
+      "endurance": "C",
+      "passing": {
+        "quick": {
+          "com": {
+            "from": 1,
+            "to": 35
+          },
+          "inc": {
+            "from": 36,
+            "to": 45
+          },
+          "int": {
+            "from": 46,
+            "to": 48
+          }
+        },
+        "short": {
+          "com": {
+            "from": 1,
+            "to": 27
+          },
+          "inc": {
+            "from": 28,
+            "to": 41
+          },
+          "int": {
+            "from": 42,
+            "to": 48
+          }
+        },
+        "long": {
+          "com": {
+            "from": 1,
+            "to": 8
+          },
+          "inc": {
+            "from": 9,
+            "to": 35
+          },
+          "int": {
+            "from": 36,
+            "to": 48
+          }
+        }
+      },
+      "passRush": {
+        "sack": {
+          "from": 1,
+          "to": 17
+        },
+        "runs": {
+          "from": 18,
+          "to": 30
+        },
+        "com": {
+          "from": 31,
+          "to": 41
+        },
+        "inc": {
+          "from": 42,
+          "to": 48
+        }
+      },
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 8,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 7,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 5,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 3,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 1,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -1,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -2,
+          "sg": 10,
+          "lg": 10
+        }
+      ]
+    },
+    {
+      "id": "rai84-malcolm-barnwell",
+      "firstName": "Malcolm",
+      "lastName": "Barnwell",
+      "jersey": 1,
+      "position": "WR",
+      "playDirection": 2,
+      "blocks": -3,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 51
+        },
+        {
+          "q": 19,
+          "s": 23,
+          "l": 45
+        },
+        {
+          "q": 12,
+          "s": 22,
+          "l": 38
+        },
+        {
+          "q": 10,
+          "s": 21,
+          "l": 33
+        },
+        {
+          "q": 10,
+          "s": 20,
+          "l": 30
+        },
+        {
+          "q": 9,
+          "s": 19,
+          "l": 27
+        },
+        {
+          "q": 9,
+          "s": 18,
+          "l": 24
+        },
+        {
+          "q": 8,
+          "s": 17,
+          "l": 23
+        },
+        {
+          "q": 8,
+          "s": 16,
+          "l": 22
+        },
+        {
+          "q": 7,
+          "s": 15,
+          "l": 22
+        },
+        {
+          "q": 7,
+          "s": 14,
+          "l": 20
+        },
+        {
+          "q": 6,
+          "s": 13,
+          "l": 20
+        }
+      ]
+    },
+    {
+      "id": "rai84-dokie-williams",
+      "firstName": "Dokie",
+      "lastName": "Williams",
+      "jersey": 1,
+      "position": "WR",
+      "playDirection": 3,
+      "blocks": -3,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 75
+        },
+        {
+          "q": 19,
+          "s": 26,
+          "l": 61
+        },
+        {
+          "q": 13,
+          "s": 25,
+          "l": 53
+        },
+        {
+          "q": 12,
+          "s": 24,
+          "l": 46
+        },
+        {
+          "q": 12,
+          "s": 23,
+          "l": 38
+        },
+        {
+          "q": 11,
+          "s": 22,
+          "l": 33
+        },
+        {
+          "q": 11,
+          "s": 21,
+          "l": 30
+        },
+        {
+          "q": 10,
+          "s": 20,
+          "l": 25
+        },
+        {
+          "q": 10,
+          "s": 19,
+          "l": 20
+        },
+        {
+          "q": 9,
+          "s": 18,
+          "l": "INC"
+        },
+        {
+          "q": 9,
+          "s": 17,
+          "l": "INC"
+        },
+        {
+          "q": 8,
+          "s": 16,
+          "l": "INC"
+        }
+      ]
+    },
+    {
+      "id": "rai84-cliff-branch",
+      "firstName": "Cliff",
+      "lastName": "Branch",
+      "jersey": 1,
+      "position": "WR",
+      "playDirection": 3,
+      "blocks": -3,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 47
+        },
+        {
+          "q": 15,
+          "s": 19,
+          "l": 38
+        },
+        {
+          "q": 9,
+          "s": 18,
+          "l": 35
+        },
+        {
+          "q": 9,
+          "s": 17,
+          "l": 30
+        },
+        {
+          "q": 8,
+          "s": 16,
+          "l": 26
+        },
+        {
+          "q": 8,
+          "s": 15,
+          "l": 25
+        },
+        {
+          "q": 7,
+          "s": 14,
+          "l": 24
+        },
+        {
+          "q": 7,
+          "s": 13,
+          "l": 23
+        },
+        {
+          "q": 6,
+          "s": 12,
+          "l": 22
+        },
+        {
+          "q": 6,
+          "s": 11,
+          "l": 21
+        },
+        {
+          "q": 5,
+          "s": 10,
+          "l": 20
+        },
+        {
+          "q": 5,
+          "s": 9,
+          "l": 20
+        }
+      ]
+    },
+    {
+      "id": "rai84-sam-seale",
+      "firstName": "Sam",
+      "lastName": "Seale",
+      "jersey": 1,
+      "position": "WR",
+      "playDirection": 4,
+      "blocks": -3,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": 15,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 12,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 11,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 8,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 6,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 1,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 0,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 0,
+          "s": null,
+          "l": null
+        }
+      ]
+    },
+    {
+      "id": "rai84-cle-montgomery",
+      "firstName": "Cle",
+      "lastName": "Montgomery",
+      "jersey": 1,
+      "position": "WR",
+      "playDirection": 4,
+      "blocks": -3,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": 12,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 11,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 10,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 9,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 8,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 7,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 6,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 1,
+          "s": null,
+          "l": null
+        }
+      ]
+    },
+    {
+      "id": "rai84-todd-christensen",
+      "firstName": "Todd",
+      "lastName": "Christensen",
+      "jersey": 1,
+      "position": "TE",
+      "playDirection": 0,
+      "blocks": 3,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": 38
+        },
+        {
+          "q": 13,
+          "s": 17,
+          "l": 24
+        },
+        {
+          "q": 8,
+          "s": 16,
+          "l": 31
+        },
+        {
+          "q": 7,
+          "s": 15,
+          "l": 28
+        },
+        {
+          "q": 7,
+          "s": 14,
+          "l": 26
+        },
+        {
+          "q": 6,
+          "s": 13,
+          "l": 25
+        },
+        {
+          "q": 6,
+          "s": 12,
+          "l": 24
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": 23
+        },
+        {
+          "q": 5,
+          "s": 10,
+          "l": 22
+        },
+        {
+          "q": 4,
+          "s": 9,
+          "l": 21
+        },
+        {
+          "q": 4,
+          "s": 8,
+          "l": 20
+        },
+        {
+          "q": 3,
+          "s": 7,
+          "l": 20
+        }
+      ]
+    },
+    {
+      "id": "rai84-derrick-jensen",
+      "firstName": "Derrick",
+      "lastName": "Jensen",
+      "jersey": 1,
+      "position": "TE",
+      "playDirection": 3,
+      "blocks": 1,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 3,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 1,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -1,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -3,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -5,
+          "sg": 10,
+          "lg": 10
+        }
+      ],
+      "passGain": [
+        {
+          "q": 8,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 7,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 6,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 1,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 0,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": -1,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": -2,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": -3,
+          "s": null,
+          "l": null
+        }
+      ]
+    },
+    {
+      "id": "rai84-dave-casper",
+      "firstName": "Dave",
+      "lastName": "Casper",
+      "jersey": 1,
+      "position": "TE",
+      "playDirection": 4,
+      "blocks": 1,
+      "rushing": null,
+      "passGain": [
+        {
+          "q": 7,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 6,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 1,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 1,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 0,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": -1,
+          "s": null,
+          "l": null
+        }
+      ]
+    },
+    {
+      "id": "rai84-marcus-allen",
+      "firstName": "Marcus",
+      "lastName": "Allen",
+      "jersey": 1,
+      "position": "RB",
+      "playDirection": 0,
+      "blocks": -2,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 21,
+          "lg": 52
+        },
+        {
+          "n": 9,
+          "sg": 20,
+          "lg": 43
+        },
+        {
+          "n": 7,
+          "sg": 19,
+          "lg": 35
+        },
+        {
+          "n": 6,
+          "sg": 18,
+          "lg": 31
+        },
+        {
+          "n": 5,
+          "sg": 17,
+          "lg": 29
+        },
+        {
+          "n": 4,
+          "sg": 16,
+          "lg": 28
+        },
+        {
+          "n": 3,
+          "sg": 15,
+          "lg": 27
+        },
+        {
+          "n": 2,
+          "sg": 14,
+          "lg": 26
+        },
+        {
+          "n": 1,
+          "sg": 13,
+          "lg": 25
+        },
+        {
+          "n": 0,
+          "sg": 12,
+          "lg": 24
+        },
+        {
+          "n": 0,
+          "sg": 11,
+          "lg": 23
+        },
+        {
+          "n": -2,
+          "sg": 10,
+          "lg": 22
+        }
+      ],
+      "passGain": [
+        {
+          "q": "LG",
+          "s": "LG",
+          "l": "TD"
+        },
+        {
+          "q": 12,
+          "s": 16,
+          "l": 65
+        },
+        {
+          "q": 7,
+          "s": 15,
+          "l": 53
+        },
+        {
+          "q": 7,
+          "s": 14,
+          "l": 42
+        },
+        {
+          "q": 6,
+          "s": 13,
+          "l": 35
+        },
+        {
+          "q": 6,
+          "s": 12,
+          "l": 28
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": 24
+        },
+        {
+          "q": 5,
+          "s": 10,
+          "l": 23
+        },
+        {
+          "q": 4,
+          "s": 9,
+          "l": 22
+        },
+        {
+          "q": 4,
+          "s": 8,
+          "l": 21
+        },
+        {
+          "q": 3,
+          "s": 7,
+          "l": 20
+        },
+        {
+          "q": 3,
+          "s": 6,
+          "l": 20
+        }
+      ]
+    },
+    {
+      "id": "rai84-kenny-king",
+      "firstName": "Kenny",
+      "lastName": "King",
+      "jersey": 1,
+      "position": "RB",
+      "playDirection": 3,
+      "blocks": 1,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 18,
+          "lg": 18
+        },
+        {
+          "n": 8,
+          "sg": 17,
+          "lg": 18
+        },
+        {
+          "n": 7,
+          "sg": 16,
+          "lg": 18
+        },
+        {
+          "n": 6,
+          "sg": 15,
+          "lg": 18
+        },
+        {
+          "n": 5,
+          "sg": 14,
+          "lg": 18
+        },
+        {
+          "n": 4,
+          "sg": 13,
+          "lg": 18
+        },
+        {
+          "n": 3,
+          "sg": 12,
+          "lg": 18
+        },
+        {
+          "n": 2,
+          "sg": 11,
+          "lg": 18
+        },
+        {
+          "n": 1,
+          "sg": 11,
+          "lg": 18
+        },
+        {
+          "n": 0,
+          "sg": 11,
+          "lg": 18
+        },
+        {
+          "n": -1,
+          "sg": 11,
+          "lg": 18
+        },
+        {
+          "n": -2,
+          "sg": 10,
+          "lg": 18
+        }
+      ],
+      "passGain": [
+        {
+          "q": 6,
+          "s": 15,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": 10,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": 9,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": 8,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": 7,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": 6,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": 5,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": 5,
+          "l": null
+        },
+        {
+          "q": 1,
+          "s": 5,
+          "l": null
+        },
+        {
+          "q": 0,
+          "s": 5,
+          "l": null
+        },
+        {
+          "q": 0,
+          "s": 5,
+          "l": null
+        }
+      ]
+    },
+    {
+      "id": "rai84-joe-mccall",
+      "firstName": "Joe",
+      "lastName": "McCall",
+      "jersey": 1,
+      "position": "RB",
+      "playDirection": 4,
+      "blocks": -1,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 7,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 5,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 5,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 3,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 1,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -1,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -2,
+          "sg": 10,
+          "lg": 10
+        }
+      ],
+      "passGain": null
+    },
+    {
+      "id": "rai84-gregg-pruitt",
+      "firstName": "Gregg",
+      "lastName": "Pruitt",
+      "jersey": 1,
+      "position": "RB",
+      "playDirection": 4,
+      "blocks": -2,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 3,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 1,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -1,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -3,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -5,
+          "sg": 10,
+          "lg": 10
+        }
+      ],
+      "passGain": [
+        {
+          "q": 8,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 7,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 6,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 1,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": 0,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": -1,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": -2,
+          "s": null,
+          "l": null
+        },
+        {
+          "q": -3,
+          "s": null,
+          "l": null
+        }
+      ]
+    },
+    {
+      "id": "rai84-frank-hawkins",
+      "firstName": "Frank",
+      "lastName": "Hawkins",
+      "jersey": 1,
+      "position": "RB",
+      "playDirection": 3,
+      "blocks": -1,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 17,
+          "lg": 17
+        },
+        {
+          "n": 8,
+          "sg": 16,
+          "lg": 17
+        },
+        {
+          "n": 7,
+          "sg": 15,
+          "lg": 17
+        },
+        {
+          "n": 5,
+          "sg": 14,
+          "lg": 17
+        },
+        {
+          "n": 4,
+          "sg": 13,
+          "lg": 17
+        },
+        {
+          "n": 3,
+          "sg": 12,
+          "lg": 17
+        },
+        {
+          "n": 2,
+          "sg": 11,
+          "lg": 17
+        },
+        {
+          "n": 1,
+          "sg": 10,
+          "lg": 17
+        },
+        {
+          "n": 1,
+          "sg": 10,
+          "lg": 17
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 17
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 17
+        },
+        {
+          "n": -1,
+          "sg": 10,
+          "lg": 17
+        }
+      ],
+      "passGain": [
+        {
+          "q": 6,
+          "s": 15,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": 11,
+          "l": null
+        },
+        {
+          "q": 5,
+          "s": 10,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": 9,
+          "l": null
+        },
+        {
+          "q": 4,
+          "s": 8,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": 7,
+          "l": null
+        },
+        {
+          "q": 3,
+          "s": 6,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": 5,
+          "l": null
+        },
+        {
+          "q": 2,
+          "s": 5,
+          "l": null
+        },
+        {
+          "q": 1,
+          "s": 5,
+          "l": null
+        },
+        {
+          "q": 0,
+          "s": 5,
+          "l": null
+        },
+        {
+          "q": 0,
+          "s": 5,
+          "l": null
+        }
+      ]
+    },
+    {
+      "id": "rai84-chester-willis",
+      "firstName": "Chester",
+      "lastName": "Willis",
+      "jersey": 1,
+      "position": "RB",
+      "playDirection": 4,
+      "blocks": 2,
+      "rushing": [
+        {
+          "n": "SG",
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 3,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 1,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": 0,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -1,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -2,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -3,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -4,
+          "sg": 10,
+          "lg": 10
+        },
+        {
+          "n": -5,
+          "sg": 10,
+          "lg": 10
+        }
+      ],
+      "passGain": null
+    },
+    {
+      "id": "rai84-bruce-davis",
+      "firstName": "Bruce",
+      "lastName": "Davis",
+      "jersey": 1,
+      "position": "OT",
+      "runBlock": 3,
+      "passBlock": 0
+    },
+    {
+      "id": "rai84-don-mosebar",
+      "firstName": "Don",
+      "lastName": "Mosebar",
+      "jersey": 1,
+      "position": "OG",
+      "runBlock": 3,
+      "passBlock": 0
+    },
+    {
+      "id": "rai84-dave-dalby",
+      "firstName": "Dave",
+      "lastName": "Dalby",
+      "jersey": 1,
+      "position": "C",
+      "runBlock": 3,
+      "passBlock": 1
+    },
+    {
+      "id": "rai84-charley-hannah",
+      "firstName": "Charley",
+      "lastName": "Hannah",
+      "jersey": 1,
+      "position": "OG",
+      "runBlock": 3,
+      "passBlock": 1
+    },
+    {
+      "id": "rai84-henry-lawrence",
+      "firstName": "Henry",
+      "lastName": "Lawrence",
+      "jersey": 1,
+      "position": "OT",
+      "runBlock": 4,
+      "passBlock": 0
+    },
+    {
+      "id": "rai84-curt-marsh",
+      "firstName": "Curt",
+      "lastName": "Marsh",
+      "jersey": 1,
+      "position": "OG",
+      "runBlock": 2,
+      "passBlock": 1
+    },
+    {
+      "id": "rai84-jim-romano",
+      "firstName": "Jim",
+      "lastName": "Romano",
+      "jersey": 1,
+      "position": "C",
+      "runBlock": 2,
+      "passBlock": 0
+    },
+    {
+      "id": "rai84-mickey-marvin",
+      "firstName": "Mickey",
+      "lastName": "Marvin",
+      "jersey": 1,
+      "position": "OG",
+      "runBlock": 2,
+      "passBlock": 0
+    },
+    {
+      "id": "rai84-shelby-jordan",
+      "firstName": "Shelby",
+      "lastName": "Jordan",
+      "jersey": 1,
+      "position": "OT",
+      "runBlock": 2,
+      "passBlock": 1
+    },
+    {
+      "id": "rai84-howie-long",
+      "firstName": "Howie",
+      "lastName": "Long",
+      "jersey": 1,
+      "position": "DE",
+      "tackle": -4,
+      "passRush": 2
+    },
+    {
+      "id": "rai84-lyle-alzado",
+      "firstName": "Lyle",
+      "lastName": "Alzado",
+      "jersey": 1,
+      "position": "DE",
+      "tackle": -2,
+      "passRush": 1
+    },
+    {
+      "id": "rai84-reggie-kinlaw",
+      "firstName": "Reggie",
+      "lastName": "Kinlaw",
+      "jersey": 1,
+      "position": "DT",
+      "tackle": -3,
+      "passRush": 0
+    },
+    {
+      "id": "rai84-sean-jones",
+      "firstName": "Sean",
+      "lastName": "Jones",
+      "jersey": 1,
+      "position": "DE",
+      "tackle": 0,
+      "passRush": 0
+    },
+    {
+      "id": "rai84-mitch-willis",
+      "firstName": "Mitch",
+      "lastName": "Willis",
+      "jersey": 1,
+      "position": "DE",
+      "tackle": 1,
+      "passRush": 0
+    },
+    {
+      "id": "rai84-greg-townsend",
+      "firstName": "Greg",
+      "lastName": "Townsend",
+      "jersey": 1,
+      "position": "DE",
+      "tackle": -2,
+      "passRush": 1
+    },
+    {
+      "id": "rai84-bill-pickel",
+      "firstName": "Bill",
+      "lastName": "Pickel",
+      "jersey": 1,
+      "position": "DT",
+      "tackle": -1,
+      "passRush": 0
+    },
+    {
+      "id": "rai84-rod-martin",
+      "firstName": "Rod",
+      "lastName": "Martin",
+      "jersey": 1,
+      "position": "LB",
+      "tackle": -4,
+      "passRush": 3,
+      "passDefense": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      }
+    },
+    {
+      "id": "rai84-jack-squirek",
+      "firstName": "Jack",
+      "lastName": "Squirek",
+      "jersey": 1,
+      "position": "LB",
+      "tackle": -2,
+      "passRush": 0,
+      "passDefense": 4,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "rai84-matt-millen",
+      "firstName": "Matt",
+      "lastName": "Millen",
+      "jersey": 1,
+      "position": "LB",
+      "tackle": -2,
+      "passRush": 1,
+      "passDefense": -1,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "rai84-brad-van-pelt",
+      "firstName": "Brad",
+      "lastName": "van Pelt",
+      "jersey": 1,
+      "position": "LB",
+      "tackle": 0,
+      "passRush": 1,
+      "passDefense": 2,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "rai84-darryl-bird",
+      "firstName": "Darryl",
+      "lastName": "Bird",
+      "jersey": 1,
+      "position": "LB",
+      "tackle": 3,
+      "passRush": 0,
+      "passDefense": 4,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "rai84-tony-caldwell",
+      "firstName": "Tony",
+      "lastName": "Caldwell",
+      "jersey": 1,
+      "position": "LB",
+      "tackle": 3,
+      "passRush": 0,
+      "passDefense": 1,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "rai84-jeff-barnes",
+      "firstName": "Jeff",
+      "lastName": "Barnes",
+      "jersey": 1,
+      "position": "LB",
+      "tackle": 0,
+      "passRush": 1,
+      "passDefense": 3,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "rai84-bob-nelson",
+      "firstName": "Bob",
+      "lastName": "Nelson",
+      "jersey": 1,
+      "position": "LB",
+      "tackle": 0,
+      "passRush": 2,
+      "passDefense": 3,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "rai84-larry-mccoy",
+      "firstName": "Larry",
+      "lastName": "McCoy",
+      "jersey": 1,
+      "position": "LB",
+      "tackle": 1,
+      "passRush": 1,
+      "passDefense": 2,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "rai84-mike-haynes",
+      "firstName": "Mike",
+      "lastName": "Haynes",
+      "jersey": 1,
+      "position": "DB",
+      "role": "CB",
+      "passDefense": -5,
+      "passRush": 0,
+      "intercept": {
+        "from": 44,
+        "to": 48
+      }
+    },
+    {
+      "id": "rai84-lester-hayes",
+      "firstName": "Lester",
+      "lastName": "Hayes",
+      "jersey": 1,
+      "position": "DB",
+      "role": "CB",
+      "passDefense": -4,
+      "passRush": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "rai84-vann-mcelroy",
+      "firstName": "Vann",
+      "lastName": "McElroy",
+      "jersey": 1,
+      "position": "DB",
+      "role": "S",
+      "passDefense": -4,
+      "passRush": 0,
+      "intercept": {
+        "from": 46,
+        "to": 48
+      }
+    },
+    {
+      "id": "rai84-james-davis",
+      "firstName": "James",
+      "lastName": "Davis",
+      "jersey": 1,
+      "position": "DB",
+      "role": "S",
+      "passDefense": -3,
+      "passRush": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "rai84-ted-watts",
+      "firstName": "Ted",
+      "lastName": "Watts",
+      "jersey": 1,
+      "position": "DB",
+      "passDefense": -2,
+      "passRush": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "rai84-odis-mckinney",
+      "firstName": "Odis",
+      "lastName": "McKinney",
+      "jersey": 1,
+      "position": "DB",
+      "passDefense": -1,
+      "passRush": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "rai84-stacey-toran",
+      "firstName": "Stacey",
+      "lastName": "Toran",
+      "jersey": 1,
+      "position": "DB",
+      "passDefense": 2,
+      "passRush": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "rai84-mike-davis",
+      "firstName": "Mike",
+      "lastName": "Davis",
+      "jersey": 1,
+      "position": "DB",
+      "passDefense": 3,
+      "passRush": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      }
+    },
+    {
+      "id": "rai84-ricky-williams",
+      "firstName": "Ricky",
+      "lastName": "Williams",
+      "jersey": 1,
+      "position": "DB",
+      "passDefense": 3,
+      "passRush": 0,
+      "intercept": {
+        "from": 48,
+        "to": 48
+      },
+      "interceptMaybe": true
+    },
+    {
+      "id": "rai84-chris-bahr",
+      "firstName": "Chris",
+      "lastName": "Bahr",
+      "jersey": 1,
+      "position": "K",
+      "fieldGoals": [
+        {
+          "minYards": 18,
+          "maxYards": 25,
+          "good": {
+            "from": 1,
+            "to": 40
+          }
+        },
+        {
+          "minYards": 26,
+          "maxYards": 35,
+          "good": {
+            "from": 1,
+            "to": 34
+          }
+        },
+        {
+          "minYards": 36,
+          "maxYards": 45,
+          "good": {
+            "from": 1,
+            "to": 23
+          }
+        },
+        {
+          "minYards": 46,
+          "maxYards": 50,
+          "good": {
+            "from": 1,
+            "to": 11
+          }
+        },
+        {
+          "minYards": 51,
+          "maxYards": 60,
+          "good": {
+            "from": 1,
+            "to": 3
+          }
+        }
+      ],
+      "extraPoint": {
+        "from": 1,
+        "to": 45
+      }
+    },
+    {
+      "id": "rai84-raymond-guy",
+      "firstName": "Raymond",
+      "lastName": "Guy",
+      "jersey": 1,
+      "position": "P",
+      "punts": [
+        {
+          "yards": 63,
+          "returner": "PR1"
+        },
+        {
+          "yards": 52,
+          "returner": "PR2"
+        },
+        {
+          "yards": 48,
+          "returner": "PR3"
+        },
+        {
+          "yards": 47,
+          "returner": "PR4"
+        },
+        {
+          "yards": 45,
+          "returner": "FC"
+        },
+        {
+          "yards": 41,
+          "returner": "FC"
+        },
+        {
+          "yards": 39,
+          "returner": "FC"
+        },
+        {
+          "yards": 38,
+          "returner": "FC"
+        },
+        {
+          "yards": 37,
+          "returner": "FC"
+        },
+        {
+          "yards": 32,
+          "returner": "FC"
+        },
+        {
+          "yards": 22,
+          "returner": "FC"
+        }
+      ],
+      "special": [
+        {
+          "runNumber": {
+            "from": 1,
+            "to": 12
+          },
+          "result": {
+            "type": "PENALTY"
+          }
+        }
+      ]
+    }
+  ],
+  "startingLineup": {
+    "offense": [
+      {
+        "listed": "QB",
+        "playerId": "rai84-marc-wilson"
+      },
+      {
+        "listed": "WR",
+        "playerId": "rai84-dokie-williams"
+      },
+      {
+        "listed": "WR",
+        "playerId": "rai84-malcolm-barnwell"
+      },
+      {
+        "listed": "TE",
+        "playerId": "rai84-todd-christensen"
+      },
+      {
+        "listed": "RB",
+        "playerId": "rai84-marcus-allen"
+      },
+      {
+        "listed": "RB",
+        "playerId": "rai84-kenny-king"
+      },
+      {
+        "listed": "OT",
+        "playerId": "rai84-henry-lawrence"
+      },
+      {
+        "listed": "OG",
+        "playerId": "rai84-don-mosebar"
+      },
+      {
+        "listed": "OC",
+        "playerId": "rai84-dave-dalby"
+      },
+      {
+        "listed": "OG",
+        "playerId": "rai84-charley-hannah"
+      },
+      {
+        "listed": "OT",
+        "playerId": "rai84-bruce-davis"
+      }
+    ],
+    "defenseFormation": "3-4",
+    "defense": [
+      {
+        "listed": "DE",
+        "playerId": "rai84-howie-long"
+      },
+      {
+        "listed": "DE",
+        "playerId": "rai84-lyle-alzado"
+      },
+      {
+        "listed": "DT",
+        "playerId": "rai84-reggie-kinlaw"
+      },
+      {
+        "listed": "LB",
+        "playerId": "rai84-rod-martin"
+      },
+      {
+        "listed": "LB",
+        "playerId": "rai84-matt-millen"
+      },
+      {
+        "listed": "LB",
+        "playerId": "rai84-brad-van-pelt"
+      },
+      {
+        "listed": "LB",
+        "playerId": "rai84-bob-nelson"
+      },
+      {
+        "listed": "CB",
+        "playerId": "rai84-lester-hayes"
+      },
+      {
+        "listed": "CB",
+        "playerId": "rai84-mike-haynes"
+      },
+      {
+        "listed": "DS",
+        "playerId": "rai84-vann-mcelroy"
+      },
+      {
+        "listed": "DS",
+        "playerId": "rai84-james-davis"
+      }
+    ]
+  },
+  "kickReturn": {
+    "returners": {
+      "KR1": {
+        "name": "Rick Williams",
+        "playerId": null
+      },
+      "KR2": {
+        "name": "Cle Montgomery",
+        "playerId": "rai84-cle-montgomery"
+      },
+      "KR3": {
+        "sameAs": "KR2"
+      },
+      "KR4": {
+        "sameAs": "KR1"
+      }
+    },
+    "table": [
+      {
+        "KR1": {
+          "yards": 44,
+          "fumble": false,
+          "breakaway": true
+        },
+        "KR2": {
+          "yards": 42,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR3": null,
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 41,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": {
+          "yards": 36,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR3": null,
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 33,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": {
+          "yards": 28,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR3": null,
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 31,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": {
+          "yards": 26,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR3": null,
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 28,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": {
+          "yards": 23,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR3": null,
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 27,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": {
+          "yards": 22,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR3": null,
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 26,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": {
+          "yards": 21,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR3": null,
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 24,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": {
+          "yards": 19,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR3": null,
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 18,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": {
+          "yards": 13,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR3": null,
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 16,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": {
+          "yards": 11,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR3": null,
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 13,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR2": {
+          "yards": 8,
+          "fumble": false,
+          "breakaway": false
+        },
+        "KR3": null,
+        "KR4": null
+      },
+      {
+        "KR1": {
+          "yards": 11,
+          "fumble": true,
+          "breakaway": false
+        },
+        "KR2": {
+          "yards": 6,
+          "fumble": true,
+          "breakaway": false
+        },
+        "KR3": null,
+        "KR4": null
+      }
+    ],
+    "breakaway": {
+      "KR1": 62,
+      "KR2": null,
+      "KR3": null,
+      "KR4": null
+    }
+  },
+  "puntReturn": {
+    "returners": {
+      "PR1": {
+        "name": "Greg Pruitt",
+        "playerId": null
+      },
+      "PR2": {
+        "sameAs": "PR1"
+      },
+      "PR3": {
+        "sameAs": "PR1"
+      },
+      "PR4": {
+        "name": "Cle Montgomery",
+        "playerId": "rai84-cle-montgomery"
+      }
+    },
+    "table": [
+      {
+        "PR1": {
+          "yards": 17,
+          "fumble": false,
+          "breakaway": true
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": {
+          "yards": 22,
+          "fumble": false,
+          "breakaway": true
+        }
+      },
+      {
+        "PR1": {
+          "yards": 14,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": {
+          "yards": 19,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "PR1": {
+          "yards": 13,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": {
+          "yards": 18,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "PR1": {
+          "yards": 12,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": {
+          "yards": 17,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "PR1": {
+          "yards": 10,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": {
+          "yards": 15,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "PR1": {
+          "yards": 9,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": {
+          "yards": 14,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "PR1": {
+          "yards": 8,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": {
+          "yards": 13,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "PR1": {
+          "yards": 7,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": {
+          "yards": 12,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "PR1": {
+          "yards": 6,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": {
+          "yards": 11,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "PR1": {
+          "yards": 5,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": {
+          "yards": 10,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "PR1": {
+          "yards": 4,
+          "fumble": false,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": {
+          "yards": 9,
+          "fumble": false,
+          "breakaway": false
+        }
+      },
+      {
+        "PR1": {
+          "yards": 3,
+          "fumble": true,
+          "breakaway": false
+        },
+        "PR2": null,
+        "PR3": null,
+        "PR4": {
+          "yards": 8,
+          "fumble": true,
+          "breakaway": false
+        }
+      }
+    ],
+    "breakaway": {
+      "PR1": 38,
+      "PR2": null,
+      "PR3": null,
+      "PR4": null
+    }
+  },
+  "dataNotes": [
+    "Malcolm Barnwell passGain L row 10: PDF 12, XML 22; using 22, which fits the column",
+    "Dokie Williams passGain S row 7: PDF 21, XML 22; both fit, keeping the PDF (check the card)",
+    "Dokie Williams passGain L row 7: PDF 30, XML 33; both fit, keeping the PDF (check the card)",
+    "Todd Christensen blocks: PDF 3, XML 2; keeping the PDF (check the card)",
+    "Interception ranges follow the Avalon Hill worksheet table, one rule for every season (the official 1984 cards gave one number per interception): 0-1 interceptions \"48?\", 2 \"48\", 3 \"47-48\" and so on."
+  ],
+  "defaultFormations": {
+    "offense": "2rb-2wr-te-right",
+    "defense": "DL3_LB4_DB4_ACE"
+  }
+}

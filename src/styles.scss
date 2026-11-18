@@ -1,0 +1,77 @@
+/* Colors and type taken from the WPF version so the two feel like the same game. */
+:root {
+  --spf-field: #2e5596; /* the offense board */
+  --spf-field-deep: #24467f;
+  --spf-frame: #ffa500;
+  --spf-line: #90ee90;
+  --spf-skill: #bdb76b;
+  --spf-qb: #a9a9a9;
+  --spf-paper: #ffffff;
+  --spf-ink: #1f2937;
+  --spf-ink-soft: #4b5563;
+  --spf-accent: #ffa07a;
+
+  --spf-home: #1e6b3a;
+
+  /*
+   * Tab, tile and page colours. Offense and defense are the colours of the original paper boards and are the same
+   * on the tab and the page. The other pages use a colour deep enough for white text, and their tabs match it.
+   */
+  --tile-offense: #2e5596;
+  --tile-defense: #2aa39f;
+  --tile-game: #5c5c5c;
+  --tile-stats: #685192;
+  --tile-pbp: #884097;
+  --tile-data: #864d4b;
+  --tile-rosters: #3e6b45;
+
+  --page-offense: var(--tile-offense);
+  --page-defense: var(--tile-defense);
+  --page-game: var(--tile-game);
+  --page-stats: var(--tile-stats);
+  --page-pbp: var(--tile-pbp);
+  --page-data: var(--tile-data);
+  --page-rosters: var(--tile-rosters);
+
+  --font: 'Segoe UI', 'Segoe UI Variable', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  --radius-panel: 10px;
+
+  /* Smallest width the pages are drawn at. A narrower window gets scrollbars instead of a rearranged page. */
+  --page-min-width: 64rem;
+  --dashboard-min-width: 48rem;
+  --radius-card: 6px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  min-height: 100%;
+  font-family: var(--font);
+  color: var(--spf-ink);
+  background: var(--spf-paper);
+}
+
+button { font: inherit; color: inherit; }
+
+:focus-visible { outline: 3px solid #ffd27a; outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+
+/* The game's tooltip (shared/tooltip.ts): one colour and shape everywhere. */
+:root { --spf-tip-bg: #1f2937; --spf-tip-ink: #f9fafb; --spf-action: #f2c14e; --spf-action-ink: #2b2410; }
+.spf-tip {
+  position: fixed; z-index: 1000; max-width: 22rem; padding: .45rem .7rem; border-radius: 8px;
+  background: var(--spf-tip-bg); color: var(--spf-tip-ink); font-size: .85rem; line-height: 1.35;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .3); pointer-events: none;
+  opacity: 0; transform: translateY(3px); transition: opacity .12s, transform .12s;
+}
+.spf-tip.on { opacity: 1; transform: none; }
+.spf-tip.below { transform: translateY(-3px); }
+.spf-tip.below.on { transform: none; }
+
+/* Always leave room for the scrollbar, so a page that gets shorter or longer can't make the menu jump sideways. */
+html { scrollbar-gutter: stable; }
+

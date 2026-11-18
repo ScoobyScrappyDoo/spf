@@ -1,0 +1,74 @@
+<div class="offense-view">
+  <header class="main-header">
+    <dx-button icon="home" (onClick)="goHome()"></dx-button>
+    <h1>Offense Selection</h1>
+    <div class="team-label">New England Patriots :: 1984</div>
+  </header>
+
+  <div class="middle-container" [class.with-stats]="selectedPlayer">
+    <section class="field-row">
+      <div class="field-skeleton">
+        <div class="slot highlight" [class.is-active]="offenseState().HasSEL" (click)="onPlayerClick('SEL')">SEL</div>
+        <div class="slot highlight" [class.is-active]="offenseState().HasTEL" (click)="onPlayerClick('TEL')">TEL</div>
+        <div class="slot line-man" (click)="onPlayerClick('LT')">LT</div>
+        <div class="slot line-man" (click)="onPlayerClick('LG')">LG</div>
+        <div class="slot line-man" (click)="onPlayerClick('C')">C</div>
+        <div class="slot line-man" (click)="onPlayerClick('RG')">RG</div>
+        <div class="slot line-man" (click)="onPlayerClick('RT')">RT</div>
+        <div class="slot highlight" [class.is-active]="offenseState().HasTER" (click)="onPlayerClick('TER')">TER</div>
+        <div class="slot highlight" [class.is-active]="offenseState().HasSER" (click)="onPlayerClick('SER')">SER</div>
+
+        <div class="slot highlight" [class.is-active]="offenseState().HasFLL" style="grid-column: 1;"
+          (click)="onPlayerClick('FLL')">FLL</div>
+        <div class="slot highlight" [class.is-active]="offenseState().HasRB1" style="grid-column: 4;"
+          (click)="onPlayerClick('RB1')">RB1</div>
+        <div class="slot qb-fixed" style="grid-column: 5;" (click)="onPlayerClick('QB')">QB</div>
+        <div class="slot highlight" [class.is-active]="offenseState().HasRB2" style="grid-column: 6;"
+          (click)="onPlayerClick('RB2')">RB2</div>
+        <div class="slot highlight" [class.is-active]="offenseState().HasRB3" style="grid-column: 7;"
+          (click)="onPlayerClick('RB3')">RB3</div>
+        <div class="slot highlight" [class.is-active]="offenseState().HasFLR" style="grid-column: 9;"
+          (click)="onPlayerClick('FLR')">FLR</div>
+      </div>
+    </section>
+
+    @if (selectedPlayer) {
+    <aside class="stats-column">
+      <!-- <header class="stats-header" style="padding: 15px; display: flex; justify-content: space-between;">
+          <h2 style="margin: 0;">{{ selectedPlayer.name }}</h2>
+          <dx-button icon="close" stylingMode="text" (onClick)="selectedPlayer = null"></dx-button>
+        </header>
+        <div class="stats-body" style="padding: 15px;">
+          <p><strong>Position:</strong> {{ selectedPlayer.role }}</p>
+          <hr>
+          <p>Passing/Rushing Stats...</p>
+        </div>
+        <div class="stats-footer">
+          <dx-button text="Replace Player" type="default" icon="refresh" (onClick)="onReplacePlayer()"></dx-button>
+        </div> -->
+
+      <div class="stats-body" style="padding: 15px;">
+        @if (selectedPlayer) {
+        @if (isQB(selectedPlayer)) {
+        <app-qb-card [player]="selectedPlayer"></app-qb-card>
+        }
+
+        @else if (isSkillPlayer(selectedPlayer)) {
+        <app-skillplayer-card [player]="selectedPlayer"></app-skillplayer-card>
+        }
+        }
+      </div>
+
+    </aside>
+    }
+  </div>
+
+  <footer class="tab-row">
+    <dx-tab-panel tabsPosition="left" height="100%">
+      <dxi-item title="Formation">
+        <dx-list [items]="formationOptions" (onItemClick)="changeSelectedFormation($event.itemData)"></dx-list>
+      </dxi-item>
+      <dxi-item title="Plays"></dxi-item>
+    </dx-tab-panel>
+  </footer>
+</div>

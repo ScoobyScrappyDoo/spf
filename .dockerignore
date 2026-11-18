@@ -1,0 +1,13 @@
+# Not sent to the Docker build: installed packages, earlier builds, local data, editor and tool folders.
+node_modules
+dist
+dist-server
+.angular
+data
+.git
+.vscode
+.claude
+tools
+**/__pycache__
+**/*.pyc
+*.zip

@@ -1,0 +1,29 @@
+<!-- <div style="padding: 50px; text-align: center;">
+  <h1>🏈 {{ title }}</h1>
+  
+  <dx-button 
+    text="Test DevExpress Button" 
+    type="success" 
+    icon="check"
+    (onClick)="helloWorld()">
+  </dx-button>
+</div> -->
+
+@if (router.url === '/') {
+  <div class="dashboard-container">
+    <h1>{{ title }}</h1>
+    <div class="tile-grid">
+      @for (tile of dashboardTiles; track tile.text) {
+        <div 
+          class="tile" 
+          [style.background-color]="tile.color"
+          [class]="tile.size"
+          (click)="onTileClick(tile)">
+          <span class="tile-text">{{ tile.text }}</span>
+        </div>
+      }
+    </div>
+  </div>
+}
+
+<router-outlet></router-outlet>

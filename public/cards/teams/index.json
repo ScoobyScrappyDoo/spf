@@ -1,0 +1,226 @@
+[
+  {
+    "id": "1984-bills",
+    "year": 1984,
+    "name": "Buffalo Bills",
+    "conference": "AFC",
+    "division": "AFC East",
+    "path": "cards/teams/1984/bills.json"
+  },
+  {
+    "id": "1984-colts",
+    "year": 1984,
+    "name": "Indianapolis Colts",
+    "conference": "AFC",
+    "division": "AFC East",
+    "path": "cards/teams/1984/colts.json"
+  },
+  {
+    "id": "1984-dolphins",
+    "year": 1984,
+    "name": "Miami Dolphins",
+    "conference": "AFC",
+    "division": "AFC East",
+    "path": "cards/teams/1984/dolphins.json"
+  },
+  {
+    "id": "1984-patriots",
+    "year": 1984,
+    "name": "New England Patriots",
+    "conference": "AFC",
+    "division": "AFC East",
+    "path": "cards/teams/1984/patriots.json"
+  },
+  {
+    "id": "1984-jets",
+    "year": 1984,
+    "name": "New York Jets",
+    "conference": "AFC",
+    "division": "AFC East",
+    "path": "cards/teams/1984/jets.json"
+  },
+  {
+    "id": "1984-bengals",
+    "year": 1984,
+    "name": "Cincinnati Bengals",
+    "conference": "AFC",
+    "division": "AFC Central",
+    "path": "cards/teams/1984/bengals.json"
+  },
+  {
+    "id": "1984-browns",
+    "year": 1984,
+    "name": "Cleveland Browns",
+    "conference": "AFC",
+    "division": "AFC Central",
+    "path": "cards/teams/1984/browns.json"
+  },
+  {
+    "id": "1984-oilers",
+    "year": 1984,
+    "name": "Houston Oilers",
+    "conference": "AFC",
+    "division": "AFC Central",
+    "path": "cards/teams/1984/oilers.json"
+  },
+  {
+    "id": "1984-steelers",
+    "year": 1984,
+    "name": "Pittsburgh Steelers",
+    "conference": "AFC",
+    "division": "AFC Central",
+    "path": "cards/teams/1984/steelers.json"
+  },
+  {
+    "id": "1984-broncos",
+    "year": 1984,
+    "name": "Denver Broncos",
+    "conference": "AFC",
+    "division": "AFC West",
+    "path": "cards/teams/1984/broncos.json"
+  },
+  {
+    "id": "1984-chiefs",
+    "year": 1984,
+    "name": "Kansas City Chiefs",
+    "conference": "AFC",
+    "division": "AFC West",
+    "path": "cards/teams/1984/chiefs.json"
+  },
+  {
+    "id": "1984-raiders",
+    "year": 1984,
+    "name": "Los Angeles Raiders",
+    "conference": "AFC",
+    "division": "AFC West",
+    "path": "cards/teams/1984/raiders.json"
+  },
+  {
+    "id": "1984-chargers",
+    "year": 1984,
+    "name": "San Diego Chargers",
+    "conference": "AFC",
+    "division": "AFC West",
+    "path": "cards/teams/1984/chargers.json"
+  },
+  {
+    "id": "1984-seahawks",
+    "year": 1984,
+    "name": "Seattle Seahawks",
+    "conference": "AFC",
+    "division": "AFC West",
+    "path": "cards/teams/1984/seahawks.json"
+  },
+  {
+    "id": "1984-cowboys",
+    "year": 1984,
+    "name": "Dallas Cowboys",
+    "conference": "NFC",
+    "division": "NFC East",
+    "path": "cards/teams/1984/cowboys.json"
+  },
+  {
+    "id": "1984-giants",
+    "year": 1984,
+    "name": "New York Giants",
+    "conference": "NFC",
+    "division": "NFC East",
+    "path": "cards/teams/1984/giants.json"
+  },
+  {
+    "id": "1984-eagles",
+    "year": 1984,
+    "name": "Philadelphia Eagles",
+    "conference": "NFC",
+    "division": "NFC East",
+    "path": "cards/teams/1984/eagles.json"
+  },
+  {
+    "id": "1984-cardinals",
+    "year": 1984,
+    "name": "St. Louis Cardinals",
+    "conference": "NFC",
+    "division": "NFC East",
+    "path": "cards/teams/1984/cardinals.json"
+  },
+  {
+    "id": "1984-redskins",
+    "year": 1984,
+    "name": "Washington Redskins",
+    "conference": "NFC",
+    "division": "NFC East",
+    "path": "cards/teams/1984/redskins.json"
+  },
+  {
+    "id": "1984-bears",
+    "year": 1984,
+    "name": "Chicago Bears",
+    "conference": "NFC",
+    "division": "NFC Central",
+    "path": "cards/teams/1984/bears.json"
+  },
+  {
+    "id": "1984-lions",
+    "year": 1984,
+    "name": "Detroit Lions",
+    "conference": "NFC",
+    "division": "NFC Central",
+    "path": "cards/teams/1984/lions.json"
+  },
+  {
+    "id": "1984-packers",
+    "year": 1984,
+    "name": "Green Bay Packers",
+    "conference": "NFC",
+    "division": "NFC Central",
+    "path": "cards/teams/1984/packers.json"
+  },
+  {
+    "id": "1984-vikings",
+    "year": 1984,
+    "name": "Minnesota Vikings",
+    "conference": "NFC",
+    "division": "NFC Central",
+    "path": "cards/teams/1984/vikings.json"
+  },
+  {
+    "id": "1984-buccaneers",
+    "year": 1984,
+    "name": "Tampa Bay Buccaneers",
+    "conference": "NFC",
+    "division": "NFC Central",
+    "path": "cards/teams/1984/buccaneers.json"
+  },
+  {
+    "id": "1984-falcons",
+    "year": 1984,
+    "name": "Atlanta Falcons",
+    "conference": "NFC",
+    "division": "NFC West",
+    "path": "cards/teams/1984/falcons.json"
+  },
+  {
+    "id": "1984-rams",
+    "year": 1984,
+    "name": "Los Angeles Rams",
+    "conference": "NFC",
+    "division": "NFC West",
+    "path": "cards/teams/1984/rams.json"
+  },
+  {
+    "id": "1984-saints",
+    "year": 1984,
+    "name": "New Orleans Saints",
+    "conference": "NFC",
+    "division": "NFC West",
+    "path": "cards/teams/1984/saints.json"
+  },
+  {
+    "id": "1984-49ers",
+    "year": 1984,
+    "name": "San Francisco 49ers",
+    "conference": "NFC",
+    "division": "NFC West",
+    "path": "cards/teams/1984/49ers.json"
+  }
+]

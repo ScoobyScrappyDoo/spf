@@ -1,0 +1,157 @@
+<spf-page-header title="Stats" />
+<main>
+  @if (stats(); as st) {
+    <div class="top">
+      <p class="score">
+        {{ game.label('away') }} <b>{{ st.teams.away.points }}</b>
+        <span class="dash">–</span>
+        <b>{{ st.teams.home.points }}</b> {{ game.label('home') }}
+      </p>
+      <div class="tabs" role="tablist" aria-label="Stats">
+        <button type="button" role="tab" [attr.aria-selected]="view() === 'players'" [class.on]="view() === 'players'" (click)="show('players')">Player stats</button>
+        <button type="button" role="tab" [attr.aria-selected]="view() === 'team'" [class.on]="view() === 'team'" (click)="show('team')">Team stats</button>
+      </div>
+    </div>
+
+    @if (view() === 'team') {
+    <section class="frame" role="tabpanel">
+      <h2>Team stats</h2>
+      <table class="team">
+        <thead>
+          <tr class="names">
+            <th scope="col" class="num"><span class="full">{{ fullName('away') }}</span><span class="side">(away)</span></th>
+            <th scope="col"></th>
+            <th scope="col" class="num"><span class="full">{{ fullName('home') }}</span><span class="side">(home)</span></th>
+          </tr>
+          <tr class="score">
+            <td class="num">{{ st.teams.away.points }}</td>
+            <td>Points</td>
+            <td class="num">{{ st.teams.home.points }}</td>
+          </tr>
+        </thead>
+        <tbody>
+          @for (r of rows; track r.label + r.sub) {
+            <tr [class.sub]="r.sub">
+              <td class="num">{{ r.value(st.teams.away) }}</td>
+              <th scope="row">{{ r.label }}</th>
+              <td class="num">{{ r.value(st.teams.home) }}</td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </section>
+    } @else {
+    <div class="players" role="tabpanel">
+      @for (side of sides; track side) {
+        <section class="frame">
+          <h2>{{ game.label(side) }}</h2>
+
+          <!-- Passing, rushing, receiving and defense, NFL style, with the team's totals under a line (shared/box-score.ts). -->
+          @for (tbl of box(side); track tbl.title) {
+            <h3>{{ tbl.title }}</h3>
+            <table class="box">
+              <thead><tr>
+                @for (c of tbl.columns; track c.label; let first = $first) {
+                  @if (c.tip) { <th [attr.scope]="first ? 'col' : null" [spfTip]="c.tip">{{ c.label }}</th> } @else { <th [attr.scope]="first ? 'col' : null">{{ c.label }}</th> }
+                }
+              </tr></thead>
+              <tbody>
+                @for (r of tbl.rows; track $index; let row = $index) {
+                  <tr>
+                    @for (v of r; track $index; let first = $first) {
+                      @if (first) { <td>{{ v }} <span class="pos">{{ tbl.positions[row] }}</span></td> } @else { <td>{{ v }}</td> }
+                    }
+                  </tr>
+                }
+              </tbody>
+              @if (tbl.team) { <tfoot><tr>@for (v of tbl.team; track $index) { <td>{{ v }}</td> }</tr></tfoot> }
+            </table>
+          }
+
+          @if (with(side, 'kickReturns').length) {
+            <h3>Kick returns</h3>
+            <table>
+              <thead><tr><th scope="col">Player</th><th>No</th><th>Yds</th><th>Avg</th><th>Long</th><th>TD</th></tr></thead>
+              <tbody>
+                @for (p of with(side, 'kickReturns'); track p.playerId) {
+                  <tr><td>{{ p.name }} <span class="pos">{{ p.position }}</span></td><td>{{ p.kickReturns!.count }}</td><td>{{ p.kickReturns!.yards }}</td>
+                    <td>{{ avg(p.kickReturns!.yards, p.kickReturns!.count) }}</td><td>{{ p.kickReturns!.long }}</td><td>{{ p.kickReturns!.td }}</td></tr>
+                }
+              </tbody>
+            </table>
+          }
+
+          @if (with(side, 'puntReturns').length) {
+            <h3>Punt returns</h3>
+            <table>
+              <thead><tr><th scope="col">Player</th><th>No</th><th>Yds</th><th>Avg</th><th>Long</th><th>TD</th></tr></thead>
+              <tbody>
+                @for (p of with(side, 'puntReturns'); track p.playerId) {
+                  <tr><td>{{ p.name }} <span class="pos">{{ p.position }}</span></td><td>{{ p.puntReturns!.count }}</td><td>{{ p.puntReturns!.yards }}</td>
+                    <td>{{ avg(p.puntReturns!.yards, p.puntReturns!.count) }}</td><td>{{ p.puntReturns!.long }}</td><td>{{ p.puntReturns!.td }}</td></tr>
+                }
+              </tbody>
+            </table>
+          }
+
+          @if (with(side, 'punting').length) {
+            <h3>Punting</h3>
+            <table>
+              <thead><tr><th scope="col">Player</th><th>No</th><th>Yds</th><th>Avg</th><th>Long</th><th spfTip="Inside the 20">In20</th><th spfTip="Touchbacks">TB</th></tr></thead>
+              <tbody>
+                @for (p of with(side, 'punting'); track p.playerId) {
+                  <tr><td>{{ p.name }} <span class="pos">{{ p.position }}</span></td><td>{{ p.punting!.count }}</td><td>{{ p.punting!.yards }}</td>
+                    <td>{{ avg(p.punting!.yards, p.punting!.count) }}</td><td>{{ p.punting!.long }}</td><td>{{ p.punting!.inside20 }}</td><td>{{ p.punting!.touchbacks }}</td></tr>
+                }
+              </tbody>
+            </table>
+          }
+
+          @if (kickers(side).length) {
+            <h3>Kicking</h3>
+            <table>
+              <thead><tr><th scope="col">Player</th><th spfTip="Field goals made/attempted">FG</th><th>Long</th><th spfTip="Extra points made/attempted">XP</th><th spfTip="Points">Pts</th></tr></thead>
+              <tbody>
+                @for (p of kickers(side); track p.playerId) {
+                  <tr><td>{{ p.name }} <span class="pos">{{ p.position }}</span></td>
+                    <td>{{ p.fieldGoals?.made ?? 0 }}/{{ p.fieldGoals?.att ?? 0 }}</td><td>{{ p.fieldGoals?.long || '' }}</td>
+                    <td>{{ p.extraPoints?.made ?? 0 }}/{{ p.extraPoints?.att ?? 0 }}</td>
+                    <td>{{ 3 * (p.fieldGoals?.made ?? 0) + (p.extraPoints?.made ?? 0) }}</td></tr>
+                }
+              </tbody>
+            </table>
+          }
+
+          @if (with(side, 'fumbles').length) {
+            <h3>Fumbles</h3>
+            <table>
+              <thead><tr><th scope="col">Player</th><th>Fum</th><th>Lost</th></tr></thead>
+              <tbody>
+                @for (p of with(side, 'fumbles'); track p.playerId) {
+                  <tr><td>{{ p.name }} <span class="pos">{{ p.position }}</span></td><td>{{ p.fumbles!.count }}</td><td>{{ p.fumbles!.lost }}</td></tr>
+                }
+              </tbody>
+            </table>
+          }
+
+          @if (with(side, 'penalties').length) {
+            <h3>Penalties</h3>
+            <table>
+              <thead><tr><th scope="col">Player</th><th>No</th><th>Yds</th></tr></thead>
+              <tbody>
+                @for (p of with(side, 'penalties'); track p.playerId) {
+                  <tr><td>{{ p.name }} <span class="pos">{{ p.position }}</span></td><td>{{ p.penalties!.count }}</td><td>{{ p.penalties!.yards }}</td></tr>
+                }
+              </tbody>
+            </table>
+          }
+
+          @if (!st.players[side].length) {
+            <p class="none">No stats yet.</p>
+          }
+        </section>
+      }
+    </div>
+    }
+  }
+</main>

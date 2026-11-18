@@ -1,0 +1,127 @@
+:host { display: block; min-height: 100vh; min-width: var(--page-min-width); background: var(--page-game); }
+main { display: grid; grid-template-columns: 40rem 18.5rem; gap: 2rem; padding: 1.4rem 1.6rem 2rem; align-items: start; }
+/* Before a game: New game on the left; the weather and online play in a second column. */
+main:not(.playing) { grid-template-columns: 40rem 36rem; align-items: stretch; }
+/* The second column is as tall as the first: the weather at the top, online play at the bottom, level with New game. */
+.right { display: flex; flex-direction: column; justify-content: space-between; gap: .8rem; }
+.weather .setup { row-gap: 1rem; }
+.left { display: grid; gap: .8rem; }
+.frame { border: 6px solid var(--spf-frame); border-radius: var(--radius-panel); padding: .9rem 1.1rem; color: white; }
+h2 { margin: 0 0 .6rem; font-weight: 400; font-size: 1.2rem; }
+p { margin: .3rem 0; }
+.note { font-size: .85rem; opacity: .75; }
+.error { margin: 0; padding: .7rem 1rem; background: #7f1d1d; color: white; border-radius: 6px; }
+
+/* One grid for every row: the labels on the left, every control starting on the same line. */
+.setup { display: grid; grid-template-columns: 8.6rem 1fr; align-items: center; gap: .5rem .8rem; max-width: 33rem; }
+.setup > label { font-size: .9rem; }
+/* Each fieldset spreads its legend and two pickers across the grid row (legend | season + team). */
+.setup fieldset { display: contents; }
+.setup legend { font-size: .9rem; padding: 0; float: left; }
+.setup .pickers { display: flex; gap: .4rem; }
+.setup select, .setup input { font: inherit; font-size: .9rem; padding: .25rem .45rem; border-radius: 4px; border: 0; height: 1.65rem; box-sizing: border-box; }
+.setup input[type='range'] { height: auto; }
+.setup .fit { justify-self: start; }
+.setup .name { width: 13rem; justify-self: start; }
+.setup input:disabled, .setup select:disabled { opacity: .6; }
+.hidden { visibility: hidden; }
+.setup select.year { width: 5.2rem; }
+.setup select.team { flex: 1; min-width: 0; }
+.at { grid-column: 2; font-size: .85rem; opacity: .75; margin: -.2rem 0; }
+
+.actions { display: flex; gap: .6rem; margin-top: .8rem; flex-wrap: wrap; }
+button, .button {
+  font: inherit; padding: .45rem 1rem; border-radius: 5px; cursor: pointer; text-decoration: none;
+  border: 1.5px solid rgba(255, 255, 255, .8); background: transparent; color: white;
+}
+button:hover:not(:disabled), .button:hover { background: rgba(255, 255, 255, .1); }
+.primary { background: white; color: var(--page-game); border-color: white; font-weight: 600; }
+.primary:hover:not(:disabled) { background: #ececec; }
+.button.primary { background: var(--btn); color: white; border-color: var(--btn); }
+.button.primary:hover { filter: brightness(1.1); background: var(--btn); }
+button:disabled { opacity: .5; cursor: not-allowed; }
+
+.steps { margin: 0; padding-left: 1.3rem; display: grid; gap: .3rem; font-size: .92rem; }
+.end { justify-self: start; font-size: .85rem; padding: .3rem .8rem; opacity: .8; }
+
+aside { display: grid; gap: .8rem; }
+.result { font-weight: 700; margin: 0 0 .5rem; }
+.kicker { margin: 0 0 .2rem; font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; opacity: .75; }
+.all-plays { color: white; font-size: .9rem; }
+.log { background: var(--spf-paper); border-radius: var(--radius-panel); padding: .8rem 1rem; color: var(--spf-ink); }
+.log h2 { font-size: 1rem; font-weight: 700; margin-bottom: .4rem; }
+.log ol { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; max-height: 22rem; overflow-y: auto; }
+.log li { display: grid; font-size: .85rem; }
+.log .when { color: var(--spf-ink-soft); font-size: .75rem; font-variant-numeric: tabular-nums; }
+.log .detail { color: var(--spf-ink-soft); }
+
+/* Once a game is on: scoreboard, the field across the full width, then what happens now beside the last play. */
+main.playing { display: block; }
+/* Scoreboard and field share one width on the left; what happens now and the last play on the right. */
+/*
+ * Two columns, two rows: the scoreboard beside what's happening now, the field beside the last play, so the last play
+ * starts level with the field.
+ */
+.started { display: grid; grid-template-columns: minmax(36rem, 52rem) minmax(20rem, 1fr); gap: 1.2rem; align-items: start; }
+.started > .error { grid-column: 1 / -1; }
+.started > .pitch, .started > .side { display: contents; }
+.started spf-led-scoreboard { grid-column: 1; grid-row: 2; }
+.started spf-field { grid-column: 1; grid-row: 3; }
+.started .now { grid-column: 2; grid-row: 2; }
+.started .last { grid-column: 2; grid-row: 3; }
+.pitch { display: grid; gap: 1rem; min-width: 0; }
+.side { display: grid; gap: 1rem; min-width: 0; }
+.now { display: grid; gap: .6rem; }
+.game-buttons { display: grid; gap: .45rem; }
+.check { display: flex; flex-wrap: wrap; align-items: baseline; gap: .4rem; margin: .4rem 0 .6rem; color: white; }
+.check small { flex-basis: 100%; opacity: .75; margin-left: 1.5rem; }
+.game-buttons .group { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; }
+.game-buttons .group-label { min-width: 5.2rem; font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color: rgba(255, 255, 255, .7); }
+.simulate { display: flex; align-items: center; gap: .7rem; margin-top: .7rem; padding-top: .7rem; border-top: 1px solid rgba(255, 255, 255, .25); }
+.simulate label, .sim label { display: flex; align-items: center; gap: .4rem; color: white; font-size: .9rem; }
+.simulate select, .sim select { font: inherit; font-size: .9rem; padding: .2rem .4rem; border-radius: 4px; border: 0; }
+.sim .actions { flex-wrap: wrap; align-items: center; }
+.file-message { position: fixed; left: 50%; bottom: 1.2rem; transform: translateX(-50%); margin: 0; padding: .6rem 1rem; border-radius: 6px;
+  background: #1f2937; color: white; font-size: .95rem; box-shadow: 0 4px 14px rgba(0, 0, 0, .3); max-width: 60rem; }
+.game-buttons button { font-size: .85rem; padding: .3rem .8rem; }
+.game-buttons select { font-size: .85rem; }
+/* The weather's intensity: the chosen one in white. */
+.game-buttons .moving { display: flex; align-items: center; gap: .3rem; font-size: .85rem; margin-left: .3rem; color: white; }
+.game-buttons .moving input { accent-color: white; }
+.game-buttons .level.on { background: white; color: var(--spf-ink); border-color: white; font-weight: 700; }
+.last { min-width: 0; }
+
+/* Drag and drop: the whole page becomes the drop zone while a file is dragged over it. */
+.drop-zone {
+  position: fixed; inset: 0; z-index: 50; display: grid; place-items: center; pointer-events: none;
+  background: rgba(17, 24, 39, .55); outline: 4px dashed #f2c14e; outline-offset: -18px;
+}
+.drop-card { display: grid; justify-items: center; gap: .4rem; padding: 1.6rem 2.4rem; border-radius: 12px; background: #1f2937; color: white; box-shadow: 0 10px 30px rgba(0, 0, 0, .4); }
+.drop-card strong { font-size: 1.35rem; }
+.drop-card small { opacity: .75; }
+.drop-icon { font-size: 2.4rem; line-height: 1; color: #f2c14e; }
+
+/* Online play */
+.online .note { margin: -.3rem 0 .6rem; }
+.online .message { margin-top: 1rem; }
+.online .row { font-size: .9rem; }
+.online input { font: inherit; padding: .25rem .45rem; border-radius: 4px; border: 0; height: 1.65rem; box-sizing: border-box; width: 11rem; margin-left: .5rem; }
+.online .row { display: flex; flex-wrap: wrap; align-items: center; gap: .6rem; }
+.online input { font: inherit; padding: .2rem .4rem; border-radius: 4px; border: 0; width: 10rem; margin-left: .3rem; }
+.online .who { margin-bottom: .6rem; }
+.online .who .button { color: inherit; padding: .2rem .7rem; border: 1px solid rgba(255, 255, 255, .6); border-radius: 4px; text-decoration: none; }
+.online .games { width: 100%; margin-top: .6rem; border-collapse: collapse; font-size: .9rem; }
+.online .games th { text-align: left; font-weight: 600; opacity: .8; border-bottom: 1px solid rgba(255, 255, 255, .4); padding: .2rem .4rem; }
+.online .games td { padding: .25rem .4rem; border-bottom: 1px solid rgba(255, 255, 255, .15); }
+.online .games small { opacity: .6; margin-left: .3rem; }
+/* Neutral here; game-page.ts colours it offense blue or defense teal for a coach, by who has the ball. */
+.online-banner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; background: #45484d; transition: background-color .3s; }
+.online-banner p { margin: 0; }
+
+
+
+/* Weather conditions: the intensity slider in white, easy to read on the dark frame; the chosen mark in bold. */
+.weather .slider { display: grid; width: 14rem; }
+.weather input[type='range'] { width: 100%; margin: 0; padding: 0; accent-color: white; cursor: pointer; }
+.weather .marks { display: flex; justify-content: space-between; font-size: .78rem; opacity: .75; }
+.weather .marks .on { opacity: 1; color: white; font-weight: 700; }

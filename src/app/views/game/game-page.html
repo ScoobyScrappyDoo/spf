@@ -1,0 +1,321 @@
+<spf-page-header title="Game" />
+<main [class.playing]="!!s()">
+  @if (!s()) {
+  <div class="left">
+    @if (game.error(); as error) {
+      <p class="error" role="alert">{{ error }}</p>
+    }
+
+      <section class="frame">
+        <h2>New game</h2>
+        <div class="setup">
+          <fieldset>
+            <legend>Away team</legend>
+            <div class="pickers">
+            <select class="year" aria-label="Away season" (change)="chooseYear('away', $any($event.target).value)">
+              @for (y of years(); track y) { <option [value]="y" [selected]="y === awayYear()">{{ y }}</option> }
+            </select>
+            <select class="team" aria-label="Away team" (change)="awayId.set($any($event.target).value)">
+              <option value="" [selected]="!awayId()">Choose a team</option>
+              @for (g of awayGroups(); track g.division) {
+                <optgroup [label]="g.division">
+                  @for (t of g.teams; track t.id) {
+                    <option [value]="t.id" [selected]="t.id === awayId()" [disabled]="!!t.incomplete">
+                      {{ t.name }}{{ t.incomplete ? ' (' + t.incomplete + ')' : '' }}
+                    </option>
+                  }
+                </optgroup>
+              }
+            </select>
+            </div>
+          </fieldset>
+          <span class="at">at</span>
+          <fieldset>
+            <legend>Home team</legend>
+            <div class="pickers">
+            <select class="year" aria-label="Home season" (change)="chooseYear('home', $any($event.target).value)">
+              @for (y of years(); track y) { <option [value]="y" [selected]="y === homeYear()">{{ y }}</option> }
+            </select>
+            <select class="team" aria-label="Home team" (change)="homeId.set($any($event.target).value)">
+              <option value="" [selected]="!homeId()">Choose a team</option>
+              @for (g of homeGroups(); track g.division) {
+                <optgroup [label]="g.division">
+                  @for (t of g.teams; track t.id) {
+                    <option [value]="t.id" [selected]="t.id === homeId()" [disabled]="!!t.incomplete">
+                      {{ t.name }}{{ t.incomplete ? ' (' + t.incomplete + ')' : '' }}
+                    </option>
+                  }
+                </optgroup>
+              }
+            </select>
+            </div>
+          </fieldset>
+          <!-- Who plays each side, aligned with the team pickers. -->
+          <label for="you-play">You play</label>
+          <select id="you-play" class="fit" [value]="youPlay()" (change)="youPlay.set($any($event.target).value)">
+            <option value="both">Both teams</option>
+            <option value="away">The visitors, against the computer</option>
+            <option value="home">The home team, against the computer</option>
+          </select>
+          <label for="coach-temperament">Computer coach</label>
+          <select id="coach-temperament" class="fit" [value]="temperament()" (change)="temperament.set($any($event.target).value)"
+            [disabled]="youPlay() === 'both'"
+            spfTip="Against the computer: how far what it sees on the field tilts its choices, cautious a little, bold a lot">
+            <option value="cautious">cautious</option>
+            <option value="normal">normal</option>
+            <option value="bold">bold</option>
+          </select>
+          <label for="visitor-by">Visitor played by</label>
+          @if (youPlay() === 'home') { <input id="visitor-by" class="name" type="text" value="AI" disabled /> }
+          @else { <input id="visitor-by" class="name" type="text" [value]="awayCoach()" (input)="awayCoach.set($any($event.target).value)" maxlength="30" placeholder="your name" /> }
+          <label for="home-by">Home played by</label>
+          @if (youPlay() === 'away') { <input id="home-by" class="name" type="text" value="AI" disabled /> }
+          @else { <input id="home-by" class="name" type="text" [value]="homeCoach()" (input)="homeCoach.set($any($event.target).value)" maxlength="30" placeholder="your name" /> }
+        </div>
+        <div class="actions">
+          <button type="button" class="primary" (click)="start()" [disabled]="starting() || !homeId() || !awayId()">
+            {{ starting() ? 'Loading the cards…' : 'Start game' }}
+          </button>
+          <button type="button" (click)="resetSetup()" [disabled]="starting() || (!homeId() && !awayId())">Reset</button>
+          <button type="button" (click)="fileInput.click()" spfTip="Open a saved game (.spf): carry on playing it, or replay it">Open game…</button>
+        </div>
+        <div class="simulate">
+          <button type="button" class="primary" (click)="simulate()" [disabled]="starting() || !homeId() || !awayId()"
+            spfTip="The computer coaches both teams; watch it play out, or have the result straight away">Simulate game</button>
+          <label>Speed
+            <select (change)="speed.set($any($event.target).value)" aria-label="Simulation speed">
+              @for (s of speeds; track s.value) { <option [value]="s.value" [selected]="s.value === speed()">{{ s.label }}</option> }
+            </select>
+          </label>
+        </div>
+      </section>
+  </div>
+
+  <!-- The second column: the weather, and online play. -->
+  <div class="right">
+    <section class="frame weather">
+      <h2>Weather conditions</h2>
+      <div class="setup">
+        <label for="conditions">Conditions</label>
+        <select id="conditions" class="fit" [value]="weather()" (change)="wx.set($any($event.target).value)">
+          <option value="perfect">Perfect</option>
+          <option value="rain">Raining</option>
+          <option value="snow">Snowing</option>
+          <option value="wind">Windy</option>
+        </select>
+        <!-- Always there, hidden while it's perfect: the frame keeps its height. -->
+        <label for="intensity" [class.hidden]="weather() === 'perfect'">Intensity</label>
+        <div class="slider" [class.hidden]="weather() === 'perfect'">
+          <input id="intensity" type="range" min="0" max="2" step="1" [value]="intensity()" [disabled]="weather() === 'perfect'"
+            (input)="wx.set(weather(), $any(+$event.target.value))" [attr.aria-valuetext]="intensities[intensity()]" />
+          <div class="marks" aria-hidden="true">
+            @for (m of intensities; track m; let i = $index) { <span [class.on]="i === intensity()">{{ m }}</span> }
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="frame online">
+          <h2>Play online</h2>
+          <p class="note">With the game server running (npm run server).</p>
+          @if (me(); as u) {
+            <form class="row who" method="post" action="/auth/signout">Signed in as {{ u.email }} <button type="submit">Sign out</button></form>
+          } @else if (auth.status() === 'signed-out') {
+            <div class="row who">Invite only. <a class="button" [href]="auth.signInUrl()">Sign in</a></div>
+          }
+          <div class="row">
+            <label>Your name <input type="text" [value]="coachName()" (input)="coachName.set($any($event.target).value)" maxlength="30" /></label>
+            <button type="button" (click)="refreshOnline()">Refresh the list</button>
+            <button type="button" (click)="createOnline()" [disabled]="!homeId() || !awayId()" spfTip="Starts a game on the server with the two teams chosen above">New online game with these teams</button>
+          </div>
+          @if (game.onlineNotice(); as n) { <p class="note message" role="status">{{ n }}</p> }
+          @if (onlineMessage()) { <p class="note message">{{ onlineMessage() }}</p> }
+          @if (onlineGames().length) {
+            <table class="games">
+              <thead><tr><th>Game</th><th>Score</th><th>Home coach</th><th>Away coach</th>@if (me()?.admin) {<th>Master</th>}<th></th></tr></thead>
+              <tbody>
+                @for (g of onlineGames(); track g.id) {
+                  <tr>
+                    <td>{{ g.away }} at {{ g.home }} <small>{{ g.id }}</small></td>
+                    <td>{{ g.score.away }}-{{ g.score.home }}</td>
+                    @for (seat of seats(); track seat) {
+                      <td>@if (g.seats[seat]) { {{ g.seats[seat] }} } @else { <button type="button" (click)="joinOnline(g.id, seat)">Join</button> }</td>
+                    }
+                    <td>@if (g.mayEnd) { <button type="button" class="end" (click)="endOnline(g)" spfTip="Ends this game for everyone in it">End</button> }</td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          }
+    </section>
+  </div>
+  }
+  @if (s()) {
+    <div class="started">
+      @if (game.error(); as error) { <p class="error" role="alert">{{ error }}</p> }
+      <div class="pitch">
+        <spf-led-scoreboard />
+        <spf-field />
+      </div>
+      <div class="side">
+        <div class="now">
+          @if (game.online(); as o) {
+            <section class="frame online-banner" [style.background]="seatColor()">
+              <p>Online game <b>{{ o.gameId }}</b> · you are <b>{{ seatName(o.seat) }}</b>{{ seatTeam(o.seat) }}, as {{ o.name }}.</p>
+              <button type="button" (click)="game.leaveOnline()">Leave</button>
+            </section>
+            @if (game.error(); as e) { <p class="note online-error" role="alert">{{ e }}</p> }
+          }
+          @if (replay.running()) {
+            <section class="frame sim" aria-live="polite">
+              <h2>Replay{{ replay.paused() ? ' (paused)' : '' }}</h2>
+              <p class="note">The game as it was played, from the opening toss. Every tab follows along.</p>
+              <div class="actions">
+                <label>Speed
+                  <select (change)="replay.setSpeed($any($event.target).value)" aria-label="Replay speed">
+                    @for (s of speeds; track s.value) { @if (s.value !== 'instant') { <option [value]="s.value" [selected]="s.value === replay.speed()">{{ s.label }}</option> } }
+                  </select>
+                </label>
+                @if (replay.paused()) { <button type="button" class="primary" (click)="replay.resume()">Resume</button> }
+                @else { <button type="button" class="primary" (click)="replay.pause()">Pause</button> }
+                <button type="button" (click)="replay.finish()">Skip to the end</button>
+              </div>
+            </section>
+          } @else if (sim.running()) {
+            <section class="frame sim" aria-live="polite">
+              <h2>Simulation{{ sim.paused() ? ' (paused)' : '' }}</h2>
+              <p class="note">The computer is coaching both teams. Every tab follows along.</p>
+              <div class="actions">
+                <label>Speed
+                  <select (change)="sim.setSpeed($any($event.target).value)" aria-label="Simulation speed">
+                    @for (s of speeds; track s.value) { <option [value]="s.value" [selected]="s.value === sim.speed()">{{ s.label }}</option> }
+                  </select>
+                </label>
+                @if (sim.paused()) { <button type="button" class="primary" (click)="sim.resume()">Resume</button> }
+                @else { <button type="button" class="primary" (click)="sim.pause()">Pause</button> }
+                <button type="button" (click)="sim.finish()">Skip to the end</button>
+                <button type="button" (click)="sim.stop()" spfTip="Stop the computer; you take over both teams">Take over</button>
+              </div>
+            </section>
+          } @else {
+          @switch (s()!.phase) {
+            @case ('COIN_TOSS') {
+              <section class="frame">
+                <h2>Coin toss</h2>
+                <p>{{ game.label(s()!.toss.caller) }} coach, call it in the air.</p>
+                <div class="actions">
+                  <button type="button" class="primary" (click)="game.callToss('HEADS')" [disabled]="!game.mayDecide('toss')">Heads</button>
+                  <button type="button" class="primary" (click)="game.callToss('TAILS')" [disabled]="!game.mayDecide('toss')">Tails</button>
+                </div>
+                @if (game.online() && !game.mayDecide('toss')) { <p class="note">Waiting for the other coach to decide.</p> }
+              </section>
+            }
+            @case ('TOSS_CHOICE') {
+              <section class="frame">
+                <h2>Coin toss</h2>
+                <p>It's {{ s()!.toss.result?.toLowerCase() }}. <strong>{{ game.label(s()!.toss.winner!) }}</strong> win the toss.</p>
+                <p>{{ game.label(s()!.toss.winner!) }} coach, do you want to receive or kick?</p>
+                <div class="actions">
+                  <button type="button" class="primary" (click)="game.chooseAfterToss('RECEIVE')" [disabled]="!game.mayDecide('choice')">Receive</button>
+                  <button type="button" class="primary" (click)="game.chooseAfterToss('KICK')" [disabled]="!game.mayDecide('choice')">Kick</button>
+                </div>
+                <p class="note">The other team gets the ball to start the second half.</p>
+                @if (game.online() && !game.mayDecide('choice')) { <p class="note">Waiting for the other coach to decide.</p> }
+              </section>
+            }
+            @case ('KICKOFF') {
+              <section class="frame">
+                <h2>Kickoff</h2>
+                <p>{{ game.label(s()!.kickoff!.kicking) }} kick off to {{ game.label(receiving()!) }}.</p>
+                <label class="check"><input type="checkbox" [checked]="onsideDefense()" (change)="onsideDefense.set($any($event.target).checked)" />
+                  {{ game.label(receiving()!) }}: onside-kick defense
+                  <small>(the onside kick is recovered only on PN 1-7, but a normal kick can be returned 20 yards at most)</small></label>
+                <div class="actions">
+                  <button type="button" class="primary" (click)="kick(false, false)" [disabled]="!game.mayDecide('kickoff')">Kick off</button>
+                  <button type="button" (click)="kick(false, true)" [disabled]="!game.mayDecide('kickoff')" spfTip="Rule O3: the return starts 15 yards farther up, but its RN gets +1">Squib kick</button>
+                  <button type="button" (click)="kick(true, false)" [disabled]="!game.mayDecide('kickoff')">Onside kick</button>
+                </div>
+                @if (game.online() && !game.mayDecide('kickoff')) { <p class="note">Waiting for the other coach to decide.</p> }
+              </section>
+            }
+            @case ('PENALTY_CHOICE') {
+              <section class="frame">
+                <h2>Penalty</h2>
+                <p>{{ s()!.pendingPenalty!.description }}</p>
+                <p>{{ game.label(s()!.pendingPenalty!.chooser) }} coach, your call.</p>
+                <div class="actions">
+                  <button type="button" class="primary" (click)="game.choosePenalty(true)" [disabled]="!game.mayDecide('penalty')">Accept</button>
+                  <button type="button" class="primary" (click)="game.choosePenalty(false)" [disabled]="!game.mayDecide('penalty')">Decline</button>
+                </div>
+                @if (game.online() && !game.mayDecide('penalty')) { <p class="note">Waiting for the other coach to decide.</p> }
+              </section>
+            }
+            @case ('GAME_OVER') {
+              <section class="frame">
+                <h2>Final</h2>
+                <p>{{ game.label('away') }} {{ s()!.score.away }}, {{ game.label('home') }} {{ s()!.score.home }}.</p>
+              </section>
+            }
+            @case ('PLAY') {
+              <section class="frame">
+                <h2>Next play</h2>
+                @if (game.puntCall()) { <p class="note">{{ game.label(s()!.possession!) }} have announced a punt.</p> }
+                @if (game.fieldGoalCall()) { <p class="note">{{ game.label(s()!.possession!) }} line up for a field goal.</p> }
+                <p class="note">{{ game.defenseReady() ? 'The defense is all set; the offense can run the play.' : 'Waiting for the defense to say it is all set.' }}</p>
+                <div class="actions">
+                  <a routerLink="/offense" class="button primary" [style.--btn]="'var(--tile-offense)'">Offense: {{ game.label(game.offenseSide()!) }}</a>
+                  <a routerLink="/defense" class="button primary" [style.--btn]="'var(--tile-defense)'">Defense: {{ game.label(game.defenseSide()!) }}</a>
+                </div>
+              </section>
+            }
+          }
+          }
+          <div class="game-buttons">
+            <div class="group" role="group" aria-label="This game">
+              <span class="group-label">This game</span>
+              <!-- Only for a game still being played: a replay is already decided. -->
+              @if (!sim.running() && !replay.running() && !game.online() && s()!.phase !== 'GAME_OVER') {
+                <button type="button" (click)="sim.run(speed())" spfTip="The computer plays both teams from here">Let the computer finish</button>
+              }
+              <button type="button" (click)="replay.start(replaySpeed())" [disabled]="!game.journaled() || busy()"
+                spfTip="Watch this game again from the opening toss">Replay</button>
+              <button type="button" (click)="endGame()">End this game</button>
+            </div>
+            <!-- For now only the look: try the weather on the field while a game is on. -->
+            <div class="group" role="group" aria-label="Weather">
+              <span class="group-label">Weather</span>
+              <select [value]="weather()" (change)="wx.set($any($event.target).value)" aria-label="Weather conditions">
+                <option value="perfect">Perfect</option>
+                <option value="rain">Raining</option>
+                <option value="snow">Snowing</option>
+                <option value="wind">Windy</option>
+              </select>
+              @for (m of intensities; track m; let i = $index) {
+                <button type="button" class="level" [class.on]="i === intensity()" [disabled]="weather() === 'perfect'"
+                  (click)="wx.set(weather(), $any(i))" [attr.aria-pressed]="i === intensity()">{{ m }}</button>
+              }
+              <label class="moving"><input type="checkbox" [checked]="wx.moving()" [disabled]="weather() === 'perfect'"
+                (change)="wx.moving.set($any($event.target).checked)" /> Moving</label>
+            </div>
+            <div class="group" role="group" aria-label="Files">
+              <span class="group-label">Files</span>
+              <button type="button" (click)="save()" [disabled]="!game.journaled() || busy()"
+                [spfTip]="game.journaled() ? 'Download this game as a .spf file' : 'This game was started before games could be saved'">Save game</button>
+              <button type="button" (click)="fileInput.click()" [disabled]="busy()" spfTip="Open a saved game (.spf)">Open game…</button>
+              <button type="button" (click)="report()" [disabled]="busy()" spfTip="The Official Game Book: score, scoring, drive chart, statistics and play-by-play, ready to save as a PDF">Game report</button>
+            </div>
+          </div>
+        </div>
+        <spf-last-play class="last" [decisions]="false" [nextUp]="false" />
+      </div>
+    </div>
+  }
+</main>
+<input #fileInput type="file" accept=".spf" hidden (change)="open($any($event.target))" />
+@if (fileMessage()) { <p class="file-message" role="status">{{ fileMessage() }}</p> }
+@if (dragging()) {
+  <div class="drop-zone" aria-hidden="true">
+    <div class="drop-card"><span class="drop-icon">⤓</span><strong>Drop the game to open it</strong><small>a .spf file saved with "Save game"</small></div>
+  </div>
+}
+
