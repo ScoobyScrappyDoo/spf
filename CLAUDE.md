@@ -65,9 +65,10 @@ ROADMAP.md, ONLINE.md and TESTING.md. The code is the truth; these files hold th
 
 - Done in code and tested: sign-in (email + session code, invite list, admin), End game, the master's live view of
   both coaches' calls (PROTOCOL 4), the role-coloured online banner, the container files.
-- The game runs on the NAS (step 1, sections A-D done 18 Nov 2026; signed in from the laptop at
-  http://192.168.178.84:8330). Next: section E (two invited addresses, play online against yourself), then step 3
-  (lock down the NAS; check the guest account, which has Read Only on the docker share where .env lives).
+- Step 1 done (18 Nov 2026): the game runs on the NAS at http://192.168.178.84:8330 (home network only), settings
+  from .env, and an online game between two invited addresses played well (the FAC carousel fix confirmed too).
+  Next: step 3, lock down the NAS (check the guest account first: it has Read Only on the docker share where .env
+  lives; the owner's DSM user "Phil" was given Read/Write on that share for robocopy).
   Later ideas: Google sign-in as an option, email codes.
 
 ## Hosting plan (owner's order)
