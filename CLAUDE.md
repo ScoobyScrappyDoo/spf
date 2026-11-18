@@ -67,8 +67,11 @@ ROADMAP.md, ONLINE.md and TESTING.md. The code is the truth; these files hold th
   both coaches' calls (PROTOCOL 4), the role-coloured online banner, the container files.
 - Step 1 done (18 Nov 2026): the game runs on the NAS at http://192.168.178.84:8330 (home network only), settings
   from .env, and an online game between two invited addresses played well (the FAC carousel fix confirmed too).
-  Next: step 3, lock down the NAS (check the guest account first: it has Read Only on the docker share where .env
-  lives; the owner's DSM user "Phil" was given Read/Write on that share for robocopy).
+  Step 3 (lock down the NAS), pieces 1-3 done 18 Nov 2026: guest account disabled, DSM 7.4.1 and packages up to
+  date, auto block on (5 attempts in 60 min, the owner's own stricter setting; keep it) with 192.168.178.0/24 on the
+  allow list. Still to do: 4. 2-step sign-in for admin accounts (authenticator app), 5. DSM firewall (careful: keep
+  LAN access to DSM, leave Emby 8096/8092 working, 8320 LAN-only), 6. Fritz!Box check (current forwards, UPnP off for
+  the NAS). The owner's DSM user "Phil" has Read/Write on the docker share (for robocopy).
   Later ideas: Google sign-in as an option, email codes.
 
 ## Hosting plan (owner's order)
